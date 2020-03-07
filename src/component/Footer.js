@@ -22,16 +22,16 @@ function Footer() {
               <h4>Lorem ipsum</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
               </ul>
             </div>
@@ -40,16 +40,16 @@ function Footer() {
               <h4>Lorem ipsum</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
               </ul>
             </div>
@@ -58,16 +58,16 @@ function Footer() {
               <h4>Lorem ipsum</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="index.html">Lorem ipsum</a>
                 </li>
               </ul>
             </div>

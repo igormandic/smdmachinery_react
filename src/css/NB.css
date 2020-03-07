@@ -1,0 +1,19 @@
+.mr-auto{
+    margin-left: 60%;
+}
+.basic-nav-dropdown{
+    margin-left: 100px;
+}
+
+.clanoviNB{
+    margin-left: 5%;   
+}
+
+@media only screen and (max-width: 900px) {
+    .mr-auto{
+        margin-left: 0%;
+    }
+    .clanoviNB{
+        margin-left: 0%;
+    }
+}
