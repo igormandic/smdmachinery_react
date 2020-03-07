@@ -1,0 +1,14 @@
+.rightSidebar {
+    position: absolute;
+    right: 2%;
+    width: 20%;
+}
+
+@media screen and (max-width: 500px) {
+    .rightSidebar {
+        position: relative;
+        width: 90%;
+        margin: auto;
+        right: auto;
+    }
+}

@@ -3,6 +3,7 @@ import './App.css';
 // import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './component/Header';
 import Slideshow from './component/Slideshow';
+import RightSidebar from './component/RightSidebar';
 import Footer from './component/Footer';
 
 const pathsToImages = ["/img/masina1.jpg", "/img/masina2.jpg", "/img/masina3.jpg", "/img/masina1.jpg", "/img/masina2.jpg"]
@@ -13,6 +14,7 @@ class App extends React.Component {
       <div className="App">
           <Header />
           <Slideshow images={pathsToImages}/>
+          <RightSidebar video={"https://www.youtube.com/embed/tgbNymZ7vqY"} pdf={"/catalogs/masina1.pdf"}/>
           <Footer/>
       </div>
     );
