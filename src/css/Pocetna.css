@@ -1,0 +1,52 @@
+.pocetna{
+    display: flex;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20%;
+    
+}
+
+.listaFirmi {
+    width: 60vh;
+}
+
+.firme{
+    margin-left: -30px;   
+}
+.Strelica{
+    margin-left: 80%;
+}
+
+a {
+    color: var(--mainGrey);
+  }
+
+a:hover {
+    color: var(--mainLightGrey);
+    margin-left: 25px;
+  }
+
+
+.Naslov{
+    margin-top: 20px;
+    margin-left: -40%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .pocetna{
+        display: flex;
+        float: left;
+        margin-top: 0;
+        margin-left: 0;
+        justify-content: space-evenly;
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+    .listaFirmi {
+        max-width: 75%;
+        margin-left: 0px;
+    }
+    
+}
+
