@@ -1,19 +1,24 @@
 .mr-auto{
-    margin-left: 60%;
+    margin-left: 30%;
 }
 .basic-nav-dropdown{
     margin-left: 100px;
 }
 
-.clanoviNB{
-    margin-left: 5%;   
+.dropDowns{
+    margin-left: 15%;   
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
 }
 
 @media only screen and (max-width: 900px) {
     .mr-auto{
         margin-left: 0%;
     }
-    .clanoviNB{
+    .dropDowns{
         margin-left: 0%;
     }
 }

@@ -14,11 +14,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Company1">
           <Header />
           <NB />
           <Slideshow images={pathsToImages}/>
-          <Homepage />
+          <SelectMenu />
           <RightSidebar video={"https://www.youtube.com/embed/tgbNymZ7vqY"} pdf={"/catalogs/masina1.pdf"}/>
           <Footer/>
       </div>
@@ -26,4 +26,4 @@ class App extends React.Component {
   }
 
 }
-export default App;
+export default Company1;
