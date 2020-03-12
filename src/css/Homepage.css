@@ -96,6 +96,17 @@ a:hover {
     margin-bottom: -39px;
 }
 
+.cards img{
+    width: 49.5%;
+    height: auto;
+    display: flex;
+    float: left;
+}
+
+.card2 img{
+    margin-left: 1%;
+}
+
 @media only screen and (max-width: 900px) {
     .homepage{
         display: flex;

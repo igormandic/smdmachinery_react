@@ -42,6 +42,10 @@ class Homepage extends Component {
                                 <span className="arrow"><FaArrowRight /></span>
                             </a> 
                         </ListGroup.Item>
+                        <div className = "cards">
+                            <div className = "card1"> <a href="ContactPage.js"><img src = "img/Wille/slider5.jpg"></img></a> </div>
+                            <div className = "card2"> <a href="App.js"><img src = "img/Wille/slider5.jpg"></img></a> </div>
+                        </div>
                     </ListGroup>
                 </div>
             </div>

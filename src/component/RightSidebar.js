@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/RightSidebar.css';
+import ContactForm from './ContactForm';
 
 class RightSidebar extends React.Component {
     downloadPdf(e) {
@@ -13,6 +14,7 @@ class RightSidebar extends React.Component {
                 <iframe width="200" height="150" src={this.props.video}> </iframe>
                 <br></br>
                 <button onClick={this.downloadPdf.bind(this)}>Download</button>
+                <ContactForm/>
             </div>
         );
     }
