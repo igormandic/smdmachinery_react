@@ -1,26 +1,21 @@
 import React from 'react';
 import './App.css';
-// import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Header from './component/Header';
-import Slideshow from './component/Slideshow';
-import RightSidebar from './component/RightSidebar';
-import Footer from './component/Footer';
-import NB from './component/NB';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import Homepage from './component/Homepage';
+import Company from './component/Company';
+import Product from './component/Product';
 
-const pathsToImages = ["/img/masina1.jpg", "/img/masina2.jpg", "/img/masina3.jpg", "/img/masina1.jpg", "/img/masina2.jpg"]
 class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-          <Header />
-          <NB />
-          <Slideshow images={pathsToImages}/>
-          <Homepage />
-          <RightSidebar video={"https://www.youtube.com/embed/tgbNymZ7vqY"} pdf={"/catalogs/masina1.pdf"}/>
-          <Footer/>
-      </div>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={Homepage} />
+          <Route path="/company" exact component={Company} />
+          <Route path="/company/product" exact component={Product} />
+        </Switch>
+      </BrowserRouter>
     );
   }
 

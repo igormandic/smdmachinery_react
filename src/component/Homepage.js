@@ -1,56 +1,28 @@
-import React, { Component } from 'react';
-import '../css/Homepage.css';
-import {ListGroup} from 'react-bootstrap';
-import { FaArrowRight } from "react-icons/fa";
+import React from 'react';
+import './../App.css';
+import Header from './Header';
+import Slideshow from './Slideshow';
+import RightSidebar from './RightSidebar';
+import Footer from './Footer';
+import NB from './NB';
+import CompanyList from './CompanyList';
 
-class Homepage extends Component {
+const pathsToImages = ["/img/masina1.jpg", "/img/masina2.jpg", "/img/masina3.jpg", "/img/masina1.jpg", "/img/masina2.jpg"]
+class Homepage extends React.Component {
 
-    render() {
-        return (
-            <div className="wrap">
-                <div className="title">
-                    <p>FIRME</p>
-                </div>
-                <div className="line"></div>
-                <div className="homepage">
-                    <ListGroup  className= "companyList" >
-                        <ListGroup.Item variant="dark" className="companyBox">
-                            <a href="/img/masina1.jpg"><span className ="company">Wille </span> 
-                                <img className="logo" src="img/Wille/wille-logo.png"></img>
-                                <img className="machine" src="img/masina1.png"></img>
-                                <span className="arrow"><FaArrowRight /></span>
-                            </a> 
-                        </ListGroup.Item>
-                        <ListGroup.Item variant="dark" className="companyBox">
-                            <a href="/img/masina1.jpg"><span className ="company">Wille </span> 
-                                <img className="logo" src="img/Wille/wille-logo.png"></img>
-                                <img className="machine" src="img/masina1.png"></img>
-                                <span className="arrow"><FaArrowRight /></span>
-                            </a> 
-                        </ListGroup.Item>
-                        <ListGroup.Item variant="dark" className="companyBox">
-                            <a href="/img/masina1.jpg"><span className ="company">Wille </span> 
-                                <img className="logo" src="img/Wille/wille-logo.png"></img>
-                                <img className="machine" src="img/masina1.png"></img>
-                                <span className="arrow"><FaArrowRight /></span>
-                            </a> 
-                        </ListGroup.Item>
-                        <ListGroup.Item variant="dark" className="companyBox">
-                            <a href="/img/masina1.jpg"><span className ="company">Wille </span> 
-                                <img className="logo" src="img/Wille/wille-logo.png"></img>
-                                <img className="machine" src="img/masina1.png"></img>
-                                <span className="arrow"><FaArrowRight /></span>
-                            </a> 
-                        </ListGroup.Item>
-                        <div className = "cards">
-                            <div className = "card1"> <a href="ContactPage.js"><img src = "img/Wille/slider5.jpg"></img></a> </div>
-                            <div className = "card2"> <a href="App.js"><img src = "img/Wille/slider5.jpg"></img></a> </div>
-                        </div>
-                    </ListGroup>
-                </div>
-            </div>
+  render() {
+    return (
+      <div className="App">
+          <Header />
+          <NB type={"home"} numOfElement={6}/>
+          <Slideshow images={pathsToImages}/>
+          <CompanyList />
+          <RightSidebar video={"https://www.youtube.com/embed/tgbNymZ7vqY"} pdf={"/catalogs/masina1.pdf"}/>
+          <Footer/>
+      </div>
     );
-    }
+  }
+
 }
 
 export default Homepage;
