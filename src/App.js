@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import Homepage from './component/Homepage';
 import Company from './component/Company';
 import Product from './component/Product';
+import Attachment from './component/Attachment';
 
 class App extends React.Component {
 
@@ -13,7 +14,8 @@ class App extends React.Component {
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/company" exact component={Company} />
-          <Route path="/company/product" exact component={Product} />
+          <Route path="/attachment" exact component={Attachment} />
+          <Route path="/company/product" exact component={Product} /> 
         </Switch>
       </BrowserRouter>
     );

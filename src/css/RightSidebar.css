@@ -2,9 +2,12 @@
     position: absolute;
     right: 2%;
     width: 20%;
+    height: auto;
+    margin-top: 0%;
+    text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .rightSidebar {
         position: relative;
         width: 90%;

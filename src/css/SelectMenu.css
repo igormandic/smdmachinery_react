@@ -1,0 +1,19 @@
+.selectMenu {
+    width: 60%;
+    height: 600px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 900px) {
+    .selectMenu{
+        float: center;
+        justify-content: space-evenly;
+        max-width: 100%;
+        margin-bottom: 60px;
+        max-width: 75%;
+        width: 110vh;
+    }
+    
+}

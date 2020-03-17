@@ -9,10 +9,6 @@ class CompanyList extends Component {
     render() {
         return (
             <div className="wrap">
-                <div className="title">
-                    <p>FIRME</p>
-                </div>
-                <div className="line"></div>
                 <div className="homepage">
                     <ListGroup  className= "companyList" >
                         <ListGroup.Item variant="dark" className="companyBox">
@@ -30,6 +26,14 @@ class CompanyList extends Component {
                                 <img className="machine" src="img/masina1.png" alt=""></img>
                                 <span className="arrow"><FaArrowRight /></span>
                             </Link>
+                        </ListGroup.Item>
+                        <ListGroup.Item variant="dark" className="companyBox">
+                            <Link to={{pathname:"/company", info:"sve sto treba za tu firmu"}}>
+                                <span className ="company">Wille </span> 
+                                <img className="logo" src="img/Wille/wille-logo.png" alt=""></img>
+                                <img className="machine" src="img/masina1.png" alt=""></img>
+                                <span className="arrow"><FaArrowRight /></span>
+                            </Link> 
                         </ListGroup.Item>
                         <ListGroup.Item variant="dark" className="companyBox">
                             <Link to={{pathname:"/company", info:"sve sto treba za tu firmu"}}>

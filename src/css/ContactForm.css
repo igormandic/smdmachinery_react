@@ -1,7 +1,6 @@
 .FormContainer{
     border:1px solid gray;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 100%;
 }
 
 .TextSend{

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("Background.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	    
+    width: 15%;
+    height: auto;
+}
+.logo{
+  position: relative;
+  margin-top: 30%;
+}
+
+@media only screen and (max-width: 1025px) {
+
+img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	    
+  width: 25%;
+  height: auto;
+}
+.logo {
+margin-top:39%;
+}
+
+}
+
+@media only screen and (max-width: 850px) {
+
+img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	    
+  width: 15%;
+  height: auto;
+}
+.logo {
+margin-top:25%;
+}
+
+}
+@media only screen and (max-width: 780px) {
+
+img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	    
+  width: 40%;
+  height: auto;
+}
+.logo {
+margin-top:62%;
+}
+
+}
+@media only screen and (max-width: 750px) {
+
+img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	    
+  width: 15%;
+  height: auto;
+}
+.logo {
+margin-top:25%;
+}
+
+}
+
+
+@media only screen and (max-width: 560px) {
+
+img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	    
+  width: 50%;
+  height: auto;
+}
+.logo {
+margin-top:80%;
+}
+
+
+}
+.vert-move{
+  animation: myfirst 3s infinite;
+  animation-direction: inherit;
+}
+@keyframes myfirst {
+  0%   {top: 1%;}
+  50%  {top: 21%;}
+  100% {top: 1%;}
+}
+
+</style>
+</head>
+<body>
+
+<div class="bg">
+  <img class="vert-move" src="Ramp obj 01.png" /> 
+  <img class="logo" src="logo.png" />
+</div>
+
+</body>
+</html>

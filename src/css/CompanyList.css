@@ -49,17 +49,16 @@ a:hover {
     
 }
  */
+.wrap{
+    margin-top: 40px;
+    margin-left: 0%;
+}
+
  .homepage{
     display: flex;
     float: left;
-    margin-top: 40px;
-    margin-left: 25%;
     margin-bottom: 20px;
-}
-
-.title{
-    margin-left:-180px;
-    margin-top: 50px;
+    margin-left: 10%;
 }
 
 .companyBox{
@@ -71,7 +70,7 @@ a:hover {
 }
 
 .companyList {
-    width: 80vh;
+    width: 60%;
 }
 
 .logo {
@@ -86,14 +85,6 @@ a:hover {
 .machine{
     width: 30%;
     height: auto;
-}
-
-.line{
-    width: 80vh;
-    height: 4px;
-    background-color: lightcoral;
-    margin-left: 25%;
-    margin-bottom: -39px;
 }
 
 .cards img{
