@@ -1,10 +1,13 @@
 import React from 'react';
 import '../css/Header.css';
+import { __ } from '../utils/i18n'
+import Language from './Language';
 
 function Header() {
     return (
-        <div class="header">
-            <a href="/" class="logo">CompanyLogo</a>
+        <div className="header">
+            <a href="/" className="logo">{__('CompanyLogo')}</a>
+            <Language />
         </div>
     );
 }

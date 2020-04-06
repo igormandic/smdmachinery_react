@@ -10,17 +10,20 @@ class NB extends Component {
     let navBar = [];
     let servis;
     let kontakt;
+    let numbers = Array(this.props.numOfElement).fill(null).map( (x,i) => i );
+
     if (this.props.type === "home") {
-      for (let i = 0; i<this.props.numOfElement; i++) {
-        navBar.push(<NavDropdown.Item><Link to={{pathname:"/company", info:"sve sto treba za tu firmu"}}>Firma {i+1}</Link></NavDropdown.Item>)
-      }
+      navBar = numbers.map((number) =>
+        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company", info:"sve sto treba za tu firmu"}}>Firma {number+1}</Link></NavDropdown.Item>
+      );
+
       navBar = <NavDropdown title="Firme" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
       servis = <Nav.Link className="dropDowns">Servis</Nav.Link>;
       kontakt = <Nav.Link className="dropDowns">Kontakt</Nav.Link>
     } else {
-      for (let i = 0; i<this.props.numOfElement; i++) {
-        navBar.push(<NavDropdown.Item><Link to={{pathname:"/company/product", info:"sve sto treba za proizvod"}}>Proizvod {i+1}</Link></NavDropdown.Item>)
-      }
+      navBar = numbers.map((number) =>
+        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company/product", info:"sve sto treba za taj proizvod"}}>Proizvod {number+1}</Link></NavDropdown.Item>
+      );
       navBar = <NavDropdown title="Proizvod" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
     }
 

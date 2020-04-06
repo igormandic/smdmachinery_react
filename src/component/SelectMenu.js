@@ -6,6 +6,7 @@ import '../css/SelectMenu.css';
 import TechnicalInfo from './TechnicalInfo';
 import AttachmentTab from './AttachmentTab';
 import Gallery from './Gallery';
+import { __ } from '../utils/i18n';
 
 class SelectMenu extends Component {
   render(){
@@ -13,7 +14,7 @@ class SelectMenu extends Component {
     return (
       <div className="selectMenu">
         <Tabs defaultActiveKey="generalInfo" id="uncontrolled-tab-example">
-          <Tab eventKey="generalInfo" title="General info">
+          <Tab eventKey="generalInfo" title={__("General info")}>
             <GeneralInfo generalInfo={generalInfo}/>
           </Tab>
           <Tab eventKey="technical" title="Technical info">
