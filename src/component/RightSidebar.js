@@ -10,7 +10,7 @@ class RightSidebar extends React.Component {
     
     render(){ 
         return (
-            <div class="rightSidebar">
+            <div className="rightSidebar">
                 <iframe title="video" width="200" height="150" src={this.props.video}> </iframe>
                 <br></br>
                 <button onClick={this.downloadPdf.bind(this)}>Download</button>
