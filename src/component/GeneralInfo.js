@@ -5,7 +5,11 @@ class GeneralInfo extends Component {
     render(){
       return (
           <div className="generalInfo">
-            {this.props.generalInfo}
+            <div className="text">
+              <h2 className="title">The little giant</h2>
+              {this.props.generalInfo}
+            </div>
+            <img src="/WILLE/265/265_studio_front.jpg" className="photoGeneral" alt="WILLE 256"></img>
          </div>
       );
     }
