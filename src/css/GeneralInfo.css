@@ -1,4 +1,57 @@
+
 .generalInfo {
     padding-top: 1%;
     padding-bottom: 1%;
+    display: block;
+}
+
+.text{
+    width: 60%;
+    float: left;
+    font-size: 16px;
+    color: darkslategray;
+}
+
+.title{
+    margin: 30px 0;
+    color: black;
+}
+.photoGeneral{
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 300px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1270px) { 
+    .text{
+        margin: 10px 20px;
+        width: 100%;
+        float: left;
+    }
+
+    .photoGeneral{
+        margin-top: 40px;
+        align-self: center;
+        width: 40%;
+        margin-left: 30%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) { 
+    .text{
+        margin: 10px 20px;
+        width: 100%;
+        float: left;
+        font-size: 14px;
+    }
+
+    .photoGeneral{
+        margin-top: 40px;
+        align-self: center;
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+    }
 }
