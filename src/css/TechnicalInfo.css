@@ -1,140 +1,107 @@
-*{
+.TechnicalInfo{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.6em;
-    color: #656565;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-
-.specifikacije{
-    display: flex;
+.content{
     width: 100%;
+    margin: 0 auto;
+}
+.node__content{
+    padding: 30px 0;
+}
+.columns{
+    display: flex;
+}
+.left-column{
+    width: 50%;
+    margin-right: 4%;
+    margin-bottom: 30px;
+}
+.row{
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+}
+.label{
+    width: 62%;
+    margin-right: 0;
+    font-weight: 700;
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
+}
+.spec{
+    width: 38%;
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
 }
 
-.listaSpecifikacija{
-    list-style-type: none;
-    display: block;
+.right-column{
+    width: 50%;
+    position: relative;
 }
 
-.solidline {
-    border-top: 1px solid #e6e6e6;
-    margin: 0 0 10px;
-  }
-  
-
-.levaStrana{
-    width: 40%;
+.photoSpec img{
+    width: 120%;
+    height:auto;
 }
 
-.levaStranaTeksta{
-    font-weight: bold;
-}
-
-.dugacakTekst{
-    font-weight: bold;
-}
-
-.desnaStrana{
-  width: 10%;
-  padding-left: 4%;
-  padding-top: 4%;
-}
-
-.dimenzijeSpec{
-    width: 940%;
-}
-
-.linija{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    display: block;
-    height: auto;
-}
-
-.desnaStranaTeksta{
- float: right;
- white-space: pre-line;
-}
-
-
-@media only screen and (max-width: 1400px) {
-
-    .specifikacije{
+@media only screen and (max-width: 1000px) {
+    .TechnicalInfo{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    .content{
         width: 100%;
+        margin: 0 auto;
+    }
+    .node__content{
+        padding: 30px 0;
+    }
+    .columns{
         display: block;
     }
-    
-    .listaSpecifikacija{
-        list-style-type: none;
-        margin-left: 5%;
-        display: block;
-        
-    }
-    
-    .dugacakTekst{
-        font-size: 12px;
-    }
-
-    .levaStrana{
+    .left-column{
         width: 100%;
+        margin-bottom: 30px;
+    }
+    .row{
+        width: 100%;
+        border-bottom: 1px solid #dbdbdb;
+        flex-direction: row;
+    }
+    .label{
+        width: 60%;
+        margin-right: 0;
+        font-weight: 700;
+        float: left;
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .spec{
+        width: 40%;
+        float: left;
+        font-size: 14px;
+        line-height: 32px;
+    }
+   
+    .right-column{
+        width: 100%;
+        position: relative;
     }
     
-    .dimenzijeSpec{
-        width: 70%;
-        height: auto;
-        margin-top: 40px;
-        margin-left: 10%;
+    .photoSpec img{
+        width: 80%;
+        margin-left:10%;
+        height:auto;
     }
-    
-    .linija{
-        margin-top: 5px;
-        margin-bottom: 5px;
-        display: block;
-
-    }
-    
-
 }
 
-@media only screen and (max-width: 700px) {
-
-    .specifikacije{
-        width: 100%;
-        display: block;
-    }
-    
-    .listaSpecifikacija{
-        list-style-type: none;
-        margin-left: 5%;
-        display: block;
-        
-    }
-    
-    .levaStrana{
-        width: 100%;
-    }
-    
-    .dugacakTekst{
-        font-size: 11px;
-    }
-
-    
-
-    .dimenzijeSpec{
-        width: 300px;
-        height: 160px;
-        margin-top: 40px;
-        margin-left: 10%;
-    }
-    
-    .linija{
-        margin-top: 5px;
-        margin-bottom: 5px;
-        display: block;
-
-    }
-    
-}
