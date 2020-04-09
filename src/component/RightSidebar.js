@@ -13,7 +13,7 @@ class RightSidebar extends React.Component {
             <div className="rightSidebar">
                 <iframe title="video" width="200" height="150" src={this.props.video}> </iframe>
                 <br></br>
-                <button onClick={this.downloadPdf.bind(this)}>Download</button>
+                <button className="dugme" onClick={this.downloadPdf.bind(this)}>Download</button >
                 <ContactForm />
             </div>
         );

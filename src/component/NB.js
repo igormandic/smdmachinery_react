@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/NB.css';
 import { Link } from 'react-router-dom'
+import Language from './Language';
 
 class NB extends Component {
   render(){
@@ -28,22 +29,25 @@ class NB extends Component {
     }
 
     return (
-      <Navbar bg="dark" expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="/" className = "clandropDownsoviNB">Pocetna</Nav.Link>
-            {navBar}
-            <NavDropdown title="Nastavci" id="basic-nav-dropdown" className = "dropDowns">
-              <NavDropdown.Item>Action</NavDropdown.Item>
-              <NavDropdown.Item>Another action</NavDropdown.Item>
-              <NavDropdown.Item>Something</NavDropdown.Item>
-            </NavDropdown>
-          {servis}
-          {kontakt}
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+      <div className="NB_css">
+        <Navbar bg="dark" expand="lg">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="/" className = "clandropDownsoviNB">Pocetna</Nav.Link>
+              {navBar}
+              <NavDropdown title="Nastavci" id="basic-nav-dropdown" className = "dropDowns">
+                <NavDropdown.Item>Action</NavDropdown.Item>
+                <NavDropdown.Item>Another action</NavDropdown.Item>
+                <NavDropdown.Item>Something</NavDropdown.Item>
+              </NavDropdown>
+            {servis}
+            {kontakt}
+          </Nav>
+        </Navbar.Collapse>
+        <Language />
+      </Navbar>
+    </div>
     );
   }
 }
