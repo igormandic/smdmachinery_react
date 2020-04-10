@@ -17,10 +17,10 @@ class Homepage extends React.Component {
           <NB type={"home"} numOfElement={6}/>
           <Slideshow images={pathsToImages}/>
           <CompanyList />
-          <RightSidebar video={"https://www.youtube.com/embed/tgbNymZ7vqY"} pdf={"/catalogs/masina1.pdf"}/>
+          <RightSidebar video={"https://www.youtube.com/embed/4y0LeiWgG0g"} pdf={"/catalogs/masina1.pdf"}/>
           <Footer/>
       </div>
-    );
+      );
   }
 
 }

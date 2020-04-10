@@ -1,6 +1,8 @@
 .slide-container {
     width: 100%;
-    margin: auto; }
+    margin: auto; 
+    border-top: 5px rgb(70, 171, 230) solid;
+  }
   
   
   .each-slide > div {
@@ -9,6 +11,7 @@
     justify-content: center;
     background-size: cover;
     height: 400px;
+    
   }
   
   .each-fade {

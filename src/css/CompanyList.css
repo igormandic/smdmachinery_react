@@ -50,8 +50,8 @@ a:hover {
 }
  */
 .wrap{
-    margin-top: 40px;
-    margin-left: 0%;
+    margin-top: 20px;
+    margin-left: 5%;
 }
 
  .homepage{
@@ -64,13 +64,16 @@ a:hover {
 .companyBox{
     border: 0;
     margin-bottom: 2px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0; 
-    background-color: rgba(219, 213, 213, 0.493);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px; 
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #e3e3e3;
+    border-top: 5px rgb(70, 171, 230) solid;
 }
 
 .companyList {
-    width: 60%;
+    width: 55%;
 }
 
 .logo {
@@ -85,6 +88,7 @@ a:hover {
 .machine{
     width: 30%;
     height: auto;
+    margin-left: 35%;
 }
 
 .cards img{
@@ -98,6 +102,24 @@ a:hover {
     margin-left: 1%;
 }
 
+.products{
+    margin-left: -65%;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.company{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+
+a :hover{
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 900px) {
     .homepage{
         display: flex;
@@ -109,7 +131,7 @@ a:hover {
         margin-bottom: 60px;
     }
     .companyList {
-        max-width: 75%;
+        max-width: 80%;
         margin-left: 0px;
         width: 110vh;
     }

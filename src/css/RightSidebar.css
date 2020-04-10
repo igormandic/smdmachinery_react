@@ -1,16 +1,18 @@
 .rightSidebar {
+    border-top: 4px rgb(70, 171, 230) solid;
     position: absolute;
-    right: 2%;
+    right: 6%;
     width: 20%;
     height: auto;
     margin-top: 0%;
     text-align: center;
+    margin-bottom: 5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .rightSidebar {
         position: relative;
-        width: 90%;
+        width: 70%;
         margin: auto;
         right: auto;
         margin-bottom: 20px;
