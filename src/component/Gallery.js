@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
 import '../css/image-gallery.css';
+import '../css/Gallery.css';
+
 const images = [
     
   {
@@ -19,7 +21,11 @@ const images = [
  
 class Gallery extends React.Component {
   render() {
-    return <ImageGallery items={images} />;
+    return ( 
+      <div>
+        <ImageGallery items={images} /> 
+        </div>
+        );
   }
 }
   

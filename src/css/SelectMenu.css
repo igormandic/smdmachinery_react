@@ -1,16 +1,17 @@
 .selectMenu {
-    margin-left: 5%;
     margin-left: 9.1%;
     width: 81.8%;
-    border-left: 1px solid rgb(171, 203, 214);
-    border-right: 1px solid rgb(171, 203, 214);
+    /* border-left: 1px solid rgb(171, 203, 214);
+    border-right: 1px solid rgb(171, 203, 214);  */
 }
 
 .selectMenu a{
     background-color:  rgb(171, 203, 214);
     color: rgba(0, 0, 0, 0.938);
-    padding: 1.5% 8.18% 0 8.18%;
+    width: 25%;
     font-size: 18px;
+    text-align: center;
+    padding-top: 1.5%;
 }
 
 .selectMenu a:hover{
@@ -34,9 +35,17 @@
         float: center;
         justify-content: space-evenly;
         max-width: 100%;
-        margin-bottom: 60px;
-        max-width: 75%;
         width: 110vh;
+        margin: 0;
     }
     
+    .selectMenu a{
+        background-color:  rgb(171, 203, 214);
+        color: rgba(0, 0, 0, 0.938);
+        width: 50%;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 1.5%;
+        margin-bottom: 20%;
+    }
 }
