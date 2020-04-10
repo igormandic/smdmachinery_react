@@ -10,10 +10,12 @@
     float: left;
     font-size: 16px;
     color: darkslategray;
+    text-align: justify;
 }
 
 .title{
-    margin: 30px 0;
+    margin-top: 7%;
+    margin-bottom: 4%;
     color: black;
 }
 .photoGeneral{
@@ -41,14 +43,14 @@
 
 @media only screen and (max-width: 900px) { 
     .text{
-        margin: 10px 20px;
-        width: 100%;
+        margin: 5%;
+        width: 90%;
         float: left;
         font-size: 14px;
     }
 
     .photoGeneral{
-        margin-top: 40px;
+        margin-top: 5%;
         align-self: center;
         width: 60%;
         margin-left: 20%;
