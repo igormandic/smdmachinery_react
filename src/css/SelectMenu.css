@@ -1,14 +1,35 @@
 .selectMenu {
-    width: 80%;
-    height: auto;
-    float: left;
-    margin-top: 2%;
     margin-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    margin-left: 9.1%;
+    width: 81.8%;
+    border-left: 1px solid rgb(171, 203, 214);
+    border-right: 1px solid rgb(171, 203, 214);
 }
 
-@media only screen and (max-width: 900px) {
+.selectMenu a{
+    background-color:  rgb(171, 203, 214);
+    color: rgba(0, 0, 0, 0.938);
+    padding: 1.5% 8.18% 0 8.18%;
+    font-size: 18px;
+}
+
+.selectMenu a:hover{
+    background-color:  rgb(41, 119, 145);
+    color: white;
+}
+
+.selectMenu a:active{
+    background-color:  rgb(14, 155, 202);
+}
+
+.tabovi {
+    background: rgb(171, 203, 214);
+    height: 60px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
     .selectMenu{
         float: center;
         justify-content: space-evenly;

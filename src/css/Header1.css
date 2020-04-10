@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 10fr;
     grid-template-rows: 35px 60px;
+    position: fixed;
+    z-index: 3;
 }
 
  /* Style the header links */
@@ -17,6 +19,7 @@
     background-color: rgb(171, 203, 214);
     grid-column: 1;
     grid-row: 1/3;
+    height: 103%;
 }
 
 .gornji {
