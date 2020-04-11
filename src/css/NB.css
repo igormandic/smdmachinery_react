@@ -1,12 +1,9 @@
 .mr-auto{
-    margin-left: 30%;
-}
-.basic-nav-dropdown{
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
 .dropDowns{
-    margin-left: 15%;   
+    margin-left: 35%;   
     color: white;
 }
 
@@ -16,6 +13,7 @@
 
 @media only screen and (max-width: 900px) {
     .mr-auto{
+        position: relative;
         margin-left: 0%;
     }
     .dropDowns{

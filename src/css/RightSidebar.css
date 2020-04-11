@@ -10,6 +10,45 @@
 }
 
 @media screen and (max-width: 900px) {
+.dugme {
+    padding: 1%;
+    margin: 5px;
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "montserrant";
+    color: #fff;
+    transition: 0.8s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.dugme:hover {
+    color: #3498db;
+}
+
+.dugme::before {
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 180%;
+    background: #3498db;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    transition: 0.8s;
+    z-index: -1;
+    position: absolute;
+} 
+
+.dugme:hover::before {
+    height: 0%;
+}
+}
+
+@media screen and (max-width: 600px) {
     .rightSidebar {
         position: relative;
         width: 70%;

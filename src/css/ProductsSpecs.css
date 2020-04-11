@@ -1,0 +1,74 @@
+.region-content-top{
+    border-bottom: 1px solid #d5d5d5;
+    text-align: left;
+    list-style: none;
+    
+}
+.block-views-blockmachines-section h1 {
+    padding-left: 20px;
+    color: #f6bc0e;
+    font-size: 22px;
+    line-height: 30px;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+    font-weight: 700;
+    margin: 0 0 18px 0;
+}
+.block-views-blockmachines-section {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    min-height: 60px;
+    position: relative;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+.block-views-blockmachines-section table {
+    width: 100%;
+}
+.block-views-blockmachines-section thead th {
+    padding: 10px;
+    text-align: left;
+}
+.block-views-blockmachines-section tbody tr {
+    background: #f1f1f1;
+    border: 1.2px solid #e9e9e9;
+}
+.block-views-blockmachines-section tbody th {
+    font-size: 13px;
+    line-height: 28px;
+}
+.block-views-blockmachines-section tbody th {
+    font-weight: 700;
+    text-align: left;
+    padding-left: 20px;
+}
+.block-views-blockmachines-section tbody td {
+    padding-left: 15px;
+}
+.block-views-blockmachines-section tbody td, .block-views-blockmachines-section tbody th {
+    font-size: 13px;
+    line-height: 28px;
+}
+.block-views-blockmachines-section tbody td:last-child {
+    padding-right: 20px;
+}
+.block-views-blockmachines-section tbody td {
+    padding-left: 15px;
+}
+.block-views-blockmachines-section tbody td, .block-views-blockmachines-section tbody th {
+    font-size: 13px;
+    line-height: 28px;
+}
+.block-views-blockmachines-section tbody th {
+    font-weight: 700;
+    text-align: left;
+    padding-left: 20px;
+}
+.block-views-blockmachines-section li {
+    list-style: none;
+}
+
