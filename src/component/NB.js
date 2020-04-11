@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/NB.css';
 import { Link } from 'react-router-dom'
+import Language from './Language';
 
 class NB extends Component {
   render(){
