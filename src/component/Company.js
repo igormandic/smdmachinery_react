@@ -6,7 +6,7 @@ import Slideshow from './Slideshow';
 import ProductList from './ProductList';
 import '../css/Company.css';
 
-const pathsToImages = ["/img/Wille/slider2.jpg", "/img/masina2.jpg", "/img/masina3.jpg", "/img/masina1.jpg", "/img/masina2.jpg"]
+const pathsToImages = ["/img/Wille/slider1.jpg", "/img/Wille/slider2.jpg", "/img/Wille/slider3.jpg", "/img/Wille/slider4.jpg"]
 
 class Company extends Component {
     render() {
