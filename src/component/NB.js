@@ -45,7 +45,6 @@ class NB extends Component {
             {kontakt}
           </Nav>
         </Navbar.Collapse>
-        <Language />
       </Navbar>
     </div>
     );

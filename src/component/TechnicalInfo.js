@@ -10,7 +10,7 @@ class TechnicalInfo extends Component {
               <div id="nothing" className="nothing">
                 <a name="specs"></a>
                   <div className="node__content">
-                      <h2>Specifications</h2>
+                      <h2 className="naslov">Specifications</h2>
                         <div className="columns">
                           <div className="left-column">
                             <div className="row" id="new" >
@@ -75,8 +75,11 @@ class TechnicalInfo extends Component {
                           </div>  
                         </div>
                         <div className="right-column">
-                          <div className="photoSpec">
-                           <img src="/WILLE/265/265_measure_image_PNG.png" className="photoMeasure" alt="WILLE 256"></img>
+                          <div className="photoSpec1">
+                           <img src="/img/Wille/specifikacije1_2.png" className="photoMeasure" alt="WILLE 256"></img>
+                          </div>
+                          <div className="photoSpec2">
+                           <img src="/img/Wille/specifikacije1_1.png" className="photoMeasure" alt="WILLE 256"></img>
                           </div>
                         </div>
                       </div>
@@ -90,7 +93,3 @@ class TechnicalInfo extends Component {
   }
   
   export default TechnicalInfo;
-
-  
-    
-  

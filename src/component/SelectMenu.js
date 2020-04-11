@@ -13,9 +13,9 @@ class SelectMenu extends Component {
     let generalInfo = "The little giant of our streets is at home in environmental management tasks on the narrow streets and pathways, parking decks and urban parks. Thanks to being less than 2 metres in height, the machine fits easily to operate in multi-level car parks and the inner yards of blocks of flats. Do not let the small size deceive you – the Wille 265 can deal with even tough snow-clearing operations, and the cabin is spacious for its size and user-friendly. The machine has flow control of motor hydraulics as standard equipment, which eases the control of work attachments in various situations. The small Wille can work all year round ploughing, sweeping, cutting and collecting."
     return (
       <div className="selectMenu">
-        <Tabs defaultActiveKey="generalInfo" id="uncontrolled-tab-example">
-          <Tab eventKey="generalInfo" title={__("General info")}>
-            <GeneralInfo generalInfo={generalInfo}/>
+        <Tabs defaultActiveKey="generalInfo" id="uncontrolled-tab-example" className="tabovi">
+          <Tab eventKey="generalInfo" title={__("General info")} >
+            <GeneralInfo generalInfo={generalInfo}/>  
           </Tab>
           <Tab eventKey="technical" title="Technical info">
             <TechnicalInfo />

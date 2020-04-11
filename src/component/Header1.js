@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../css/Header1.css';
 import NB from './NB';
 
+import Language from './Language'
+
 class Header1 extends Component {
     render() {
         return (
@@ -13,9 +15,10 @@ class Header1 extends Component {
                 </div>
                 <div className="gornji">
                     <img className="phone_logo" src="/phone_logo.png" alt="phone_logo"/>
-                    065409869
+                    <p> 065409869 </p>
                     <img className="mail_logo" src="/mail_logo.png" alt="mail_logo"/> 
-                    smd@gmail.com
+                    <p> smd@gmail.com </p>
+                    <Language />
                 </div>
                 <div className="donji"> 
                     <NB type={"home"} numOfElement={6}/>
