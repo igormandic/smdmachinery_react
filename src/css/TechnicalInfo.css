@@ -22,7 +22,7 @@
     margin-right: 4%;
     margin-bottom: 30px;
 }
-.row{
+#new {
     width: 100%;
     border-bottom: 1px solid #dbdbdb;
 }
@@ -74,7 +74,7 @@
         width: 100%;
         margin-bottom: 30px;
     }
-    .row{
+    #new{
         width: 100%;
         border-bottom: 1px solid #dbdbdb;
         flex-direction: row;
