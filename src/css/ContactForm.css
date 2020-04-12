@@ -1,12 +1,30 @@
 .FormContainer{
-    border:1px solid gray;
+    border:1px solid rgb(124, 133, 136);
     width: 100%;
-    border-top: 4px rgb(70, 171, 230) solid;
-    margin-top: 5px;
+    background-color: rgb(124, 133, 136);
+}
+
+.naslov_cf {
+    color: rgb(22, 22, 24);
+    font-size: 24px;
+}
+
+.controlForm {
+    margin-left: 5px;
+    text-align: center;
+}
+
+.poruka {
+    margin-right: 0;
+}
+
+.mdbSend {
+    margin-bottom: 3px;
 }
 
 .TextSend{
-    color: black;
+    color: white;
+    text-align: center;
 }
 
 .text-center{

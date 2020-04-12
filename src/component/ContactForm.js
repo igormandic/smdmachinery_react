@@ -9,18 +9,20 @@ return (
             <MDBRow>
               <MDBCol md="12">
                 <form>
-                  <p className="h4 text-center mb-4">Posaljite nam poruku</p>
-                  <input placeholder="Vase ime" type="text" id="defaultFormContactNameEx" className="form-control" />
-                  <br />
-                  <input placeholder="Vas email" type="email" id="defaultFormContactEmailEx" className="form-control" />
-                  <br />
-                  <input placeholder="Tema" type="text" id="defaultFormContactSubjectEx" className="form-control" />
-                  <br />
-                  <textarea placeholder="Poruka" type="text" id="defaultFormContactMessageEx" className="form-control" rows="3" />
+                  <div className="poruka">
+                    <p className="naslov_cf">Posaljite nam poruku</p>
+                    <input placeholder="Vase ime" type="text" id="defaultFormContactNameEx" className="form-control" />
+                    <br />
+                    <input placeholder="Vas email" type="email" id="defaultFormContactEmailEx" className="form-control" />
+                    <br />
+                    <input placeholder="Tema" type="text" id="defaultFormContactSubjectEx" className="form-control" />
+                    <br />
+                    <textarea placeholder="Poruka" type="text" id="defaultFormContactMessageEx" className="form-control" rows="3" />
+                  </div>
                   <div className="text-center mt-4">
-                      <MDBBtn color="warning" outline type="submit">
+                      <MDBBtn color="dark" outline type="submit" className="mdbSend">
                         <span className="TextSend">Send</span> 
-                        <MDBIcon far icon="paper-plane" className="ml-2" />
+                      <MDBIcon far icon="paper-plane" className="ml-2" />
                       </MDBBtn>
                     </div>
                   </form>

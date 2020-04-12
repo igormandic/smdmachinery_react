@@ -1,3 +1,30 @@
+.companyList {
+    width: 100%;
+    margin: 3% 0 3% 8.09%;
+}
+
+.row1 {
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.btn_companyList{
+    width: 41%;
+    border: 0;
+    margin-left: 1%;
+    transition: all .2s ease-in-out;
+}
+
+.btn_companyList:hover{
+    transform: scale(1.03);
+
+}
+
+.slika_cl {
+    width: 100%;
+}
+
+
 /* .homepage{
     display: flex;
     float: left;
@@ -48,7 +75,6 @@ a:hover {
     }
     
 }
- */
 .wrap{
     margin-top: 20px;
     margin-left: 5%;
@@ -147,4 +173,4 @@ a :hover{
         max-width: 75%;
     }
     
-}
+} */
