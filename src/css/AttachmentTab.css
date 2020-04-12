@@ -1,0 +1,94 @@
+.attachmentTab {
+    width: 103%;
+    margin: 3% 0 3% -3%;
+}
+
+.b {
+    width: 47%;
+    border: 0;
+    margin-left: 3%;
+    transition: all .2s ease-in-out;
+}
+
+.b:hover {
+    transform: scale(1.05);
+}
+
+.slika {
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .attachments {
+        margin: 3% 0 3% 0;
+    }
+
+    .b:hover {
+        transform: none;
+    }
+
+    .attachmentTab {
+        width: 100%;
+        margin: 0 0 0 -3%;
+    }
+
+    .b {
+        width: 100%;
+        margin-top: 3%;
+    }
+}
+
+/* 
+.attachmentTab1 {
+    margin: 3% 0 10% 0;
+    display: flex;
+    text-align: center;
+}
+
+.attachmentTab2 {
+    margin: 3% 0 10% 0;
+    display: flex;
+    text-align: center;
+}
+
+.attachmentTab a{
+    width: 100%;
+    border: 1px black;
+}
+
+.slika1 {
+    width: 97%;
+}
+
+.b1 {
+    position: absolute;
+    width: 10%;
+    height: 6%;
+    margin-left: -10%;
+    margin-top: 6.7%;
+    background-color:  rgb(171, 203, 214);
+    color: black;
+    border: 0;
+    font-size: 18px;
+}
+
+.b1:hover{
+    position: absolute;
+    width: 10%;
+    height: 6%;
+    margin-left: -10.5%;
+    margin-top: 6.2%;
+    background-color:  rgb(14, 155, 202);
+    color: white;
+    border: 0;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.tekst1 {
+    width: 30%;
+    margin-top: -36%;
+    margin-left: 2%;
+    color: black;
+    font-weight: bold;
+} */
