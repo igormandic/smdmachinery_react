@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
+import '../css/Contact.css';
 
 const Contact = () => {
   return (
@@ -54,7 +55,7 @@ const Contact = () => {
               <div className="md-form">
                 <MDBInput
                   icon="pencil-alt"
-                  label="Icon Prefix"
+                  label="Message"
                   iconClass="grey-text"
                   type="textarea"
                   id="form-text"
@@ -73,7 +74,7 @@ const Contact = () => {
             style={{ height: "400px" }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d76765.98321148289!2d-73.96694563267306!3d40.751663750099084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1525939514494"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d595.0686253812828!2d20.46071719211669!3d44.808537619399495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa8da54c451%3A0xe5643e65a4de8733!2zS9GA0LDRmdC40YbQtSDQndCw0YLQsNC70LjRmNC1IDcyLCDQkdC10L7Qs9GA0LDQtCAxMTAwMA!5e0!3m2!1ssr!2srs!4v1586637547299!5m2!1ssr!2srs"
               title="This is a unique title"
               width="100%"
               height="100%"
@@ -87,22 +88,22 @@ const Contact = () => {
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="map-marker-alt" />
               </MDBBtn>
-              <p>New York, 94126</p>
-              <p className="mb-md-0">United States</p>
+              <p>Beograd, 11000</p>
+              <p className="mb-md-0">Serbia</p>
             </MDBCol>
             <MDBCol md="4">
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="phone" />
               </MDBBtn>
-              <p>+ 01 234 567 89</p>
+              <p>+011 65409869</p>
               <p className="mb-md-0">Mon - Fri, 8:00-22:00</p>
             </MDBCol>
             <MDBCol md="4">
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="envelope" />
               </MDBBtn>
-              <p>info@gmail.com</p>
-              <p className="mb-md-0">sale@gmail.com</p>
+              <p>smdmachinery@hotmail.com</p>
+              <p className="mb-md-0">smdmachinery@gmail.com</p>
             </MDBCol>
           </MDBRow>
         </MDBCol>

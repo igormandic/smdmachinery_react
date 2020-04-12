@@ -22,7 +22,7 @@ class CompanyList extends Component {
                             <img src="/slika.jpeg" alt="Attachment" className="slika_cl"/>
                         </button>
                     </div>
-                </div>
+          </div>
     );
     }
 }
