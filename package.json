@@ -12,6 +12,7 @@
     "bootstrap": "^4.4.1",
     "dayjs": "^1.8.23",
     "i18n-react": "^0.7.0",
+    "jquery": "^3.5.0",
     "mdbreact": "^4.25.4",
     "react": "^16.13.0",
     "react-bootstrap": "^1.0.0-beta.17",
@@ -27,6 +28,7 @@
     "react-slideshow-image": "^1.3.4",
     "react-spinners": "^0.8.0",
     "react-sticky": "^6.0.3",
+    "react-window-size": "^1.2.2",
     "styled-components": "^5.0.1"
   },
   "scripts": {

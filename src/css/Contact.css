@@ -1,0 +1,130 @@
+.btn{
+    color:black;
+    background-color: rgba(102, 130, 146, 0.425);
+    z-index: 10;
+}
+.card{
+    width: 90%;
+    text-align: center;
+}
+
+.btn:hover{
+    color:black;
+    background-color:rgb(70, 171, 230); 
+    transition: color 0.1s linear 0s;
+    z-index:100;
+}
+
+.rowContact, .row-fluid {
+    margin-bottom: 30px;
+    
+}
+.span12 {
+    width: 90%;
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+}
+form {
+    margin: 0 0 20px;
+}
+.span4 {
+    width: 26%;
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+}
+.my-5{
+    overflow: hidden;
+}
+
+.contactForm input[type="text"], .contactForm input[type="email"] {
+    width: 100%;
+    min-height: 40px;
+    padding-left: 20px;
+    font-size: 13px;
+    padding-right: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type="text"]{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+}
+.margintop10 {
+    margin-top: 10px;
+}
+h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+.span12{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    float: none;
+    margin-left: 0;
+    min-height: 1px;
+    
+}
+.rowContact {
+    margin-left: 0;
+    width: 100%;
+}
+.map{
+    height: 300px;
+}
+.span4{
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+    min-height: 1px;
+    
+}
+.contactForm input[type="text"], .contactForm input[type="email"] {
+    width: 100%;
+    min-height: 40px;
+    padding-left: 20px;
+    font-size: 13px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+input[type="text"]{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+}
+.contactSection{
+    padding: 0 20px 0 20px;
+    position: relative;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+}
