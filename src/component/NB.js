@@ -20,7 +20,7 @@ class NB extends Component {
 
       navBar = <NavDropdown title="Firme" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
       servis = <Nav.Link className="dropDowns">Servis</Nav.Link>;
-      kontakt = <Nav.Link className="dropDowns">Kontakt</Nav.Link>
+      kontakt = <Link to={{pathname:"/contact", info:"sve sto treba za taj proizvod"}} className="dropDowns"> Kontakt </Link>
     } else {
       navBar = numbers.map((number) =>
         <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company/product", info:"sve sto treba za taj proizvod"}}>Proizvod {number+1}</Link></NavDropdown.Item>

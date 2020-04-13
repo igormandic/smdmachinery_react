@@ -6,16 +6,16 @@ import '../css/Gallery.css';
 const images = [
     
   {
-    original: 'https://picsum.photos/id/1018/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1018/250/150/',
+    original: '/img/Wille/masina1.jpg',
+    thumbnail: '/img/Wille/masina1.jpg',
   },
   {
-    original: 'https://picsum.photos/id/1015/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1015/250/150/',
+    original: '/WILLE/265/265_studio_front.jpg',
+    thumbnail: '/WILLE/265/265_studio_front.jpg',
   },
   {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    original: '/WILLE/265/265_studio_pose.jpg',
+    thumbnail: '/WILLE/265/265_studio_pose.jpg',
   },
 ];
  

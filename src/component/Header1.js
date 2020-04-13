@@ -21,7 +21,7 @@ class Header1 extends Component {
                     <Language />
                 </div>
                 <div className="donji"> 
-                    <NB type={"home"} numOfElement={6}/>
+                    <NB type={this.props.type} numOfElement={this.props.numOfElement}/>
                 </div>
             </div>
         );
