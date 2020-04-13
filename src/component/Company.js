@@ -12,13 +12,13 @@ class Company extends Component {
     render() {
         return (
             <div className="company"> 
-                <Header1 />
+                <Header1 type={"company"} numOfElement={6}/>
                 <Slideshow images={pathsToImages}/>
                 <ProductList products={["produkt1","produkt2","produkt3","produkt4"]} 
                              logo={"img/Wille/wille-logo.png"}
                              image={["/img/Wille/masina1.jpg","/img/Wille/masina2.jpg","/img/Wille/masina3.jpg","/img/Wille/masina4.jpg"]}
                              />
-                <RightSidebar video={"https://www.youtube.com/embed/tgbNymZ7vqY"} pdf={"/catalogs/masina1.pdf"}/>
+                <RightSidebar pdf={"/catalogs/masina1.pdf"}/>
                 <Footer />
             </div>
         );
