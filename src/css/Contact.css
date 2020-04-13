@@ -23,16 +23,17 @@
     width: 90%;
     float: left;
     min-height: 1px;
-    margin-left: 30px;
+    margin-left: 5%;
+    
 }
 form {
     margin: 0 0 20px;
 }
 .span4 {
-    width: 26%;
+    width: 26.7%;
     float: left;
     min-height: 1px;
-    margin-left: 30px;
+    margin-left: 5%;
 }
 .my-5{
     overflow: hidden;
