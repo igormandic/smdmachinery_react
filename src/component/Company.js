@@ -6,10 +6,17 @@ import Slideshow from './Slideshow';
 import ProductList from './ProductList';
 import '../css/Company.css';
 
-const pathsToImages = ["/img/Wille/slider1.jpg", "/img/Wille/slider2.jpg", "/img/Wille/slider3.jpg", "/img/Wille/slider4.jpg"]
-
 class Company extends Component {
+    componentWillMount() {
+        console.log(this.props.location);
+        if(this.props.match.params.name) 
+            this.setState({name:this.props.match.params.name});
+
+    }
     render() {
+        const name = this.state.name;
+        const pathsToImages = [`/${name}/slider1.jpg`, `/${name}/slider2.jpg`, `/${name}/slider3.jpg`, `/${name}/slider4.jpg`];
+        console.log(pathsToImages);
         return (
             <div className="company"> 
                 <Header1 type={"company"} numOfElement={6}/>

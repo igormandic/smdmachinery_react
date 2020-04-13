@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import '../css/image-gallery.css';
 import '../css/Gallery.css';
@@ -10,12 +10,12 @@ const images = [
     thumbnail: '/img/Wille/masina1.jpg',
   },
   {
-    original: '/WILLE/265/265_studio_front.jpg',
-    thumbnail: '/WILLE/265/265_studio_front.jpg',
+    original: '/WILLE/265/masina2.jpg',
+    thumbnail: '/WILLE/265/masina2.jpg',
   },
   {
-    original: '/WILLE/265/265_studio_pose.jpg',
-    thumbnail: '/WILLE/265/265_studio_pose.jpg',
+    original: '/WILLE/265/masina3.jpg',
+    thumbnail: '/WILLE/265/masina3.jpg',
   },
 ];
  

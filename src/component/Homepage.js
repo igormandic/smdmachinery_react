@@ -5,7 +5,6 @@ import Slideshow from './Slideshow';
 import Footer from './Footer';
 import CompanyList from './CompanyList';
 import RightSidebar from './RightSidebar';
-import Contact from './Contact';
 
 const pathsToImages = ["/img/masina1.jpg", "/img/masina2.jpg", "/img/masina3.jpg", "/img/masina4.jpg"]
 class Homepage extends React.Component {
@@ -17,7 +16,6 @@ class Homepage extends React.Component {
           <Slideshow images={pathsToImages}/>
           <CompanyList />
           <RightSidebar />
-          {/* https://www.youtube.com/embed/W8151PerJtE */}
           <Footer/>
       </div>
       );

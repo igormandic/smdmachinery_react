@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/NB.css';
 import { Link } from 'react-router-dom'
-import Language from './Language';
 
 class NB extends Component {
   render(){
@@ -15,7 +14,7 @@ class NB extends Component {
 
     if (this.props.type === "home") {
       navBar = numbers.map((number) =>
-        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company", info:"sve sto treba za tu firmu"}}>Firma {number+1}</Link></NavDropdown.Item>
+        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company/WILLE", info:"sve sto treba za tu firmu"}}>Firma {number+1}</Link></NavDropdown.Item>
       );
 
       navBar = <NavDropdown title="Firme" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
@@ -23,7 +22,7 @@ class NB extends Component {
       kontakt = <Link to={{pathname:"/contact", info:"sve sto treba za taj proizvod"}} className="dropDowns"> Kontakt </Link>
     } else {
       navBar = numbers.map((number) =>
-        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company/product", info:"sve sto treba za taj proizvod"}}>Proizvod {number+1}</Link></NavDropdown.Item>
+        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company/WILLE/product", info:"sve sto treba za taj proizvod"}}>Proizvod {number+1}</Link></NavDropdown.Item>
       );
       navBar = <NavDropdown title="Proizvod" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
     }

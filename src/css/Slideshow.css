@@ -37,10 +37,14 @@ body {
 .btn .btn-inner {
   position: relative;
   z-index: 2;
+  color: white;
 }
 .btn:hover {
   color: #373737;
   transition: color 0.1s linear 0s;
+}
+.btn:hover .btn-inner{
+  color: #373737;
 }
 .btn:hover::before {
   top: 0;
