@@ -13,7 +13,6 @@ class Slideshow extends React.Component {
       if(slideshow.data('wait')) return;
     
       var slides = slideshow.find('.slide');
-      var pages = slideshow.find('.pagination');
       var activeSlide = slides.filter('.is-active');
       var activeSlideImage = activeSlide.find('.image-container');
       var newSlide = slides.eq(index);
@@ -27,7 +26,7 @@ class Slideshow extends React.Component {
       clearTimeout(timeout);
       slideshow.data('wait',true);
       var transition=slideshow.attr('data-transition');
-      if(transition=='fade'){
+      if(transition==='fade'){
         newSlide.css({
           display:'block',
           zIndex:2
@@ -62,15 +61,15 @@ class Slideshow extends React.Component {
           var newSlideContentRight=0;
           var activeSlideImageLeft=-slideshow.width()/4;
         } else {
-          var newSlideRight='';
-          var newSlideLeft=0;
-          var newSlideImageRight='auto';
-          var newSlideImageLeft=-slideshow.width()/8;
-          var newSlideImageToRight='';
-          var newSlideImageToLeft=0;
-          var newSlideContentLeft=0;
-          var newSlideContentRight='auto';
-          var activeSlideImageLeft=slideshow.width()/4;
+          newSlideRight='';
+          newSlideLeft=0;
+          newSlideImageRight='auto';
+          newSlideImageLeft=-slideshow.width()/8;
+          newSlideImageToRight='';
+          newSlideImageToLeft=0;
+          newSlideContentLeft=0;
+          newSlideContentRight='auto';
+          activeSlideImageLeft=slideshow.width()/4;
         }
     
         newSlide.css({
@@ -167,7 +166,7 @@ class Slideshow extends React.Component {
         }
       } else {
         newSlide=activeSlide.next('.slide');
-        if(newSlide.length==0)
+        if(newSlide.length===0)
           newSlide=slides.filter('.slide').first();
       }
     
@@ -219,100 +218,100 @@ class Slideshow extends React.Component {
   render(){ 
     
     return (
-      <main class="main-content">
-      <section class="slideshow">
-        <div class="slideshow-inner">
-          <div class="slides">
-            <div class="slide is-active ">
-              <div class="slide-content">
-                <div class="caption">
-                  <div class="title"></div>
-                  <div class="text">
+      <main className="main-content">
+      <section className="slideshow">
+        <div className="slideshow-inner">
+          <div className="slides">
+            <div className="slide is-active ">
+              <div className="slide-content">
+                <div className="caption">
+                  <div className="title"></div>
+                  <div className="text">
                     <p></p>
                   </div> 
-                  <a href="#" class="btn">
-                    <span class="btn-inner">Learn More</span>
+                  <a href="/#" className="btn">
+                    <span className="btn-inner">Learn More</span>
                   </a>
                 </div>
               </div>
-              <div class="image-container"> 
-                <img src={this.props.images[0]} alt="" class="image" />
+              <div className="image-container"> 
+                <img src={this.props.images[0]} alt="" className="image" />
               </div>
             </div>
-            <div class="slide">
-              <div class="slide-content">
-                <div class="caption">
-                  <div class="title"></div>
-                  <div class="text">
+            <div className="slide">
+              <div className="slide-content">
+                <div className="caption">
+                  <div className="title"></div>
+                  <div className="text">
                     <p></p>
                   </div> 
-                  <a href="#" class="btn">
-                    <span class="btn-inner">Learn More</span>
+                  <a href="/#" className="btn">
+                    <span className="btn-inner">Learn More</span>
                   </a>
                 </div>
               </div>
-              <div class="image-container">
-                <img src={this.props.images[1]} alt="" class="image" />
+              <div className="image-container">
+                <img src={this.props.images[1]} alt="" className="image" />
               </div>
             </div>
-            <div class="slide">
-              <div class="slide-content">
-                <div class="caption">
-                  <div class="title"></div>
-                  <div class="text">
+            <div className="slide">
+              <div className="slide-content">
+                <div className="caption">
+                  <div className="title"></div>
+                  <div className="text">
                     <p></p>
                   </div> 
-                  <a href="#" class="btn">
-                    <span class="btn-inner">Learn More</span>
+                  <a href="/#" className="btn">
+                    <span className="btn-inner">Learn More</span>
                   </a>
                 </div>
               </div>
-              <div class="image-container">
-                <img src={this.props.images[2]} alt="" class="image" />
+              <div className="image-container">
+                <img src={this.props.images[2]} alt="" className="image" />
               </div>
             </div>
-            <div class="slide">
-              <div class="slide-content">
-                <div class="caption">
-                  <div class="title"></div>
-                  <div class="text">
+            <div className="slide">
+              <div className="slide-content">
+                <div className="caption">
+                  <div className="title"></div>
+                  <div className="text">
                     <p></p>
                   </div> 
-                  <a href="#" class="btn">
-                    <span class="btn-inner">Learn More</span>
+                  <a href="/#" className="btn">
+                    <span className="btn-inner">Learn More</span>
                   </a>
                 </div>
               </div>
-              <div class="image-container"> 
-                <img src={this.props.images[3]} alt="" class="image" />
+              <div className="image-container"> 
+                <img src={this.props.images[3]} alt="" className="image" />
               </div>
             </div>
           </div>
-          <div class="pagination">
-            <div class="item is-active"> 
-              <span class="icon">1</span>
+          <div className="pagination">
+            <div className="item is-active"> 
+              <span className="icon">1</span>
             </div>
-            <div class="item">
-              <span class="icon">2</span>
+            <div className="item">
+              <span className="icon">2</span>
             </div>
-            <div class="item">
-              <span class="icon">3</span>
+            <div className="item">
+              <span className="icon">3</span>
             </div>
-            <div class="item">
-              <span class="icon">4</span>
+            <div className="item">
+              <span className="icon">4</span>
             </div>
           </div>
-          <div class="arrows">
-            <div class="arrow prev">
-              <span class="svg svg-arrow-left">
-                <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xmlSpace="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
-                <span class="alt sr-only"></span>
+          <div className="arrows">
+            <div className="arrow prev">
+              <span className="svg svg-arrow-left">
+                <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enableBackground="new 0 0 14 26" xmlSpace="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
+                <span className="alt sr-only"></span>
               </span>
             </div>
-            <div class="arrow next">
-              <span class="svg svg-arrow-right">
-                <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xmlSpace="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
-                <span class="alt sr-only"></span>
+            <div className="arrow next">
+              <span className="svg svg-arrow-right">
+                <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enableBackground="new 0 0 14 26" xmlSpace="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
+                <span className="alt sr-only"></span>
               </span>
             </div>
           </div>

@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import '../css/Language.css';
-import { __ } from '../utils/i18n';
+
 let jezik = "en";
 let putanja = "/england_logo.png";
 
-if(localStorage.getItem("localeNew") == "en"){
+if(localStorage.getItem("localeNew") === "en"){
     jezik = "sr";
-    putanja = "/serbian_logo.png";
+    putanja = "/england_logo.png";
 }
 else {
     jezik = "en";
-    putanja = "/england_logo.png";
+    putanja = "/serbian_logo.png";
 }
 
 class Language extends Component {
