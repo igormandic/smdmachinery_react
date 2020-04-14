@@ -1,0 +1,66 @@
+.stacktable.large-only {
+    display: table;
+}
+.attachmentTable table {
+    width: 100%;
+    margin: 40px 0;
+    padding: 0;
+}
+.stacktable {
+    width: 100%;
+}
+.attachmentTable table tr {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.attachmentTable table th {
+    color: #000;
+    font-weight: 650;
+    margin-bottom: 10px;
+    border: none;
+    text-align: left;
+    margin: 0;
+    padding: 14px 13px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.attachmentTable table tbody td, .attachmentTable table tbody th {
+    border: none;
+    text-align: left;
+    margin: 0;
+    padding: 10px 13px;
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 1px solid #dbdbdb;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.attachmentTable table tbody tr {
+    background: #f1f1f1;
+}
+.attachmentTable table tbody tr.odd, .attachmentTable table tbody tr:nth-child(2n+2) {
+    background: #fff;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+@media only screen and (min-width: 1400px){
+.attachmentTable table {
+    margin: 60px 0;
+    }
+}

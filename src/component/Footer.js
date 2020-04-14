@@ -42,15 +42,6 @@ function Footer() {
         </ul>
       </div>
       <div className="links">
-        <h3>NEWS</h3>
-        <ul>
-          <li><a href="./press-coverage" title="">PRESS COVERAGE</a></li>
-          <li><a href="./press-releases" title="">PRESS RELEASES</a></li>
-          <li><a href="./events" title="">EVENTS</a></li>
-          <li><a href="./videos" title="">VIDEOS</a></li>
-        </ul>
-      </div>
-      <div className="links">
         <h3>CONTACT US</h3>
         <ul>
             <li><a href="./contact" title="">CONTACT</a></li>
@@ -81,7 +72,6 @@ function Footer() {
         <div className="copyright-links">     
           <a href="./45/p/use-agreement" title="">Use Agreement</a>
           <a href="./46/p/conditions-for-use" title="">Conditions For Use</a>
-          <a href="./47/p/sitemap" title="">Sitemap</a>
           <a href="./57/p/cerez-politikasi-en" title="">Cookie Policy</a>
           <a href="./10065/p/protection-of-personal-data" title="">Protection of Personal Data</a>
         </div>
