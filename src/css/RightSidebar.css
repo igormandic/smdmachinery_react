@@ -1,10 +1,4 @@
-.rightSidebar {
-    margin: 3% 5% 0 0;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    margin-bottom: 5px;
-}
+
 
 @media screen and (max-width: 900px) {
 .dugme {
@@ -46,9 +40,8 @@
 }
 
 .dugme {
-    width: 83%;
-    padding: 1%;
-    margin: 0 0 3% 1%;
+    width: 83.78%;
+    margin: 0 0 3% 9%;
     border: 1px solid #3498db;
     background: none;
     padding: 10px 20px;

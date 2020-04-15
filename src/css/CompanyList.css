@@ -1,6 +1,6 @@
 .companyList {
-    width: 100%;
-    margin: 3% 0 3% 8.09%;
+    width: 91.89%;
+    margin: 3% 0 3% 8.11%;
 }
 
 .row1 {
@@ -9,7 +9,7 @@
 }
 
 .btn_companyList{
-    width: 41%;
+    width: 45%;
     border: 0;
     margin-left: 1%;
     transition: all .2s ease-in-out;
