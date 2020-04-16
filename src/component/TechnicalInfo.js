@@ -8,7 +8,6 @@ class TechnicalInfo extends Component {
           <div className="content" role="contentinfo">
             <div className="contentInner">
               <div id="nothing" className="nothing">
-                <a name="specs"></a>
                   <div className="node__content">
                       <h2 className="naslov">Specifications</h2>
                         <div className="columns">

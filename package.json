@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "dayjs": "^1.8.23",
+    "fa-icons": "^0.2.0",
     "i18n-react": "^0.7.0",
     "jquery": "^3.5.0",
     "mdbreact": "^4.25.4",

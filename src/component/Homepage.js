@@ -16,7 +16,6 @@ class Homepage extends React.Component {
           <Slideshow images={pathsToImages}/>
           <CompanyList />
           <RightSidebar />
-          {/* https://www.youtube.com/embed/W8151PerJtE */}
           <Footer/>
       </div>
       );

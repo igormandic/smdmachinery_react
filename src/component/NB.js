@@ -19,7 +19,7 @@ render(){
       navBar = <NavDropdown title="Proizvodi" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
     } else {
       navBar = numbers.map((number) =>
-        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company/product", info:"sve sto treba za taj proizvod"}}>Proizvod {number+1}</Link></NavDropdown.Item>
+        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company/WILLE/product", info:"sve sto treba za taj proizvod"}}>Proizvod {number+1}</Link></NavDropdown.Item>
       );
       navBar = <NavDropdown title="Proizvod" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
     }
