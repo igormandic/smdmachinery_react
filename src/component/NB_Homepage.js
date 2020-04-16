@@ -44,15 +44,15 @@ render(){
           <li><a href="/">Pocetna</a></li>
           <li className="firme"><a href="/company">Firme</a>
             <ul className="podlista">
-              <li><a>Firma1</a></li>
-              <li><a>Firma2</a></li>
-              <li><a>Firma3</a></li>
-              <li><a>Firma4</a></li>
+              <li><Link to="/company/WILLE">WILLE</Link></li>
+              <li><Link to="/company/WILLE">Firma2</Link></li>
+              <li><Link to="/company/WILLE">Firma3</Link></li>
+              <li><Link to="/company/WILLE">Firma4</Link></li>
             </ul>
           </li>
-            <li><a className="nsk">Nastavci</a></li>
-            <li><a className="nsk">Servis</a></li>
-            <li><a className="nsk">Kontakt</a></li>
+            <li><a href="/#" className="nsk">Nastavci</a></li>
+            <li><a href="/#" className="nsk">Servis</a></li>
+            <li><a href="/contact" className="nsk">Kontakt</a></li>
         </ul>
       </nav>
       </div>

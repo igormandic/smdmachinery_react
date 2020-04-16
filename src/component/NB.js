@@ -6,69 +6,82 @@ import '../css/NB.css';
 import { Link } from 'react-router-dom'
 
 class NB extends Component {
-render(){
 
-  let navBar = [];
-    let numbers = Array(this.props.numOfElement).fill(null).map( (x,i) => i );
-
-    if (this.props.type === "home") {
-      navBar = numbers.map((number) =>
-        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company", info:"sve sto treba za tu firmu"}}>Proizvod {number+1}</Link></NavDropdown.Item>
-      );
-
-      navBar = <NavDropdown title="Proizvodi" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
-    } else {
-      navBar = numbers.map((number) =>
-        <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company/WILLE/product", info:"sve sto treba za taj proizvod"}}>Proizvod {number+1}</Link></NavDropdown.Item>
-      );
-      navBar = <NavDropdown title="Proizvod" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
+  render(){
+    console.log(this.props.name);
+    // let pathToProducts = `/company/${this.props.name}/265`;
+    let products = [];
+    let linkForAllProducts = "";
+    if (this.props.name === "WILLE") {
+      products = ["265", "375", "465", "665", "865"];
+      linkForAllProducts = `/company/${this.props.name}/product`;
     }
 
-  return (
-    <div>
-    <div className="NB_css1">
-      <nav>
-{/* 
-        <input type="checkbox" id="check"/>
-        <label for="check" class="checkbtn">
-        <img src="fa_bars.png" className="img_bars"></img>
-        </label>
+    console.log(products);
+    let pathToProducts = []
+    for (let i = 0; i<products.length; i++) {
+      let pathToProduct = `/company/${this.props.name}/product/${products[i]}`;
+      pathToProducts.push(<li><Link to={pathToProduct}>{products[i]}</Link></li>)
+    }
 
-        <input type="checkbox" id="check1"/>
-        <label for="check1" class="checkbtn1">
+    let navBar = [];
+      let numbers = Array(this.props.numOfElement).fill(null).map( (x,i) => i );
+
+      if (this.props.type === "home") {
+        navBar = numbers.map((number) =>
+          <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company", info:"sve sto treba za tu firmu"}}>Proizvod {number+1}</Link></NavDropdown.Item>
+        );
+
+        navBar = <NavDropdown title="Proizvodi" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
+      } else {
+        navBar = numbers.map((number) =>
+          <NavDropdown.Item key={number.toString()}><Link to={{pathname:"/company/WILLE/product", info:"sve sto treba za taj proizvod"}}>Proizvod {number+1}</Link></NavDropdown.Item>
+        );
+        navBar = <NavDropdown title="Proizvod" id="basic-nav-dropdown" className = "dropDowns">{navBar}</NavDropdown>;
+      }
+
+    return (
+      <div>
+      <div className="NB_css1">
+        <nav>
+  {/* 
+          <input type="checkbox" id="check"/>
+          <label for="check" class="checkbtn">
           <img src="fa_bars.png" className="img_bars"></img>
-        </label> */}
+          </label>
 
-        <ul>
-          <li><a href="/">Pocetna</a></li>
-          <li className="firme"><a href="/company/product">Proizvodi</a>
-            <ul className="podlista">
-              <li><a>Proizvod 1</a></li>
-              <li><a>Proizvod 2</a></li>
-              <li><a>Proizvod 3</a></li>
-              <li><a>Proizvod 4</a></li>
-            </ul>
-          </li>
-            <li><a className="nsk">Nastavci</a></li>
-        </ul>
-      </nav>
-      </div>
+          <input type="checkbox" id="check1"/>
+          <label for="check1" class="checkbtn1">
+            <img src="fa_bars.png" className="img_bars"></img>
+          </label> */}
 
-       <div className="NB_response1">
-          <Navbar expand="lg">
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mr-auto1">
-                <Nav.Link href="/" className = "dropDowns">Pocetna</Nav.Link>
-                {navBar}
-                <Nav.Link href="/" className = "dropDowns">Nastavci</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+          <ul>
+            <li><a href="/">Pocetna</a></li>
+            <li className="firme"><Link to={linkForAllProducts}>Proizvodi</Link>
+              <ul className="podlista">
+                {pathToProducts}
+              </ul>
+            </li>
+              <li><a href="/#" className="nsk">Nastavci</a></li>
+          </ul>
+        </nav>
+        </div>
+
+        <div className="NB_response1">
+            <Navbar expand="lg">
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto1">
+                  <Nav.Link href="/" className = "dropDowns">Pocetna</Nav.Link>
+                  {navBar}
+                  <Nav.Link href="/" className = "dropDowns">Nastavci</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </div>
       </div>
-    </div>
-  );
-  }
+    );
+    }
 }
 
 export default NB;

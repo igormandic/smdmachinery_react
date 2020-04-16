@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 10fr;
     grid-template-rows: 37px 60px;
-    /* position: fixed;
-    z-index: 3; */
+    position: fixed;
+    z-index: 3;
 }
 
  /* Style the header links */

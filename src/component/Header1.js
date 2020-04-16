@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
 import '../css/Header1.css';
 import NB from './NB';
-import NB_Homepage from './NB_Homepage';
+import NBHomepage from './NB_Homepage';
 
 import Language from './Language'
 
 class Header1 extends Component {
     render() {
 
-        let nb = <NB numOfElement={6}/>;
-    
-        if(this.props.type === "home"){
-            nb = <NB_Homepage numOfElement={6}/>;
-        }
+        const nb = this.props.type === "home" ? <NBHomepage type={this.props.type} numOfElement={6} /> : <NB type={this.props.type} numOfElement={6} name={this.props.name} />;
 
         return (
             <div className="header">

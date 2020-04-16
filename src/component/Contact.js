@@ -3,13 +3,12 @@ import '../css/Contact.css';
 
 const Contact = () => {
   return (
-    <section className="my-5">
-      
+    <div className="contact" >
       <iframe 
               className="map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2868.5733961904352!2d20.89962041550993!3d44.03020947911009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475726b4d66d62cf%3A0xd4592a2b4748839f!2z0JrRgNCw0ZnQuNGG0LUg0J3QsNGC0LDQu9C40ZjQtSA3Miwg0JrRgNCw0LPRg9GY0LXQstCw0YY!5e0!3m2!1ssr!2srs!4v1586692582023!5m2!1ssr!2srs"
               width="100%" 
-              height="400" 
+              height="600px" 
               frameBorder="0" 
               allowFullScreen=""
               aria-hidden="false" 
@@ -44,7 +43,7 @@ const Contact = () => {
               </div>
           </div>
           </div>
-    </section>
+      </div>
     
     
   );
