@@ -1,0 +1,51 @@
+.selectMenuAttachment {
+    margin-left: 9.1%;
+    width: 81.8%;
+    /* border-left: 1px solid rgb(171, 203, 214);
+    border-right: 1px solid rgb(171, 203, 214);  */
+}
+
+.selectMenuAttachment a{
+    background-color:  rgb(171, 203, 214);
+    color: rgba(0, 0, 0, 0.938);
+    width: 33.33%;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+.selectMenuAttachment a:hover{
+    background-color:  rgb(41, 119, 145);
+    color: white;
+}
+
+.selectMenuAttachment a:active{
+    background-color:  rgb(14, 155, 202);
+}
+
+.tabovi {
+    background: rgb(171, 203, 214);
+    height: 60px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .selectMenuAttachment{
+        float: center;
+        justify-content: space-evenly;
+        max-width: 100%;
+        width: 110vh;
+        margin: 0;
+    }
+    
+    .selectMenuAttachment a{
+        background-color:  rgb(171, 203, 214);
+        color: rgba(0, 0, 0, 0.938);
+        width: 33.33%;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 1.5%;
+        margin-bottom: 20%;
+    }
+}

@@ -41,15 +41,6 @@ function Footer() {
         </ul>
       </div>
       <div className="links">
-        <h3>NEWS</h3>
-        <ul>
-          <li><a href="/#" title="">PRESS COVERAGE</a></li>
-          <li><a href="/#" title="">PRESS RELEASES</a></li>
-          <li><a href="/#" title="">EVENTS</a></li>
-          <li><a href="/#" title="">VIDEOS</a></li>
-        </ul>
-      </div>
-      <div className="links">
         <h3>CONTACT US</h3>
         <ul>
             <li><a href="/#" title="">CONTACT</a></li>
@@ -77,7 +68,7 @@ function Footer() {
       </div>
       <div className="clear"></div>
       <div className="copyright">
-        <div className="copyright-links">     
+        <div className="copyright-links">   
           <a href="/#" title="">Use Agreement</a>
           <a href="/#" title="">Conditions For Use</a>
           <a href="/#" title="">Sitemap</a>
