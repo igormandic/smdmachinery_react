@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import '../css/Header1.css';
 import NB from './NB';
+import NB_Homepage from './NB_Homepage';
 
 import Language from './Language'
 
 class Header1 extends Component {
     render() {
+
+        let nb = <NB numOfElement={6}/>;
+    
+        if(this.props.type === "home"){
+            nb = <NB_Homepage numOfElement={6}/>;
+        }
+
         return (
             <div className="header">
                 <div className="levi"> 
@@ -14,14 +22,16 @@ class Header1 extends Component {
                     </a>
                 </div>
                 <div className="gornji">
-                    <img className="phone_logo" src="/phone_logo.png" alt="phone_logo"/>
-                    <p> 065409869 </p>
-                    <img className="mail_logo" src="/mail_logo.png" alt="mail_logo"/> 
-                    <p> smd@gmail.com </p>
+                    <div className="phone_mail">
+                        <img className="phone_logo" src="/phone_logo.png" alt="phone_logo"/>
+                        <p> 065409869 </p>
+                        <img className="mail_logo" src="/mail_logo.png" alt="mail_logo"/> 
+                        <p> smd@gmail.com </p>
+                    </div>
                     <Language />
                 </div>
                 <div className="donji"> 
-                    <NB type={this.props.type} numOfElement={this.props.numOfElement}/>
+                    {nb}
                 </div>
             </div>
         );

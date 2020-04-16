@@ -1,6 +1,10 @@
 .dugme_jezici {
+  float: right;
   background-color: rgb(171, 203, 214);
-  width: 2%;
+  position: absolute;
+  float: right;
+  right: 2%;
+  width: 33px;
   border: 0;
   float: right;
   right: 2%;
@@ -14,9 +18,98 @@
   height: auto;
 }
 
-@media only screen and (max-width: 850px) {
+/* @media only screen and (max-width: 1500px) {
   .dugme_jezici {
-    width: 5%;
-    right: 11%;
+    margin-left: 850px;
   }
 }
+
+@media only screen and (max-width: 1420px) {
+  .dugme_jezici {
+    margin-left: 800px;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .dugme_jezici {
+    margin-left: 750px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .dugme_jezici {
+    margin-left: 700px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .dugme_jezici {
+    margin-left: 650px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .dugme_jezici {
+    margin-left: 600px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .dugme_jezici {
+    margin-left: 550px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .dugme_jezici {
+    margin-left: 500px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .dugme_jezici {
+    margin-left: 450px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .dugme_jezici {
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 950px) {
+  .dugme_jezici {
+    margin-left: 350px;
+  }
+}
+
+@media (max-width: 900px) {
+  .dugme_jezici {
+    margin-left: 300px;
+  }
+}
+
+@media (max-width: 850px) {
+  .dugme_jezici {
+    margin-left: 230px;
+  }
+}
+
+@media (max-width: 800px) {
+  .dugme_jezici {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 750px) {
+  .dugme_jezici {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 700px) {
+  .dugme_jezici {
+    margin-left: 100px;
+  }
+} */

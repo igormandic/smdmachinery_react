@@ -12,7 +12,7 @@ class Homepage extends React.Component {
   render() {
     return (
       <div className="App">
-          <Header1 type={"home"} numOfElement={6}/>
+          <Header1 type="home"/>
           <Slideshow images={pathsToImages}/>
           <CompanyList />
           <RightSidebar />

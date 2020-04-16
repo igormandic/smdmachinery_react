@@ -3,7 +3,7 @@ import RightSidebar from './RightSidebar'
 import Footer from './Footer'
 import Header1 from './Header1';
 import Slideshow from './Slideshow';
-import ProductList from './ProductList';
+import CompanyList from './CompanyList';
 import '../css/Company.css';
 
 class Company extends Component {
@@ -19,7 +19,7 @@ class Company extends Component {
         console.log(pathsToImages);
         return (
             <div className="company"> 
-                <Header1 type={"company"} numOfElement={6}/>
+                <Header1 type="company"/>
                 <Slideshow images={pathsToImages}/>
                 <ProductList products={["produkt1","produkt2","produkt3","produkt4"]} 
                              logo={"img/Wille/wille-logo.png"}
