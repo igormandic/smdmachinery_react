@@ -18,13 +18,13 @@ class SelectMenu extends Component {
             <GeneralInfo generalInfo={generalInfo}/>  
           </Tab>
           <Tab eventKey="technical" title="Technical info">
-            <TechnicalInfo />
+            <TechnicalInfo name={this.props.name} nameOfCompany={this.props.nameOfCompany} />
           </Tab>
           <Tab eventKey="attachment" title="Attachment">
             <AttachmentTab />
           </Tab>
           <Tab eventKey="gallery" title="Gallery">
-            <Gallery />
+            <Gallery name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>
           </Tab>
         </Tabs>
       </div>

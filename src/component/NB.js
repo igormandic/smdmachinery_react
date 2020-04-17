@@ -20,7 +20,6 @@ class NB extends Component {
       linkForAllProducts = `/company/${this.props.name}/product`;
     }
 
-    console.log(products);
     let pathToProducts = []
     for (let i = 0; i<products.length; i++) {
       let pathToProduct = `/company/${this.props.name}/product/${products[i]}`;

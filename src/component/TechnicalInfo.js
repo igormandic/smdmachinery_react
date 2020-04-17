@@ -3,6 +3,11 @@ import '../css/TechnicalInfo.css'
 
 class TechnicalInfo extends Component {
     render(){
+      const name = this.props.name;
+      const nameOfCompany = this.props.nameOfCompany;
+      const pathToMeasures = `/${nameOfCompany}/${name}/Measures.png`;
+      const pathToMeasures2 = `/${nameOfCompany}/${name}/Measures.jpg`;
+      const alt = `/${nameOfCompany} ${name}`
       return (
         <div className="TechnicalInfo">
           <div className="content" role="contentinfo">
@@ -75,11 +80,11 @@ class TechnicalInfo extends Component {
                         </div>
                         <div className="right-column">
                           <div className="photoSpec1">
-                           <img src="/img/Wille/specifikacije1_2.png" className="photoMeasure" alt="WILLE 256"></img>
+                           <img src={pathToMeasures} onError={(e)=>{e.target.src=pathToMeasures2}} className="photoMeasure" alt={alt}></img>
                           </div>
-                          <div className="photoSpec2">
+                          {/* <div className="photoSpec2">
                            <img src="/img/Wille/specifikacije1_1.png" className="photoMeasure" alt="WILLE 256"></img>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
