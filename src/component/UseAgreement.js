@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import '../css/UseAgreement.css'
+import Header1 from './Header1';
 
 class UseAgreement extends Component {
     render(){
       return (
         <div className="content123">
+        < Header1 type="home" />
         <h1>Use Agreement</h1>
         <p></p><div ><strong>www.smdmachinery.rs Web Site Use Agreement</strong></div>
         <div ><br/>

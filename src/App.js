@@ -6,7 +6,8 @@ import Company from './component/Company';
 import Product from './component/Product';
 import Attachment from './component/Attachment';
 import ContactPage from './component/ContactPage';
-import AllProducts from './component/AllProducts'
+import AllProducts from './component/AllProducts';
+import UseAgreement from './component/UseAgreement';
 class App extends React.Component {
 
   render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
           <Route path="/company/:name/product/:product" exact component={Product} /> 
           <Route path="/company/:name/product" exact component={AllProducts} /> 
           <Route path="/contact" exact component={ContactPage} />
+          <Route path="/useAgreement" exact component={UseAgreement} />
         </Switch>
       </BrowserRouter>
     );

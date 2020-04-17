@@ -5,7 +5,6 @@ class ProductsSpecs extends Component {
     render(){
         let products = ["265", "375", "465", "665", "865"];
         let pathToProducts = [];
-        console.log(this.props.path);
         for (let i = 0; i<products.length; i++) {
           pathToProducts.push(`${this.props.path}/${products[i]}`);
         }

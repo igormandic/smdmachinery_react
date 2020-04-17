@@ -69,7 +69,7 @@ function Footer() {
       <div className="clear"></div>
       <div className="copyright">
         <div className="copyright-links">   
-          <a href="/#" title="">Use Agreement</a>
+          <a href="/useAgreement" title="">Use Agreement</a>
           <a href="/#" title="">Conditions For Use</a>
           <a href="/#" title="">Sitemap</a>
           <a href="/#" title="">Cookie Policy</a>

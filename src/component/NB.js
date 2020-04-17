@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom'
 class NB extends Component {
 
   render(){
-    console.log(this.props.name);
     // let pathToProducts = `/company/${this.props.name}/265`;
     let products = [];
     let linkForAllProducts = "";
@@ -21,7 +20,7 @@ class NB extends Component {
     let pathToProducts = []
     for (let i = 0; i<products.length; i++) {
       let pathToProduct = `/company/${this.props.name}/product/${products[i]}`;
-      pathToProducts.push(<li><Link to={pathToProduct}>{products[i]}</Link></li>)
+      pathToProducts.push(<li key={i}><Link key={i} to={pathToProduct}>{products[i]}</Link></li>)
     }
 
     let navBar = [];

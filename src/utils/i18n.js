@@ -4,7 +4,6 @@ let __ = (key, _options) => {
     locales = require(`../locales/${window.localStorage.getItem("localeNew")}.json`);
   } 
   
-  console.log(window.localStorage)
   const translation = locales[key];
   if (!translation) {
     return key;
