@@ -31,19 +31,28 @@
     .NB_css1 ul li a:visited{
         color: white;
     }
+
+    .NB_css1 ul li a:link{
+        color: white;
+    }
     
     .NB_css1 ul li a:hover{
         background-color: rgb(171, 203, 214);
         color: black;
     }
     
-    .NB_css1 ul li ul li{
+    .NB_css1 ul li ul{
         display: none;
-        width: 100%;
+        width: 300%;
+        margin-left: -100%;
+    }
+
+    .NB_css1 ul li ul li .machine_images{
+        width: 90px;
     }
     
-    .NB_css1 ul li:hover ul li{
-        display: block;
+    .NB_css1 ul li:hover ul{
+        display: flex;
     }
     
     

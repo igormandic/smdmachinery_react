@@ -10,9 +10,13 @@ class NB extends Component {
   render(){
     // let pathToProducts = `/company/${this.props.name}/265`;
     let products = [];
+    let images = [];
     let linkForAllProducts = "";
     if (this.props.name === "WILLE") {
       products = ["265", "375", "465", "665", "865"];
+      images = ["/WILLE/265/masina1.png","/WILLE/375/375_pose_thumb.png",
+                "/WILLE/465/465_pose_thumb.png","/WILLE/665/665iv_pose_thumb_v2.png",
+                "/WILLE/865/865iv_pose_thumb.png"];
       linkForAllProducts = `/company/${this.props.name}/product`;
     }
 
@@ -20,7 +24,8 @@ class NB extends Component {
     let pathToProducts = []
     for (let i = 0; i<products.length; i++) {
       let pathToProduct = `/company/${this.props.name}/product/${products[i]}`;
-      pathToProducts.push(<li key={i}><Link key={i} to={pathToProduct}>{products[i]}</Link></li>)
+      pathToProducts.push(<li key={i}> <Link key={i} to={pathToProduct}> 
+          <img className="machine_images" src={images[i]} alt="machine_logo"/> {products[i]} </Link></li>)
     }
 
     let navBar = [];
