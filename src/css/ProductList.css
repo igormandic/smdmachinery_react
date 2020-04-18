@@ -1,0 +1,54 @@
+.product_middle {
+    width: 81.8%;
+    margin: 0 0 3% 9%;
+}
+
+.company_text {
+    width: 99.8%;
+    margin-left: 0.1%;
+    padding: 3% 3.4% 3% 3.4%;
+    text-align: justify;
+    font-size: 14px;
+    border: 3px solid rgb(171, 203, 214);
+}
+
+.btn_productList{
+    width: 20%;
+    height: 300px;
+    border: 1px solid white;
+    background-color: rgb(171, 203, 214);
+    font-size: 36px;
+    color: rgb(171, 203, 214);
+}
+
+.btn_productList div {
+    width: 90%;
+    height: 90%;
+    margin: 5% 5% 5% 5%;
+    background-color: rgb(41, 39, 39);
+}
+
+.machine_logo_pl {
+    width: 130px;
+}
+
+.slika_pl {
+    margin-bottom: -30%;
+    width: 90%;
+}
+
+.btn_productList:hover{
+    border: 1px solid rgb(171, 203, 214);
+    background-color: rgb(41, 39, 39);
+    color: rgb(41, 39, 39);
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.btn_productList:hover div{
+    background-color: rgb(171, 203, 214);
+}
+
+.btn_productList:hover .slika_pl{
+    transform: scale(1.2);
+}

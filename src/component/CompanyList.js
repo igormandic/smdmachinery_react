@@ -5,7 +5,7 @@ class CompanyList extends Component {
 
     render() {
         return (
-                <div className="companyList">
+            <div className="companyList">
                     <div className="row1">
                         <button className="btn_companyList">
                             <img src="/slika.jpeg" alt="Attachment" className="slika_cl"/>
@@ -22,7 +22,7 @@ class CompanyList extends Component {
                             <img src="/slika.jpeg" alt="Attachment" className="slika_cl"/>
                         </button>
                     </div>
-          </div>
+            </div>
     );
     }
 }
