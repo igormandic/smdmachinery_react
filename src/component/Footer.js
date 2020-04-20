@@ -54,11 +54,11 @@ function Footer() {
           <h4>SMDMACHINERY AT SOCIAL MEDIA</h4>
           <ul>
             <li><a href="/#" title="Facebook" target="_blank" className="socialLogo">
-              <img src="/facebook.png"/></a></li>
+              <img src="/facebook.png" alt="facebook"/></a></li>
             <li><a href="/#" title="Instagram" target="_blank"  className="socialLogo">
-              <img src="/instagram.png"/></a></li>
+              <img src="/instagram.png" alt="instagram"/></a></li>
             <li><a href="/#" title="Youtube" target="_blank"  className="socialLogo">
-              <img src="/youtube.png"/></a></li>
+              <img src="/youtube.png" alt="Youtube"/></a></li>
             </ul>
         </div>
       </div>

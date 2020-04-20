@@ -5,7 +5,7 @@ class CompanyList extends Component {
 
     render() {
         return (
-                <div className="companyList">
+                <div id="companyList" className="companyList">
                     <div className="row1">
                         <button className="btn_companyList">
                             <img src="/WILLE/265/masina1.jpg" alt="Attachment" className="slika_cl"/>

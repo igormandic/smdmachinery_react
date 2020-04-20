@@ -5,6 +5,7 @@ import Header1 from './Header1';
 import Slideshow from './Slideshow';
 import ProductList from './ProductList';
 import '../css/Company.css';
+import ReturnToTop from './ReturnToTop';
 
 class Company extends Component {
     componentWillMount() {
@@ -22,12 +23,10 @@ class Company extends Component {
                 <Header1 name={name} type="company"/>
                 <Slideshow images={pathsToImages}/>
                 <ProductList />
-                {/* <ProductList products={["produkt1","produkt2","produkt3","produkt4"]} 
-                             logo={"img/Wille/wille-logo.png"}
-                             image={["/img/Wille/masina1.jpg","/img/Wille/masina2.jpg","/img/Wille/masina3.jpg","/img/Wille/masina4.jpg"]}
-                             /> */}
+                <video style={{width: "81.8%", marginLeft: "9.1%"}} src="/WILLE/video.mp4" type="video/mp4" controls autoPlay muted loop/>
                 <RightSidebar pdf={"/catalogs/masina1.pdf"}/>
                 <Footer />
+                <ReturnToTop />
             </div>
         );
     }

@@ -27,8 +27,11 @@
     background-color: #3498db;
     color: white;
     border: 0;
+    padding-top: 1%;
 }
-
+.nameOfProduct {
+    color: black;
+}
 .slika_pl {
     width: 100%;
 }

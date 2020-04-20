@@ -21,6 +21,12 @@
     min-height: 60px;
     position: relative;
 }
+a {
+    color: black;
+}
+a:hover {
+    color: black;
+}
 table {
     border-collapse: collapse;
     border-spacing: 0;

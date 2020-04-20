@@ -24,6 +24,7 @@
     background-color: #3498db;
     color: white;
     border: 0;
+    padding-top: 1%;
 }
 
 .slika_al {
@@ -33,6 +34,14 @@
 .btn_attachment:hover {
     transform: scale(1.06);
     transition: 0.5s;
+}
+
+.nameOfAttachment {
+    color: black;
+}
+
+a {
+    text-decoration: none;
 }
 
 .btn_attachment:hover .saznaj_vise_al {

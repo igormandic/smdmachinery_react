@@ -42,7 +42,7 @@ render(){
 
         <ul>
           <li><a href="/">Pocetna</a></li>
-          <li className="firme"><a href="/company">Firme</a>
+          <li className="firme"><a href="#companyList">Firme</a>
             <ul>
               <li><Link to="/company/WILLE"> 
                 <img className="machine_logo" src="/WILLE/logo.png" alt="machine_logo"/> WILLE</Link></li>

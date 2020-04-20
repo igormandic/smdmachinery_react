@@ -7,7 +7,7 @@ class ReturnToTop extends Component {
   render(){
     return (
         <ScrollToTop showUnder={160}  >
-        <span className=""><img src="backToTop.png" className="returnLogo"/></span>
+        <img src="/backToTop.png" alt="back" className="returnLogo"/>
         </ScrollToTop>
     );
     }
