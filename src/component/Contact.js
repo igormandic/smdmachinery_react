@@ -37,7 +37,7 @@ const Contact = () => {
                   <textarea className="form-control" name="message" rows="12" data-rule="required" data-msg="Molimo vas napisite nesto" placeholder="Tekst"></textarea>
                   <div className="validation"></div>
                   <p className="text-center">
-                    <button className="btn btn-large btn-theme margintop10" type="submit">Pošaljite poruku</button>
+                  <button className="dugmeMail">Posaljite poruku</button >
                   </p>
                 </div>
               </div>
