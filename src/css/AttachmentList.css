@@ -1,0 +1,50 @@
+.attachment_middle {
+    width: 81.8%;
+    margin: 0 0 0 9.1%;
+    padding-top: 7%;
+    background-color: white;
+    color: black;
+}
+
+.btn_attachment {
+    width: 31.3333%;
+    margin: 0 1% 2% 1%;
+    border: 0;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.saznaj_vise_al {
+    opacity: 0;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #3498db;
+    color: white;
+    border: 0;
+}
+
+.slika_al {
+    width: 100%;
+}
+
+.btn_attachment:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+
+.btn_attachment:hover .saznaj_vise_al {
+    opacity: 1;
+}
+
+.btn_attachment:hover .saznaj_vise_al:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+
+.machine_logo_al {
+    width: 50px;
+    float: left;
+}

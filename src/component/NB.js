@@ -12,14 +12,21 @@ class NB extends Component {
     let products = [];
     let images = [];
     let linkForAllProducts = "";
+    let linkForAllAttachment = "";
     if (this.props.name === "WILLE") {
       products = ["265", "375", "465", "665", "865"];
       images = ["/WILLE/265/masina1.png","/WILLE/375/375_pose_thumb.png",
                 "/WILLE/465/465_pose_thumb.png","/WILLE/665/665iv_pose_thumb_v2.png",
                 "/WILLE/865/865iv_pose_thumb.png"];
       linkForAllProducts = `/company/${this.props.name}/product`;
+    } else if (this.props.name === "Broddson") {
+      products = ["Nordic", "Scandia", "465", "665", "865"];
+      images = ["/Broddson/Nordic/masina1.jpg","/Broddson/Scandia/masina1.jpg",
+                "/WILLE/465/465_pose_thumb.png","/WILLE/665/665iv_pose_thumb_v2.png",
+                "/WILLE/865/865iv_pose_thumb.png"];
     }
 
+    linkForAllAttachment = `/company/${this.props.name}/attachments`
     let pathToProducts = []
     for (let i = 0; i<products.length; i++) {
       let pathToProduct = `/company/${this.props.name}/product/${products[i]}`;
@@ -65,7 +72,7 @@ class NB extends Component {
                 {pathToProducts}
               </ul>
             </li>
-              <li><a href="/#" className="nsk">Nastavci</a></li>
+              <li><a href={linkForAllAttachment} className="nsk">Priključci</a></li>
           </ul>
         </nav>
         </div>

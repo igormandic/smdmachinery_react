@@ -45,16 +45,16 @@ render(){
           <li className="firme"><a href="/company">Firme</a>
             <ul>
               <li><Link to="/company/WILLE"> 
-                <img className="machine_logo" src="img/Wille/wille-logo.png" alt="machine_logo"/> WILLE</Link></li>
-              <li><Link to="/company/WILLE"> 
-                <img className="machine_logo" src="img/Wille/wille-logo.png" alt="machine_logo"/> Firma2</Link></li>
+                <img className="machine_logo" src="/WILLE/logo.png" alt="machine_logo"/> WILLE</Link></li>
+              <li><Link to="/company/Broddson"> 
+                <img className="machine_logo" src="/Broddson/logo.png" alt="machine_logo"/> Broddson</Link></li>
               <li><Link to="/company/WILLE">
                 <img className="machine_logo" src="img/Wille/wille-logo.png" alt="machine_logo"/> Firma3</Link></li>
               <li><Link to="/company/WILLE">
                 <img className="machine_logo" src="img/Wille/wille-logo.png" alt="machine_logo"/> Firma4</Link></li>
             </ul>
           </li>
-            <li><a href="/#" className="nsk">Nastavci</a></li>
+            <li><a href="/#" className="nsk">O nama</a></li>
             <li><a href="/#" className="nsk">Servis</a></li>
             <li><a href="/contact" className="nsk">Kontakt</a></li>
         </ul>

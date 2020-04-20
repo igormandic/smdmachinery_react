@@ -7,7 +7,7 @@ class Attachment extends Component {
     render(){
       return (
           <div className="Attachment">
-            <Header1 />
+             <Header1 type="company" name="WILLE" />
             <SelectMenuAttachment />
             <Footer />
         </div>
