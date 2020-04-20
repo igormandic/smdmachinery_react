@@ -1,0 +1,53 @@
+.company_middle {
+    width: 81.8%;
+    margin: 0 0 0 9.1%;
+    background-color: white;
+    color: black;
+}
+
+.company_text {
+    margin: 3% 0 4% 0;
+}
+
+.btn_productList {
+    width: 31.3333%;
+    margin: 0 1% 2% 1%;
+    border: 0;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.saznaj_vise_pl {
+    opacity: 0;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #3498db;
+    color: white;
+    border: 0;
+}
+
+.slika_pl {
+    width: 100%;
+}
+
+.btn_productList:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+
+.btn_productList:hover .saznaj_vise_pl {
+    opacity: 1;
+}
+
+.btn_productList:hover .saznaj_vise_pl:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+
+.machine_logo_pl {
+    width: 20%;
+    float: left;
+}
