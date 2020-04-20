@@ -53,16 +53,12 @@ function Footer() {
         <div className="social">
           <h4>SMDMACHINERY AT SOCIAL MEDIA</h4>
           <ul>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-facebook.svg" alt=""/></a></li>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-twitter.svg" alt=""/></a></li>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-linkedin.svg" alt=""/></a></li>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-youtube.svg" alt=""/></a></li>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-instagram.svg" alt=""/></a></li>
+            <li><a href="/#" title="Facebook" target="_blank" className="socialLogo">
+              <img src="/facebook.png"/></a></li>
+            <li><a href="/#" title="Instagram" target="_blank"  className="socialLogo">
+              <img src="/instagram.png"/></a></li>
+            <li><a href="/#" title="Youtube" target="_blank"  className="socialLogo">
+              <img src="/youtube.png"/></a></li>
             </ul>
         </div>
       </div>
@@ -70,10 +66,7 @@ function Footer() {
       <div className="copyright">
         <div className="copyright-links">   
           <a href="/useAgreement" title="">Use Agreement</a>
-          <a href="/#" title="">Conditions For Use</a>
-          <a href="/#" title="">Sitemap</a>
-          <a href="/#" title="">Cookie Policy</a>
-          <a href="/#" title="">Protection of Personal Data</a>
+          <a href="/cookiePolicy" title="">Cookie Policy</a>
         </div>
         <div className="logo">
           <a href="/#" title="">

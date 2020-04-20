@@ -1,26 +1,14 @@
 .contactSection{
     position: relative;
     margin-top: 100px;
-    background-color: white;
 }
 .map {
     padding-top: 5%;
 }
-.btn{
-    color:black;
-    background-color: rgba(102, 130, 146, 0.425);
-    z-index: 10;
-}
+
 .card{
     width: 90%;
     text-align: center;
-}
-
-.btn:hover{
-    color:black;
-    background-color:rgb(70, 171, 230); 
-    transition: color 0.1s linear 0s;
-    z-index:100;
 }
 
 .rowContact, .row-fluid {
@@ -55,13 +43,13 @@ form {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-input[type="text"]{
+.email input[type="text"]{
     background-color: #ffffff;
     border: 1px solid #cccccc;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     transition: border linear 0.2s, box-shadow linear 0.2s;
     display: inline-block;
-    height: 20px;
+    height: 37px;
     padding: 4px 6px;
     padding-right: 6px;
     padding-left: 6px;
@@ -113,7 +101,7 @@ h4 {
     padding-right: 20px;
     box-sizing: border-box;
 }
-input[type="text"]{
+.email input[type="text"]{
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     background-color: #ffffff;
     border: 1px solid #cccccc;
@@ -135,4 +123,94 @@ input[type="text"]{
     margin-bottom: 0px;
     margin-top: 0px;
 }
+}
+
+
+@media screen and (max-width: 900px) {
+.dugmeMail {
+    width: 30%;
+    margin-top: 20px;
+    padding: 1%;
+    margin: 5px;
+    border: 1px solid #3498db;
+    background: none;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "montserrant";
+    color: black;
+    transition: 0.8s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.dugmeMail:hover {
+    color: #3498db;
+}
+
+.dugmeMail::before {
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background: #3498db;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    transition: 0.8s;
+    z-index: -1;
+    position: absolute;
+} 
+
+.dugmeMail:hover::before {
+    height: 0%;
+    
+}
+}
+
+.dugmeMail {
+    width: 30%;
+    margin: 50px 0 3% 1%;
+    height: 55px;
+    border: 1px solid #3498db;
+    background: none;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: "montserrant";
+    color: 3498db;
+    transition: 0.8s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.dugmeMail:hover {
+    color: black;
+}
+
+.dugmeMail::before {
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 180%;
+    background: #3498db;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    transition: 0.8s;
+    z-index: -1;
+    position: absolute;
+} 
+
+.dugmeMail:hover::before {
+    height: 0%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+    .rightSidebar {
+        position: relative;
+        width: 30%;
+        margin: auto;
+        right: auto;
+        margin-bottom: 20px;
+    }
 }

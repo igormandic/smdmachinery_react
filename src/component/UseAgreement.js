@@ -1,23 +1,26 @@
 import React, { Component } from 'react';
 import '../css/UseAgreement.css'
 import Header1 from './Header1';
+import Footer from './Footer';
 
 class UseAgreement extends Component {
     render(){
       return (
-        <div className="content123">
+        
+        <div className="">
         < Header1 type="home" />
+        <div className="content123">
         <h1>Use Agreement</h1>
         <p></p><div ><strong>www.smdmachinery.rs Web Site Use Agreement</strong></div>
         <div ><br/>
         </div>
-        <div >Please read this agreement carefully prior to accessing the website or using the website. By accessing the website or using the website, you are assumed to have accepted to be bound by the following terms and conditions. The exclusive right holder of the www.hidromek.com.tr website, Hidromek-Hidrolik ve Mekanik Makina İmalat Sanayi ve Ticaret A.Ş. may make changes in this agreement at any time and any such changes come into force when the revised agreement is posted on the website. You are accepting to review the agreement periodically in order to be informed of such changes and your continued access to the website and continued use of the website shall mean that you have definitely accepted the amended agreement.&nbsp;</div>
+        <div >Please read this agreement carefully prior to accessing the website or using the website. By accessing the website or using the website, you are assumed to have accepted to be bound by the following terms and conditions. The exclusive right holder of the www.smdmachinery.rs website, smdmachinery. may make changes in this agreement at any time and any such changes come into force when the revised agreement is posted on the website. You are accepting to review the agreement periodically in order to be informed of such changes and your continued access to the website and continued use of the website shall mean that you have definitely accepted the amended agreement.&nbsp;</div>
         <div ><br/>
         </div>
-        <div >Unauthorized copying, reproduction, distribution or use by any other means, of photographs, videos and other visual and printed materials included in the www.hidromek.com.tr website, for any purposes, by any methods, constitutes an offence under the provisions of the Law on Intellectual and Artistic Works and the Turkish Criminal Code, and you are hereby specifically notified that criminal proceedings shall be taken for those who commit such offences and that remedial actions shall be claimed, all measures required for the protection of intellectual and industrial labor shall be taken and all legal actions shall be pursued.&nbsp;</div>
+        <div >Unauthorized copying, reproduction, distribution or use by any other means, of photographs, videos and other visual and printed materials included in the www.smdmachinery.rs website, for any purposes, by any methods, constitutes an offence under the provisions of the Law on Intellectual and Artistic Works and the Turkish Criminal Code, and you are hereby specifically notified that criminal proceedings shall be taken for those who commit such offences and that remedial actions shall be claimed, all measures required for the protection of intellectual and industrial labor shall be taken and all legal actions shall be pursued.&nbsp;</div>
         <div ><br/>
         </div>
-        <div >The photographs, video images, animations, news scripts and other printed and visual materials published on the www.hidromek.com.tr, may not be used outside the www.hidromek.com.tr without the consent of Hidromek-Hidrolik ve Mekanik Makina İmalat Sanayi ve Ticaret A.Ş., and may not be published, copied, distributed or additions, cancellations or any other revisions may not be made to the contents, by any means, in part or in full by any technological means, at another website or other media. Links and similar technologies may not be used without consent, the website may not be published offline in another media, either in part or in full, by offline br/owsers or similar methods. In case you are interested to use the contents of the www.hidromek.com.tr website (texts, photographs, videos, animations, etc.) for non-commercial purposes, in your own virtual or visual media, you are obliged to apply with the “customer relations form” in the contact section, and obtain the approval of the related unit.</div>
+        <div >The photographs, video images, animations, news scripts and other printed and visual materials published on the www.smdmachinery.rs, may not be used outside the www.smdmachinery.rs without the consent of smdmachinery., and may not be published, copied, distributed or additions, cancellations or any other revisions may not be made to the contents, by any means, in part or in full by any technological means, at another website or other media. Links and similar technologies may not be used without consent, the website may not be published offline in another media, either in part or in full, by offline br/owsers or similar methods. In case you are interested to use the contents of the www.smdmachinery.rs website (texts, photographs, videos, animations, etc.) for non-commercial purposes, in your own virtual or visual media, you are obliged to apply with the “customer relations form” in the contact section, and obtain the approval of the related unit.</div>
         <div ><br/>
         </div>
         <div ><strong>PURPOSE OF THE AGREEMENT</strong></div>
@@ -65,7 +68,7 @@ class UseAgreement extends Component {
         <div ><strong>G. </strong>The WEBSITE is not an addressee of any law or criminal case arising from the use of the WEBSITE. The WEBSITE is not liable, either directly or indirectly, for any damages, losses, costs and any other claims that may arise from the actions of the USER's or third parties.&nbsp;</div>
         <div ><br/>
         </div>
-        <div ><strong>H. </strong>The USER hereby accepts, declares and undertakes to pay 100,000 $ (One hundred thousand dollars) to the owner of the WEBSITE, Hidromek-Hidrolik ve Mekanik Makina İmalat Sanayi ve Ticaret A.Ş., as penal clause for each violation, in case he does not comply with his obligations under this agreement, and that this penal clause is not exaggerated and that he will not demand its reduction from the courts.&nbsp;</div>
+        <div ><strong>H. </strong>The USER hereby accepts, declares and undertakes to pay 100,000 $ (One hundred thousand dollars) to the owner of the WEBSITE, smdmachinery., as penal clause for each violation, in case he does not comply with his obligations under this agreement, and that this penal clause is not exaggerated and that he will not demand its reduction from the courts.&nbsp;</div>
         <div ><br/>
         </div>
         <div ><strong>LIMITS OF THE WEBSITE’S LIABILITY</strong></div>
@@ -114,7 +117,9 @@ class UseAgreement extends Component {
         <div ><br/>
         </div>
         <div >This agreement made up of 6 articles has been entered into between the USER and the WEBSITE and shall survive throughout the period the USER uses the website.</div><p></p>
-        <div className="clear"></div>
+        
+    </div>
+    <Footer/>
     </div>
       );
     }
