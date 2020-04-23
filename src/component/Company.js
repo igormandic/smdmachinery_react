@@ -6,6 +6,8 @@ import Slideshow from './Slideshow';
 import ProductList from './ProductList';
 import '../css/Company.css';
 import ReturnToTop from './ReturnToTop';
+// import ReactPlayer from "react-player";
+
 
 class Company extends Component {
     componentWillMount() {
@@ -24,6 +26,15 @@ class Company extends Component {
                 <Slideshow images={pathsToImages}/>
                 <ProductList />
                 <video style={{width: "81.8%", marginLeft: "9.1%"}} src="/WILLE/video.mp4" type="video/mp4" controls autoPlay muted loop/>
+                {/* <ReactPlayer style={{marginLeft: "9.1%"}}
+                    url={"https://www.youtube.com/embed/GNKYHNI2mZY?showinfo=0&enablejsapi=1&origin=http://localhost:3000/company/Broddson"}
+                    playing={true}
+                    muted={true}
+                    loop={true}
+                    width={window.innerWidth}
+                    height={700}
+                /> */}
+
                 <RightSidebar pdf={"/catalogs/masina1.pdf"}/>
                 <Footer />
                 <ReturnToTop />

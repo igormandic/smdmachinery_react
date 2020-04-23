@@ -21,10 +21,11 @@ class Product extends Component {
     const name = this.state.name;
     const nameOfCompany = window.localStorage.getItem("nameOfCompany");
     const pathToHeadImage = `/${nameOfCompany}/${name}/head_image.jpg`;
+    const alt = `${nameOfCompany} ${name}`;
     return (
         <div className="product">
           <Header1 name={nameOfCompany} type="company"/>
-          <img className="headImg" src={pathToHeadImage} alt="WILLE 265"></img>
+          <img className="headImg" src={pathToHeadImage} alt={alt}></img>
           <SelectMenu name={name} nameOfCompany={nameOfCompany} className="selectMenu"/>
           <Footer/>
       </div>

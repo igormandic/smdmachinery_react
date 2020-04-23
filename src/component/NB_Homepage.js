@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/NB_Homepage.css';
 import { Link } from 'react-router-dom';
+import { __ } from '../utils/i18n';
 
 class NB_Homepage extends Component {
 render(){
@@ -41,7 +42,7 @@ render(){
         </label> */}
 
         <ul>
-          <li><a href="/">Pocetna</a></li>
+          <li><a href="/">{__('Home page')}</a></li>
           <li className="firme"><a href="#companyList">Firme</a>
             <ul>
               <li><Link to="/company/WILLE"> 

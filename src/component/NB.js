@@ -3,12 +3,13 @@ import {Nav, NavDropdown,} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/NB.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { __ } from '../utils/i18n';
+
 
 class NB extends Component {
 
   render(){
-    // let pathToProducts = `/company/${this.props.name}/265`;
     let products = [];
     let images = [];
     let linkForAllProducts = "";
@@ -20,10 +21,8 @@ class NB extends Component {
                 "/WILLE/865/865iv_pose_thumb.png"];
       linkForAllProducts = `/company/${this.props.name}/product`;
     } else if (this.props.name === "Broddson") {
-      products = ["Nordic", "Scandia", "465", "665", "865"];
-      images = ["/Broddson/Nordic/masina1.jpg","/Broddson/Scandia/masina1.jpg",
-                "/WILLE/465/465_pose_thumb.png","/WILLE/665/665iv_pose_thumb_v2.png",
-                "/WILLE/865/865iv_pose_thumb.png"];
+      products = ["Nordic", "Scandia"];
+      images = ["/Broddson/Nordic/masina3.png","/Broddson/Scandia/masina3.png"];
     }
 
     linkForAllAttachment = `/company/${this.props.name}/attachments`
@@ -31,7 +30,7 @@ class NB extends Component {
     for (let i = 0; i<products.length; i++) {
       let pathToProduct = `/company/${this.props.name}/product/${products[i]}`;
       pathToProducts.push(<li key={i}> <Link key={i} to={pathToProduct}> 
-          <img className="machine_images" src={images[i]} alt="machine_logo"/> {products[i]} </Link></li>)
+          <img className="machine_images" src={images[i]} alt="machine_logo"/> <br />{this.props.name} {products[i]} </Link></li>)
     }
 
     let navBar = [];
@@ -66,7 +65,7 @@ class NB extends Component {
           </label> */}
 
           <ul>
-            <li><a href="/">Pocetna</a></li>
+            <li><a href="/">{__('Home page')}</a></li>
             <li className="firme"><Link to={linkForAllProducts}>Proizvodi</Link>
               <ul className="podlista">
                 {pathToProducts}
