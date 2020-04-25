@@ -24,7 +24,7 @@ class ProductsSpecs extends Component {
                                                     <th className="views-field views-field-field_machine_image" scope="row">
                                                     </th>
                                                     <th className="views-field views-field-field-machine-image">
-                                                        <a href={pathToProducts[0]}>
+                                                        <a style={{textDecoration: "none"}} href={pathToProducts[0]}>
                                                             <article className="media media--type-image media--view-mode-menu-image">
                                                                 <div className="field field--name-field-image-file field--type-image field--label-hidden field__item">    
                                                                     <img src="/WILLE/265/masina1.png" alt="Wille 265" typeof="Image"></img>
@@ -32,7 +32,7 @@ class ProductsSpecs extends Component {
                                                             </article>
                                                             <span>265</span></a></th>
                                                                 <th className="views-field views-field-field-machine-image">
-                                                                    <a href={pathToProducts[1]}>
+                                                                    <a style={{textDecoration: "none"}} href={pathToProducts[1]}>
                                                                         <article className="media media--type-image media--view-mode-menu-image">
                                                                             <div className="field field--name-field-image-file field--type-image field--label-hidden field__item">    
                                                                                 <img src="/WILLE/375/375_pose_thumb.png" alt="Wille 375 thumb" typeof="Image"></img>
@@ -40,7 +40,7 @@ class ProductsSpecs extends Component {
                                                                         </article>
                                                             <span>375</span></a></th>
                                                                 <th className="views-field views-field-field-machine-image">
-                                                                    <a href={pathToProducts[2]}>
+                                                                    <a style={{textDecoration: "none"}} href={pathToProducts[2]}>
                                                                         <article className="media media--type-image media--view-mode-menu-image">
                                                                             <div className="field field--name-field-image-file field--type-image field--label-hidden field__item">    
                                                                                 <img src="/WILLE/465/465_pose_thumb.png" alt="Wille 465" typeof="Image"></img>
@@ -48,7 +48,7 @@ class ProductsSpecs extends Component {
                                                                         </article>
                                                             <span>465</span></a></th>
                                                                 <th className="views-field views-field-field-machine-image">
-                                                                    <a href={pathToProducts[3]}>
+                                                                    <a style={{textDecoration: "none"}} href={pathToProducts[3]}>
                                                                         <article className="media media--type-image media--view-mode-menu-image">
                                                                             <div className="field field--name-field-image-file field--type-image field--label-hidden field__item">    
                                                                                 <img src="/WILLE/665/665iv_pose_thumb_v2.png" alt="Wille 665 stage 4 thumbnail" typeof="Image" />
@@ -56,7 +56,7 @@ class ProductsSpecs extends Component {
                                                                         </article>
                                                             <span>665</span></a></th>
                                                                 <th className="views-field views-field-field-machine-image">
-                                                                    <a href={pathToProducts[4]}>
+                                                                    <a style={{textDecoration: "none"}} href={pathToProducts[4]}>
                                                                         <article className="media media--type-image media--view-mode-menu-image">
                                                                             <div className="field field--name-field-image-file field--type-image field--label-hidden field__item">    
                                                                                 <img src="/WILLE/865/865iv_pose_thumb.png" alt="Wille 865 stage 4" typeof="Image"></img>

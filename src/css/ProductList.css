@@ -27,8 +27,11 @@
     background-color: #3498db;
     color: white;
     border: 0;
+    padding-top: 1%;
 }
-
+.nameOfProduct {
+    color: black;
+}
 .slika_pl {
     width: 100%;
 }
@@ -48,6 +51,6 @@
 }
 
 .machine_logo_pl {
-    width: 50px;
+    width: 20%;
     float: left;
 }

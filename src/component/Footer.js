@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -53,33 +54,26 @@ function Footer() {
         <div className="social">
           <h4>SMDMACHINERY AT SOCIAL MEDIA</h4>
           <ul>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-facebook.svg" alt=""/></a></li>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-twitter.svg" alt=""/></a></li>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-linkedin.svg" alt=""/></a></li>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-youtube.svg" alt=""/></a></li>
-            <li><a href="/#" title="" target="_blank">
-              <img src="./images/icon-instagram.svg" alt=""/></a></li>
+            <li><a href="/#" title="Facebook" target="_blank" className="socialLogo">
+              <img src="/facebook.png" alt="facebook"/></a></li>
+            <li><a href="/#" title="Instagram" target="_blank"  className="socialLogo">
+              <img src="/instagram.png" alt="instagram"/></a></li>
+            <li><a href="/#" title="Youtube" target="_blank"  className="socialLogo">
+              <img src="/youtube.png" alt="Youtube"/></a></li>
             </ul>
         </div>
       </div>
       <div className="clear"></div>
       <div className="copyright">
         <div className="copyright-links">   
-          <a href="/useAgreement" title="">Use Agreement</a>
-          <a href="/#" title="">Conditions For Use</a>
-          <a href="/#" title="">Sitemap</a>
-          <a href="/#" title="">Cookie Policy</a>
-          <a href="/#" title="">Protection of Personal Data</a>
+          <Link to="/useAgreement"> Use Agreement</Link>
+          <Link to="/cookiePolicy"> Cookie Policy</Link>
         </div>
         <div className="logo">
           <a href="/#" title="">
-            <img src="/logo.png" alt=""/></a>
+            <img src="/beliLogo.png" alt=""/></a>
         </div>
-        <p>Copyright © 2020, All Rights Reserved</p>
+        <p id="cr">Copyright © 2020, All Rights Reserved</p>
         <br/>
       </div>
     </div>

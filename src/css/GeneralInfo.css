@@ -2,15 +2,19 @@
 .generalInfo {
     padding-top: 1%;
     padding-bottom: 1%;
-    display: block;
+    display: flex;
 }
 
 .text{
-    width: 60%;
+    width: 63%;
     float: left;
     font-size: 16px;
     color: darkslategray;
     text-align: justify;
+}
+
+.listInfo{
+    margin-left: 7%;
 }
 
 .title{
@@ -18,11 +22,28 @@
     margin-bottom: 4%;
     color: black;
 }
-.photoGeneral{
-    margin-top: 50px;
+.right{
+    margin-top: 10%;
     margin-left: 10%;
-    width: 300px;
+    width: 30%;
+    display: block;
+}
+
+.photoGeneral1{
+    width: 70%;
     height: auto;
+    padding-top: 10%;
+}
+
+.photoGeneral2{
+    width: 70%;
+    height: auto;
+    padding-top: 100%;
+}
+.photoGeneral3{
+    width: 90%;
+    height: auto;
+    padding-top: 100%;
 }
 
 @media only screen and (max-width: 1270px) { 

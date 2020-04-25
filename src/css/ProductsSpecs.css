@@ -21,13 +21,25 @@
     min-height: 60px;
     position: relative;
 }
+.ProductsSpecs a {
+    color: black;
+}
+.ProductsSpecs a:hover {
+    color: black;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
 table {
     border-collapse: collapse;
     border-spacing: 0;
     
 }
 .block-views-blockmachines-section table {
-    width: 100%;
+    width: 99.9%;
 }
 .block-views-blockmachines-section thead th {
     padding: 10px;

@@ -1,5 +1,11 @@
+/* html {
+  scroll-behavior: smooth;
+} */
 .NB_css {
     color: white;
+    position: relative;
+    z-index: 1000;  
+    scroll-behavior: none;
 }
 
 .NB_css ul {

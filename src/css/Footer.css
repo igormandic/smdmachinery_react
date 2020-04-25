@@ -7,7 +7,9 @@
   color:white;
 }
 .logo img{
-  margin-left:-20px;
+  margin-left:-40px;
+  width: 140%;
+  height: auto;
 }
 .center {
   max-width: 1220px;
@@ -51,12 +53,17 @@
   color:white;
   font-size: 11px;
 }
+.socialLogo{
+  margin-left: 30px;
+}
 .footer .contact-social {
   float: none;
   text-align: center;
+  
 }
 .footer .contact-social .social {
   margin: 20px 0 0 0;
+  margin-left: 0px;
 }
 .footer .contact-social h4 {
   font-size: 12px;
@@ -64,6 +71,7 @@
 }
 .footer .contact-social .social ul {
   list-style: none;
+  margin-right: 20px;
 }
 .footer .contact-social .social ul li {
   display: inline-block;
@@ -72,6 +80,9 @@
 .footer .contact-social .social ul li a {
   display: block;
   width: 20px;
+}
+#cr{
+  margin-left: -20px;
 }
 .clear {
   clear: both;
@@ -107,6 +118,10 @@ body, div, span, applet, h1, h2, h3, h4, h5, h6, p, a, img, strong, sub, sup, ce
     float: left;
     margin: 0 10px 0 0;
     text-align: center;
+  }
+  .footer .contact-social .social ul {
+    list-style: none;
+    margin-left: 450px;
   }
 }
   @media only screen and (max-width:1220px) {
@@ -145,6 +160,7 @@ body, div, span, applet, h1, h2, h3, h4, h5, h6, p, a, img, strong, sub, sup, ce
     display: block;
     width: 32px;
   }
+
 }
   @media only screen and (max-width:480px) {
   .center {
@@ -158,5 +174,9 @@ body, div, span, applet, h1, h2, h3, h4, h5, h6, p, a, img, strong, sub, sup, ce
     margin: 0 auto;
     text-align: center;
     float: none;
+  }
+  .footer .contact-social .social ul {
+    list-style: none;
+    margin-left: -30px;
   }
 }
