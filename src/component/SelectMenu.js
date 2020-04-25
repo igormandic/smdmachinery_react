@@ -14,7 +14,8 @@ class SelectMenu extends Component {
     let text = [];
     let technicalInfo = [];
     let pdf = `/${this.props.nameOfCompany}/${this.props.name}/brosura.pdf`;
-    let images = []
+    let images = [];
+    let attachments = [];
       if (this.props.name === "265") {
         title = ["title 1 265", "title 2 265", "title 3 265", "title 4 265"];
         text = ["text 1 265", "text 2 265", "text 3 265", "text 4 265"];
@@ -34,7 +35,7 @@ class SelectMenu extends Component {
           drivingSpeed: "0-36 kmph"
         };
         images = ["/WILLE/265/masina2.jpg"];
-
+        attachments = [10, 11, 12, 14, 15, 16, 17, 18, 23];
       } else if (this.props.name === "375") {
         title = ["title 1 375", "title 2 375", "title 3 375", "title 4 375", "title 5 375", "title 6 375", "title 7 375", "title 8 375", "title 9 375"];
         text = ["text 1 375", "text 2 375", "text 3 375", "text 4 375", "text 5 375", "text 6 375", "text 7 375", "text 8 375", "text 9 375"];
@@ -53,7 +54,8 @@ class SelectMenu extends Component {
           weight: "2920 kg",
           drivingSpeed: "0-38 kmph"
         };
-        images = ["/WILLE/375/AED_fuelsave_symbol_0.png", "/WILLE/375/AED_settings_photo.jpg", "/WILLE/375/375_loader_up.jpg"]
+        images = ["/WILLE/375/AED_fuelsave_symbol_0.png", "/WILLE/375/AED_settings_photo.jpg", "/WILLE/375/375_loader_up.jpg"];
+        attachments = [1, 4, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 21, 23];
 
       } else if (this.props.name === "465") {
         title = ["title 1 465", "title 2 465", "title 3 465", "title 4 465", "title 5 465", "title 6 465", "title 7 465", "title 8 465", "title 9 465", "title 10 465", "title 11 465", "title 12 465"];
@@ -73,7 +75,9 @@ class SelectMenu extends Component {
           weight: "3420 kg",
           drivingSpeed: "0-40 kmph"
         };
-        images = ["/WILLE/465/information.jpg", "/WILLE/465/kohler_0.jpg", "/WILLE/465/machine-gallery.jpg"]
+        images = ["/WILLE/465/information.jpg", "/WILLE/465/kohler_0.jpg", "/WILLE/465/machine-gallery.jpg"];
+        attachments = [1, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 21, 23];
+
 
       } else if (this.props.name === "665") {
         title = ["title 1 665", "title 2 665", "title 3 665", "title 4 665", "title 5 665", "title 6 665", "title 7 665", "title 8 665", "title 9 665", "title 10 665", "title 11 665", "title 12 665", "title 13 665", "title 14 665", "title 15 665"];
@@ -94,6 +98,7 @@ class SelectMenu extends Component {
           drivingSpeed: "0-50 kmph"
         };
         images = ["/WILLE/665/information.jpg", "/WILLE/665/kohler_scr_3404.jpg", "/WILLE/665/W665iv_studio_front.jpg"]
+        attachments = [1, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 21];
 
       } else if (this.props.name === "865") {
         title = ["title 1 865", "title 2 865", "title 3 865", "title 4 865", "title 5 865", "title 6 865", "title 7 865", "title 8 865", "title 9 865", "title 10 865", "title 11 865", "title 12 865", "title 13 865", "title 14 865", "title 15 865"];
@@ -114,6 +119,7 @@ class SelectMenu extends Component {
           drivingSpeed: "0-50 kmph"
         };
         images = ["/WILLE/865/information.jpg", "/WILLE/865/kohler_scr_3404.jpg", "/WILLE/865/masina.jpg"]
+        attachments = [1, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 17, 21];
 
       }
 
@@ -127,7 +133,7 @@ class SelectMenu extends Component {
             <TechnicalInfo pdf={pdf} technicalInfo={technicalInfo} name={this.props.name} nameOfCompany={this.props.nameOfCompany} />
           </Tab>
           <Tab eventKey="attachment" title="Attachment">
-            <AttachmentTab />
+            <AttachmentTab attachments={attachments}/>
           </Tab>
           <Tab eventKey="gallery" title="Gallery">
             <Gallery name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>

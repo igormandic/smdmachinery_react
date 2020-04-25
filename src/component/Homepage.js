@@ -3,7 +3,7 @@ import './../App.css';
 import Header1 from './Header1';
 import Slideshow from './Slideshow';
 import Footer from './Footer';
-import CompanyList from './CompanyList';
+// import CompanyList from './CompanyList';
 import RightSidebar from './RightSidebar';
 import ReturnToTop from './ReturnToTop';
 
@@ -15,7 +15,7 @@ class Homepage extends React.Component {
       <div className="App">
           <Header1 type="home"/>
           <Slideshow images={pathsToImages}/>
-          <CompanyList />
+          {/* <CompanyList /> */}
           <RightSidebar />
           <Footer/>
           <ReturnToTop/>
