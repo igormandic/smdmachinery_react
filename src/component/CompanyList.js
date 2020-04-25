@@ -5,44 +5,54 @@ class CompanyList extends Component {
 
     render() {
         return (
-                <div id="companyList" className="companyList">
-                    <div className="row1">
-                        <button className="btn_companyList">
-                            <img src="/WILLE/265/masina1.jpg" alt="Attachment" className="slika_cl"/>
-                            <div className="middle">
-                                <div className="learnMore"><a href="/#" className="productHref">Learn More</a></div>
+            <div className="homepage_middle">
+                <div className="homepage_text"> <p> Neki tekst koji je namenjen da stoji za vile masine.
+                    I koji opisuje ukratko o cemu se tu radi.
+                    Navedeno za par masina...Neki tekst koji je namenjen da stoji za vile masine.
+                    I koji opisuje ukratko o cemu se tu radi.
+                    Navedeno za par masina...Neki tekst koji je namenjen da stoji za vile masine.
+                    I koji opisuje ukratko o cemu se tu radi.
+                    Navedeno za par masina...Neki tekst koji je namenjen da stoji za vile masine.
+                    I koji opisuje ukratko o cemu se tu radi.
+                    Navedeno za par masina... </p> 
+                </div>
+
+                <div className="kompanija_homepage">
+                    <div className="row_cl1">
+                            <div className="one_company">
+                                {/* <div className="levi_tekst_ispod_companyList">
+                                    <p> Multifunkcionalne zglobne masine </p> 
+                                </div> */}
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/wille/Wille.jpg" alt="company"/>
+                                </button>
                             </div>
-                        </button>
-                        <button className="btn_companyList">
-                            <img src="/WILLE/375/masina1.jpg" alt="Attachment" className="slika_cl"/>
-                            <div className="middle">
-                                <div className="learnMore"><a href="/#" className="productHref">Learn More</a></div>
+                            <div className="one_company">
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/wille/Wille.jpg" alt="company"/>
+                                </button>
                             </div>
-                        </button>
+                            <div className="one_company">
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/broddson/Broddson.jpg" alt="company"/>
+                                </button>
+                            </div>
                     </div>
-                    <div className="row1">
-                        <button className="btn_companyList">
-                            <img src="/WILLE/465/masina1.jpg" alt="Attachment" className="slika_cl"/>
-                            <div className="middle">
-                                <div className="learnMore"><a href="/#" className="productHref">Learn More</a></div>
+                    <div className="row_cl2">
+                            <div className="one_company">
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/dorotea mekaniska/Dorotea.jpg" alt="company"/>
+                                </button>
                             </div>
-                        </button>
-                        <button className="btn_companyList">
-                            <img src="/WILLE/665/masina1.jpg" alt="Attachment" className="slika_cl"/>
-                            <div className="middle">
-                                <div className="learnMore"><a href="/#" className="productHref">Learn More</a></div>
+                            <div className="one_company">
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/boschung/Boschung.jpg" alt="company"/>
+                                </button>
                             </div>
-                        </button>
                     </div>
-                    <div className="row1">
-                        <button className="btn_companyList">
-                            <img src="/WILLE/865/masina1.jpg" alt="Attachment" className="slika_cl"/>
-                            <div className="middle">
-                                <div className="learnMore"><a href="/#" className="productHref">Learn More</a></div>
-                            </div>
-                        </button>
-                    </div>
-          </div>
+
+                </div>
+            </div>
     );
     }
 }
