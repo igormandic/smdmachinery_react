@@ -7,7 +7,9 @@
   color:white;
 }
 .logo img{
-  margin-left:-20px;
+  margin-left:-40px;
+  width: 140%;
+  height: auto;
 }
 .center {
   max-width: 1220px;
@@ -78,6 +80,9 @@
 .footer .contact-social .social ul li a {
   display: block;
   width: 20px;
+}
+#cr{
+  margin-left: -20px;
 }
 .clear {
   clear: both;

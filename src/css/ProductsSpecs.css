@@ -21,11 +21,17 @@
     min-height: 60px;
     position: relative;
 }
-a {
+.ProductsSpecs a {
     color: black;
 }
-a:hover {
+.ProductsSpecs a:hover {
     color: black;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
 }
 table {
     border-collapse: collapse;

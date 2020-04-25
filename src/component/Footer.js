@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -65,14 +66,14 @@ function Footer() {
       <div className="clear"></div>
       <div className="copyright">
         <div className="copyright-links">   
-          <a href="/useAgreement" title="">Use Agreement</a>
-          <a href="/cookiePolicy" title="">Cookie Policy</a>
+          <Link to="/useAgreement"> Use Agreement</Link>
+          <Link to="/cookiePolicy"> Cookie Policy</Link>
         </div>
         <div className="logo">
           <a href="/#" title="">
-            <img src="/logo.png" alt=""/></a>
+            <img src="/beliLogo.png" alt=""/></a>
         </div>
-        <p>Copyright © 2020, All Rights Reserved</p>
+        <p id="cr">Copyright © 2020, All Rights Reserved</p>
         <br/>
       </div>
     </div>
