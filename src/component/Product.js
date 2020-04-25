@@ -10,11 +10,11 @@ class Product extends Component {
         this.setState({name:this.props.match.params.product});
     }
   }
-
   componentDidUpdate(nextProps, _nextState) {
     if (nextProps.location.pathname !== this.props.location.pathname) {
       this.setState({name:this.props.match.params.product})
     }
+    window.scrollTo(0, 0);
   }
 
   render(){

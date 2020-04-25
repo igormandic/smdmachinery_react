@@ -15,7 +15,7 @@ class Company extends Component {
             this.setState({name:this.props.match.params.name});
             window.localStorage.setItem("nameOfCompany", this.props.match.params.name);
         }
-
+        window.scrollTo(0, 0);
     }
     render() {
         const name = this.state.name;

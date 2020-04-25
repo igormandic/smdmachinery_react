@@ -69,9 +69,9 @@ render(){
               <Nav className="mr-auto">
                 <Nav.Link href="/" className = "dropDowns">Pocetna</Nav.Link>
                 {navBar}
-                <Nav.Link href="/" className = "dropDowns">O nama</Nav.Link>
-                <Nav.Link href="/" className = "dropDowns">Servis</Nav.Link>
-                <Nav.Link href="/" className = "dropDowns">Kontakt</Nav.Link>
+                <Link to="/aboutUs"> O nama</Link>
+                <Link to="/servis"> Servis</Link>
+                <Link to="/contact"> Kontakt</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
