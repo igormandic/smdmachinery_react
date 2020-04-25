@@ -12,6 +12,7 @@ class SelectMenu extends Component {
   render(){
     let title = [];
     let text = [];
+    let list =[];
     let technicalInfo = [];
     let pdf = `/${this.props.nameOfCompany}/${this.props.name}/brosura.pdf`;
     let images = [];
@@ -127,7 +128,7 @@ class SelectMenu extends Component {
       <div className="selectMenu">
         <Tabs defaultActiveKey="generalInfo" id="uncontrolled-tab-example" className="tabovi">
           <Tab eventKey="generalInfo" title={__("General info")} >
-            <GeneralInfo images={images} title={title} text={text} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
+            <GeneralInfo images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
           </Tab>
           <Tab eventKey="technical" title="Technical info">
             <TechnicalInfo pdf={pdf} technicalInfo={technicalInfo} name={this.props.name} nameOfCompany={this.props.nameOfCompany} />
