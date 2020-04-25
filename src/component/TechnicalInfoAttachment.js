@@ -3,27 +3,30 @@ import '../css/TechnicalInfoAttachment.css'
 
 class TechnicalInfoAttachment extends Component {
     render(){
+	  	const technicalInfoAttachment = this.props.technicalInfoAttachment;
+	  	let technicalInfo = [];
+	  	for (let i = 0; i<technicalInfoAttachment.length; i++) {
+				let row = technicalInfoAttachment[i];
+				let rowInfo = [];
+					for (let j = 1; j<row.length; j++) {
+						if (i === 0 && row[0] === '')
+							rowInfo.push(<td key={j}><strong>{row[j]}</strong></td>);
+						else {
+							rowInfo.push(<td key={j}>{row[j]}</td>);
+						}
+					}
+				rowInfo = [<tr key={i}><td><strong>{row[0]}</strong></td>{rowInfo}</tr>];
+				technicalInfo.push(rowInfo);
+	  	}
+	  	technicalInfo = [<tbody key={"key"}>{technicalInfo}</tbody>];
       return (
         <div className="attachmentTable">
-          <table className="responsive-table stacktable large-only"><thead><tr>
-			<th>Specification</th>
-			</tr></thead><tbody><tr><td><strong>Working height (mm)</strong></td>
-			<td>8800</td>
-			</tr><tr><td><strong>Platform floor from the ground (mm)</strong></td>
-			<td>6800</td>
-			</tr><tr><td><strong>Outreach to the side (mm)</strong></td>
-			<td>5700</td>
-			</tr><tr><td><strong>Swing angle of the boom (degrees)</strong></td>
-			<td>±70º</td>
-			</tr><tr><td><strong>Platform load (kg)</strong></td>
-			<td>120 (1 person + 40)</td>
-			</tr><tr><td><strong>Platform dimensions (mm)</strong></td>
-			<td>820 x 740</td>
-			</tr><tr><td><strong>Weight (kg)</strong></td>
-			<td>720</td>
-			</tr><tr><td><strong>Compatibility</strong></td>
-			<td>365, 465, 665, 865 (*</td>
-		</tr></tbody></table>
+          <table className="responsive-table stacktable large-only">
+						<thead><tr>
+							<th>Specification</th>
+						</tr></thead>
+							{technicalInfo}
+					</table>
         </div>
       );
     }
