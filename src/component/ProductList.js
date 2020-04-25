@@ -20,7 +20,7 @@ class ProductList extends Component {
 
                 <button className="btn_productList">
                     <div>
-                        <img className="machine_logo_pl" src="/img/Wille/wille-logo.png" alt="machine_logo"/>
+                        <img className="machine_logo_pl" src="/Firme/wille/logo.png" alt="machine_logo"/>
                         <img src="/WILLE/265/masina3.jpg" alt="product" className="slika_pl"/>
                         <p>WILLE 265</p>
                         <button className="saznaj_vise_pl" > Saznajte vise </button> 
@@ -28,7 +28,7 @@ class ProductList extends Component {
                 </button>
                 <button className="btn_productList">
                     <div>
-                        <img className="machine_logo_pl" src="/img/Wille/wille-logo.png" alt="machine_logo"/>
+                        <img className="machine_logo_pl" src="/Firme/wille/logo.png" alt="machine_logo"/>
                         <img src="/WILLE/265/masina3.jpg" alt="product" className="slika_pl"/>
                         <p>WILLE 265</p>
                         <button className="saznaj_vise_pl" > Saznajte vise </button> 
@@ -36,7 +36,7 @@ class ProductList extends Component {
                 </button>
                 <button className="btn_productList">
                     <div>
-                        <img className="machine_logo_pl" src="/img/Wille/wille-logo.png" alt="machine_logo"/>
+                        <img className="machine_logo_pl" src="/Firme/wille/logo.png" alt="machine_logo"/>
                         <img src="/WILLE/265/masina3.jpg" alt="product" className="slika_pl"/>
                         <p>WILLE 265</p>
                         <button className="saznaj_vise_pl" > Saznajte vise </button> 
@@ -44,7 +44,7 @@ class ProductList extends Component {
                 </button>
                 <button className="btn_productList">
                     <div>
-                        <img className="machine_logo_pl" src="/img/Wille/wille-logo.png" alt="machine_logo"/>
+                        <img className="machine_logo_pl" src="/Firme/wille/logo.png" alt="machine_logo"/>
                         <img src="/WILLE/265/masina3.jpg" alt="product" className="slika_pl"/>
                         <p>WILLE 265</p>
                         <button className="saznaj_vise_pl" > Saznajte vise </button> 
@@ -52,7 +52,7 @@ class ProductList extends Component {
                 </button>
                 <button className="btn_productList">
                     <div>
-                        <img className="machine_logo_pl" src="/img/Wille/wille-logo.png" alt="machine_logo"/>
+                        <img className="machine_logo_pl" src="/Firme/wille/logo.png" alt="machine_logo"/>
                         <img src="/WILLE/265/masina3.jpg" alt="product" className="slika_pl"/>
                         <p>WILLE 265</p>
                         <button className="saznaj_vise_pl" > Saznajte vise </button> 

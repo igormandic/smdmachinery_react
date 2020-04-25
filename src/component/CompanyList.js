@@ -18,71 +18,40 @@ class CompanyList extends Component {
                 </div>
 
                 <div className="kompanija_homepage">
-                    <div className="company_logo_cl_div">
-                        <img className="company_logo_cl" src="/img/Wille/wille-logo.png" alt="company_logo"/>
+                    <div className="row_cl1">
+                            <div className="one_company">
+                                {/* <div className="levi_tekst_ispod_companyList">
+                                    <p> Multifunkcionalne zglobne masine </p> 
+                                </div> */}
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/wille/Wille.jpg" alt="company"/>
+                                </button>
+                            </div>
+                            <div className="one_company">
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/wille/Wille.jpg" alt="company"/>
+                                </button>
+                            </div>
+                            <div className="one_company">
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/broddson/Broddson.jpg" alt="company"/>
+                                </button>
+                            </div>
                     </div>
-                    <img className="background_cl" src="/WILLE/slider4.jpg" alt="background"/>
-                    <div className="overlay">
-                        <div className="opis_kompanije">
-                            <img className="company_logo_cl1" src="/img/Wille/wille-logo.png" alt="company_logo"/>
-                            Zglobne masine
-                            <button>read more</button>
-                        </div>
+                    <div className="row_cl2">
+                            <div className="one_company">
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/dorotea mekaniska/Dorotea.jpg" alt="company"/>
+                                </button>
+                            </div>
+                            <div className="one_company">
+                                <button className="btn_companyList" > 
+                                    <img className="img_companyList" src="/Firme/boschung/Boschung.jpg" alt="company"/>
+                                </button>
+                            </div>
                     </div>
+
                 </div>
-                <div className="kompanija_homepage">
-                    <div className="company_logo_cl_div">
-                        <img className="company_logo_cl" src="/img/Wille/wille-logo.png" alt="company_logo"/>
-                    </div>
-                    <img className="background_cl" src="/WILLE/slider4.jpg" alt="background"/>
-                    <div className="overlay">
-                        <div className="opis_kompanije">
-                            <img className="company_logo_cl1" src="/img/Wille/wille-logo.png" alt="company_logo"/>
-                            Zglobne masine
-                            <button>read more</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="kompanija_homepage">
-                    <div className="company_logo_cl_div">
-                        <img className="company_logo_cl" src="/img/Wille/wille-logo.png" alt="company_logo"/>
-                    </div>
-                    <img className="background_cl" src="/WILLE/slider4.jpg" alt="background"/>
-                    <div className="overlay">
-                        <div className="opis_kompanije">
-                            <img className="company_logo_cl1" src="/img/Wille/wille-logo.png" alt="company_logo"/>
-                            Zglobne masine
-                            <button>read more</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="kompanija_homepage">
-                    <div className="company_logo_cl_div">
-                        <img className="company_logo_cl" src="/img/Wille/wille-logo.png" alt="company_logo"/>
-                    </div>
-                    <img className="background_cl" src="/WILLE/slider4.jpg" alt="background"/>
-                    <div className="overlay">
-                        <div className="opis_kompanije">
-                            <img className="company_logo_cl1" src="/img/Wille/wille-logo.png" alt="company_logo"/>
-                            Zglobne masine
-                            <button>read more</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="kompanija_homepage">
-                    <div className="company_logo_cl_div">
-                        <img className="company_logo_cl" src="/img/Wille/wille-logo.png" alt="company_logo"/>
-                    </div>
-                    <img className="background_cl" src="/WILLE/slider4.jpg" alt="background"/>
-                    <div className="overlay">
-                        <div className="opis_kompanije">
-                            <img className="company_logo_cl1" src="/img/Wille/wille-logo.png" alt="company_logo"/>
-                            Zglobne masine
-                            <button>read more</button>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
     );
     }
