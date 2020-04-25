@@ -13,7 +13,15 @@ import CookiePolicy from './component/CookiePolicy';
 class App extends React.Component {
 
   render() {
+    window.onblur=function(){
+      let favicon = this.document.getElementById("favicon");
+      favicon.href = "/beliLogo.png";
+    }
     
+    window.onfocus=function(){
+      let favicon = this.document.getElementById("favicon");
+      favicon.href = "/logo.png";
+    }
     return (
       <BrowserRouter>
         <Switch>
