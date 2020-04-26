@@ -13,7 +13,7 @@ render(){
       <nav>
 
         <input type="checkbox" id="check"/>
-        <label for="check" class="checkbtn">
+        <label htmlFor="check" className="checkbtn">
         <img src="/fa_bars.png" className="img_bars" alt="fa_bars"></img>
         </label>
 

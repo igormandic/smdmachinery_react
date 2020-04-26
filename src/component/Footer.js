@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Footer.css';
 import { Link } from 'react-router-dom';
+import ReturnToTop from './ReturnToTop';
 
 function Footer() {
   return (
@@ -78,6 +79,7 @@ function Footer() {
       </div>
     </div>
     <div className="clear"></div>
+    <ReturnToTop/>
     </div>
   );
 }
