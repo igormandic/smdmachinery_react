@@ -232,6 +232,13 @@
   "text 1 23":"Kada visina podizanja standardne kašika nije dovoljna, odgovor je visokoutovarna kašika. Ona vam pruža znatno ceću visinu podizanja za utovar.",
   "list 23 1":"Za utovar lakih materijala",
   "list 23 2":"Znatno veća visina istovara i udaljenost u odnosu na standardnu kašiku",
-
-  "Home page": "Početna"
+  "Home page": "Početna",
+  "title 1 Nordic": "",
+  "text 1 Nordic": "",
+  "title 1 Scandia": "",
+  "text 1 Scandia": "",
+  "title 1 Fighter": "", 
+  "title 2 Fighter": "",
+  "text 1 Fighter": "",
+  "text 2 Fighter": ""
 }

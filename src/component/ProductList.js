@@ -11,7 +11,7 @@ class ProductList extends Component {
         if (nameOfCompany === "WILLE") {
             products = ['265', '375', '465', '665', '865'];
         } else if (nameOfCompany === "Broddson") {
-            products = ["Nordic", "Scandia"];
+            products = ["Nordic", "Scandia", "Fighter"];
         }
         console.log(nameOfCompany)
         for (let i = 0; i<products.length; i++) {

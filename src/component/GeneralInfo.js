@@ -41,8 +41,8 @@ class GeneralInfo extends Component {
     }
       return (
           <div className="generalInfo">
-            <div className="text">
-              <h2 className="title">{nameOfProduct}</h2>
+            <div className="textGeneralInfo">
+              {this.props.ind ? <h2 className="title">{nameOfProduct}</h2> : ""}
               {generalInfo}
             </div>
             <div className="right">

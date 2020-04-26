@@ -128,7 +128,7 @@ class SelectMenu extends Component {
       <div className="selectMenu">
         <Tabs defaultActiveKey="generalInfo" id="uncontrolled-tab-example" className="tabovi">
           <Tab eventKey="generalInfo" title={__("General info")} >
-            <GeneralInfo images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
+            <GeneralInfo ind={true} images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
           </Tab>
           <Tab eventKey="technical" title="Technical info">
             <TechnicalInfo pdf={pdf} technicalInfo={technicalInfo} name={this.props.name} nameOfCompany={this.props.nameOfCompany} />

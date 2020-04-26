@@ -19,8 +19,8 @@ class NB extends Component {
                 "/WILLE/865/865iv_pose_thumb.png"];
       linkForAllProducts = `/company/${this.props.name}/product`;
     } else if (this.props.name === "Broddson") {
-      products = ["Nordic", "Scandia"];
-      images = ["/Broddson/Nordic/masina3.png","/Broddson/Scandia/masina3.png"];
+      products = ["Nordic", "Scandia", "Fighter"];
+      images = ["/Broddson/Nordic/masina3.png","/Broddson/Scandia/masina3.png", "/Broddson/Fighter/masina3.png"];
     }
 
     linkForAllAttachment = `/company/${this.props.name}/attachments`

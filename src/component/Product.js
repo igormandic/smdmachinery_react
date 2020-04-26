@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Footer from './Footer'
-import Header1 from './Header1'
-import SelectMenu from './SelectMenu'
+import Footer from './Footer';
+import Header1 from './Header1';
+import SelectMenu from './SelectMenu';
+import SelectMenuAttachment from './SelectMenuAttachment';
 import '../css/Product.css';
 
 class Product extends Component {
@@ -23,11 +24,18 @@ class Product extends Component {
     const nameOfCompany = window.localStorage.getItem("nameOfCompany");
     const pathToHeadImage = `/${nameOfCompany}/${name}/head_image.jpg`;
     const alt = `${nameOfCompany} ${name}`;
+    let typeOfSelectMenu = [];
+    if (nameOfCompany === "WILLE") {
+      typeOfSelectMenu.push(<SelectMenu name={name} nameOfCompany={nameOfCompany} className="selectMenu"/>)
+    } else if (nameOfCompany === "Broddson") {
+      typeOfSelectMenu.push(<SelectMenuAttachment name={name} nameOfCompany={nameOfCompany} />);
+    }
     return (
         <div className="product">
           <Header1 name={nameOfCompany} type="company"/>
           <img className="headImg" src={pathToHeadImage} alt={alt}></img>
-          <SelectMenu name={name} nameOfCompany={nameOfCompany} className="selectMenu"/>
+          {typeOfSelectMenu}
+          {/* <SelectMenu name={name} nameOfCompany={nameOfCompany} className="selectMenu"/> */}
           <Footer/>
       </div>
     );

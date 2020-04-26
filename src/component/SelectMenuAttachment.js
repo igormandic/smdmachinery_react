@@ -226,8 +226,7 @@ class SelectMenuAttachment extends Component {
       text = ['text 1 22'];
       list = ['list 22 1','list 22 2'];
       images = ['/WILLE/Prikljucci/22/masina3.jpg'];
-    }
-    else if(this.props.name === '23'){
+    } else if (this.props.name === '23') {
       title = ['title 1 23'];
       text = ['text 1 23'];
       list = ['list 23 1','list 23 2'];
@@ -237,12 +236,42 @@ class SelectMenuAttachment extends Component {
         ['HT-bucket 550', '550', '1580', '1000 (265) 3130 (365)', '300', '265, 365'],
         ['HT-bucket 800', '800', '2700', '3400', '400', '465']
       ];
+    } else if (this.props.name === 'Nordic')  {
+      title = ['title 1 Nordic'];
+      text = ['text 1 Nordic'];
+      technicalInfoAttachment = [
+        ['Length', '4.570 mm'],
+        ['Width', '1.870 mm'],
+        ['Height', '2.260 mm'],
+        ['Sweeping width', '2.300-2.800 mm'],
+        ['Capacity', 'Max 30 liter/min'],
+        ['Tires', '225/75 x 17.5']
+      ];
+      images = ['/Broddson/Nordic/masina.jpg'];
+    } else if (this.props.name === 'Scandia')  {
+      title = ['title 1 Scandia'];
+      text = ['text 1 Scandia'];
+      technicalInfoAttachment = [
+        ['Length', '6.660 mm'],
+        ['Width, exkl. sidebrush', '2.260 mm'],
+        ['Height', '3.550 mm'],
+        ['Sweeping width', '2.500-3.000 mm'],
+        ['Engine', 'John Deere or Perkins'],
+        ['Tires', '225/75R 17.5'],
+        ['Speed', 'Max 40 km/h']
+      ];
+      images = ['/Broddson/Scandia/masina.jpg'];	
+    } else if (this.props.name === 'Fighter')  {
+      title = ['title 1 Fighter', 'title 2 Fighter'];
+      text =  ['text 1 Fighter', 'text 2 Fighter'];
+      
+      images = ['/Broddson/Fighter/masina1.png'];	
     }
     return (
       <div className='selectMenuAttachment'>
         <Tabs defaultActiveKey='generalInfo' id='uncontrolled-tab-example' className='tabovi'>
           <Tab eventKey='generalInfo' title={__('General info')} >
-            <GeneralInfo images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
+            <GeneralInfo ind={false} images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
           </Tab>
           <Tab eventKey='technical' title='Technical info'>
             <TechnicalInfoAttachment technicalInfoAttachment={technicalInfoAttachment}/>
