@@ -10,6 +10,8 @@ import ContactPage from './component/ContactPage';
 import AllProducts from './component/AllProducts';
 import UseAgreement from './component/UseAgreement';
 import CookiePolicy from './component/CookiePolicy';
+import AboutUs from './component/AboutUs';
+
 class App extends React.Component {
 
   render() {
@@ -34,6 +36,7 @@ class App extends React.Component {
           <Route path="/contact" exact component={ContactPage} />
           <Route path="/useAgreement" exact component={UseAgreement} />
           <Route path="/cookiePolicy" exact component={CookiePolicy} />
+          <Route path="/aboutUs" exact component={AboutUs} />
         </Switch>
       </BrowserRouter>
     );
