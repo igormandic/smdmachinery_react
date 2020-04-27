@@ -26,7 +26,7 @@ class Product extends Component {
     const alt = `${nameOfCompany} ${name}`;
     let typeOfSelectMenu = [];
     if (nameOfCompany === "WILLE") {
-      typeOfSelectMenu.push(<SelectMenu name={name} nameOfCompany={nameOfCompany} className="selectMenu"/>)
+      typeOfSelectMenu.push(<SelectMenu key={name} name={name} nameOfCompany={nameOfCompany} className="selectMenu"/>)
     } else if (nameOfCompany === "Broddson") {
       typeOfSelectMenu.push(<SelectMenuAttachment name={name} nameOfCompany={nameOfCompany} />);
     }

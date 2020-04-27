@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import RightSidebar from './RightSidebar'
 import Footer from './Footer'
 import Header1 from './Header1';
 import Slideshow from './Slideshow';
@@ -31,19 +30,17 @@ class Company extends Component {
                 <Header1 name={name} type="company"/>
                 <Slideshow images={pathsToImages}/>
                 <ProductList />
-                <div style={{marginLeft: "9.11%", width:"81.5%"}}>
-                <ReactPlayer
-                    url={url}
-                    playing={true}
-                    muted={true}
-                    loop={true}
-                    width="100%"
-                    height={"80vh"}
-                    controls={true}
-                />
+                <div style={{marginLeft: "9.11%", width:"81.5%", paddingBottom:"5%"}}>
+                    <ReactPlayer 
+                        url={url}
+                        playing={true}
+                        muted={true}
+                        loop={true}
+                        width="100%"
+                        height={"86vh"}
+                        controls={true}
+                    />
                 </div>
-
-                <RightSidebar pdf={"/catalogs/masina1.pdf"}/>
                 <Footer />
                 <ReturnToTop />
             </div>

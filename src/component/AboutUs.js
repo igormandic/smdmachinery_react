@@ -6,8 +6,8 @@ import '../css/AboutUs.css';
 class AboutUs extends React.Component {
 
   render() {
-    let title = [];
-    let text = [];
+    // let title = [];
+    // let text = [];
     return (
       <div className="">
         <Header1 type="home"/>

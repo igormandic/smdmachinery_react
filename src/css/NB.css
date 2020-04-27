@@ -33,7 +33,7 @@
     }
     
     .NB_css1 ul li a:hover{
-        background-color: rgb(171, 203, 214);
+        background-color: #ccccca;
         color: black;
     }
     
@@ -111,7 +111,7 @@
         }
     
         .NB_css1 ul li ul li a{
-            display: flex;
+            /* display: flex; */
             font-size: 16px;
             border-left: 2px solid white;
             border-radius: 0;

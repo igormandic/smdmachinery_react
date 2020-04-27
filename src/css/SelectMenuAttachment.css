@@ -3,12 +3,12 @@
     width: 81.8%;
     padding-top: 0%;
     position: relative;
-    /* border-left: 1px solid rgb(171, 203, 214);
-    border-right: 1px solid rgb(171, 203, 214);  */
+    /* border-left: 1px solid #ccccca;
+    border-right: 1px solid #ccccca;  */
 }
 
 .selectMenuAttachment a{
-    background-color:  rgb(171, 203, 214);
+    background-color:  #ccccca;
     color: rgba(0, 0, 0, 0.938);
     width: 33.33%;
     font-size: 18px;
@@ -26,7 +26,7 @@
 }
 
 .tabovi {
-    background: rgb(171, 203, 214);
+    background: #ccccca;
     height: 60px;
 }
 
@@ -42,7 +42,7 @@
     }
     
     .selectMenuAttachment a{
-        background-color:  rgb(171, 203, 214);
+        background-color:  #ccccca;
         color: rgba(0, 0, 0, 0.938);
         width: 33.33%;
         font-size: 14px;

@@ -4,7 +4,6 @@ import Header1 from './Header1';
 import Slideshow from './Slideshow';
 import Footer from './Footer';
 import CompanyList from './CompanyList';
-import RightSidebar from './RightSidebar';
 
 
 const pathsToImages = ["/img/masina1.jpg", "/img/masina2.jpg", "/img/masina3.jpg", "/img/masina4.jpg"]
@@ -16,7 +15,6 @@ class Homepage extends React.Component {
           <Header1 type="home"/>
           <Slideshow images={pathsToImages}/>
           <CompanyList />
-          <RightSidebar />
           <Footer/>
           
       </div>

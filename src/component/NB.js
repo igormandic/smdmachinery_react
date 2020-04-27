@@ -28,7 +28,7 @@ class NB extends Component {
     for (let i = 0; i<products.length; i++) {
       let pathToProduct = `/company/${this.props.name}/product/${products[i]}`;
       pathToProducts.push(<li key={i}> <Link key={i} to={pathToProduct}> 
-          <img className="machine_images" src={images[i]} alt="machine_logo"/> <br />{this.props.name} {products[i]} </Link></li>)
+          <img className="machine_images" src={images[i]} alt="machine_logo"/> {this.props.name} {products[i]} </Link></li>)
     }
 
     return (
@@ -37,12 +37,12 @@ class NB extends Component {
         <nav>
 
         <input type="checkbox" id="check"/>
-        <label for="check" class="checkbtn">
+        <label htmlFor="check" className="checkbtn">
         <img src="/fa_bars.png" className="img_bars" alt="fa_bars"></img>
         </label>
 
           <ul>
-            <li><a href="/">{__('Home page')}</a></li>
+            <li><Link to="/">{__('Home page')}</Link></li>
             <li className="firme"><Link to={linkForAllProducts}>Proizvodi</Link>
               <ul>
                 {pathToProducts}

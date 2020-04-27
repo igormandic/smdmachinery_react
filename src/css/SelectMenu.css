@@ -1,12 +1,12 @@
 .selectMenu {
     margin-left: 9.1%;
     width: 81.8%;
-    /* border-left: 1px solid rgb(171, 203, 214);
-    border-right: 1px solid rgb(171, 203, 214);  */
+    /* border-left: 1px solid #ccccca;
+    border-right: 1px solid #ccccca;  */
 }
 
 .selectMenu a{
-    background-color:  rgb(171, 203, 214);
+    background-color:  #ccccca;
     color: rgba(0, 0, 0, 0.938);
     width: 25%;
     font-size: 18px;
@@ -24,7 +24,7 @@
 }
 
 .tabovi {
-    background: rgb(171, 203, 214);
+    background: #ccccca;
     height: 60px;
 }
 
@@ -40,7 +40,7 @@
     }
     
     .selectMenu a{
-        background-color:  rgb(171, 203, 214);
+        background-color:  #ccccca;
         color: rgba(0, 0, 0, 0.938);
         width: 50%;
         font-size: 14px;

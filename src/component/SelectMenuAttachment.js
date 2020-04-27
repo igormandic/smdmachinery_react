@@ -262,8 +262,8 @@ class SelectMenuAttachment extends Component {
       ];
       images = ['/Broddson/Scandia/masina.jpg'];	
     } else if (this.props.name === 'Fighter')  {
-      title = ['title 1 Fighter', 'title 2 Fighter'];
-      text =  ['text 1 Fighter', 'text 2 Fighter'];
+      title = ['title 1 Fighter'];
+      text =  ['text 1 Fighter'];
       
       images = ['/Broddson/Fighter/masina1.png'];	
     }
