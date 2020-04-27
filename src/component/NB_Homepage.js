@@ -32,7 +32,7 @@ render(){
             </ul>
           </li>
           <div className="li_posle_padajuceg">
-            <li><a href="/#" className="nsk">O nama</a></li>
+            <li><Link to="/aboutUs">O nama</Link></li>
             <li><a href="/#" className="nsk">Servis</a></li>
             <li><a href="/contact" className="nsk">Kontakt</a></li>
           </div>
