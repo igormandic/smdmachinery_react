@@ -5,22 +5,22 @@
 }
 
 .homepage_text {
-    margin: 3% 0 4% 0;
+    margin: 3% 0 3% 0;
 }
 
 .row_cl1 {
-    margin: 0 0 0.5% -0.333%;
+    margin: 0 0 0.7% -1.1%;
     display: flex;
 }
 
 .row_cl2 {
-    margin: 0 0 1% -1.1%;
+    margin: 0 0 4% -1.1%;
     display: flex;
 }  
 
 .row_cl1 .one_company {
-    width: 33%;
-    margin-left: 0.333%;
+    width: 49%;
+    margin-left: 1%;
     display: block;
 }
 
