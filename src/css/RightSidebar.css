@@ -8,7 +8,7 @@
     width: 100%;
     margin: 0 0 3% 1%;
     height: 55px;
-    border: 1px solid #3498db;
+    border: 1px solid #2f3031;
     background: none;
     font-size: 22px;
     font-weight: bolder;
@@ -21,7 +21,7 @@
 }
 
 .dugme:hover {
-    color: #3498db;
+    color: #2f3031;
 }
 
 .dugme::before {
@@ -29,7 +29,7 @@
     left: 0;
     width: 100%;
     height: 180%;
-    background: #3498db;
+    background: #2f3031;
     bottom: 0;
     border-radius: 50% 50% 0 0;
     transition: 0.8s;

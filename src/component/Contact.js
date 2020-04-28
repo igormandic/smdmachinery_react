@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/Contact.css';
+import RightSidebar from './RightSidebar';
 
 const Contact = () => {
   return (
@@ -37,7 +38,7 @@ const Contact = () => {
                   <textarea className="form-control" name="message" rows="12" data-rule="required" data-msg="Molimo vas napisite nesto" placeholder="Tekst"></textarea>
                   <div className="validation"></div>
                   <p className="text-center">
-                  <button className="dugme" id="mail">Posaljite poruku</button >
+                  <RightSidebar />
                   </p>
                 </div>
               </div>

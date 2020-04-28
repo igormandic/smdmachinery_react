@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/CompanyList.css';
+import { Link } from 'react-router-dom';
 
 class CompanyList extends Component {
 
@@ -20,23 +21,26 @@ class CompanyList extends Component {
                 <div className="kompanija_homepage">
                     <div className="row_cl1">
                             <div className="one_company">
-                                {/* <div className="levi_tekst_ispod_companyList">
-                                    <p> Multifunkcionalne zglobne masine </p> 
-                                </div> */}
-                                <button href="/company/WILLE" className="btn_companyList" > 
-                                    <img className="img_companyList" src="/Firme/wille/Wille.jpg" alt="company"/>
+                                <button className="btn_companyList"> 
+                                    <Link to="/company/WILLE" >
+                                        <img className="img_companyList" src="/Firme/wille/Wille.jpg" alt="company"/>
+                                    </Link>
                                 </button>
                             </div>
                             <div className="one_company">
                                 <button className="btn_companyList" > 
-                                    <img className="img_companyList" src="/Firme/broddson/Broddson.jpg" alt="company"/>
+                                    <Link to="/company/Broddson">
+                                        <img className="img_companyList" src="/Firme/broddson/Broddson.jpg" alt="company"/>
+                                    </Link>>
                                 </button>
                             </div>
                     </div>
                     <div className="row_cl2">
                             <div className="one_company">
                                 <button className="btn_companyList" > 
-                                    <img className="img_companyList" src="/Firme/boschung/Boschung.jpg" alt="company"/>
+                                    <a href="https://www.boschung.com/" >
+                                        <img className="img_companyList" src="/Firme/boschung/Boschung.jpg" alt="company"/>
+                                    </a>
                                 </button>
                             </div>
                             <div className="one_company">

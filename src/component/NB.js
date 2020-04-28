@@ -45,12 +45,12 @@ class NB extends Component {
 
           <ul >
             <li><Link to="/">{__('Home page')}</Link></li>
-            <li className="firme"><Link to={linkForAllProducts}>Proizvodi</Link>
+            <li className="firme"><Link to={linkForAllProducts}>{__('Products')}</Link>
               <ul>
                 {pathToProducts}
               </ul>
             </li>
-              {ind?<li className="li_posle_padajuceg"><Link to={linkForAllAttachment} className="nsk">Nastavci</Link></li>:<li className="li_posle_padajuceg"><Link to={currentPaht} className="nsk" style={{color:"black"}}>Nastavci</Link></li>}
+              {ind?<li className="li_posle_padajuceg"><Link to={linkForAllAttachment} className="nsk">{__('Attachments')}</Link></li>:<li className="li_posle_padajuceg"><Link to={currentPaht} className="nsk" style={{color:"black"}}>Nastavci</Link></li>}
           </ul>
         </nav>
         </div>

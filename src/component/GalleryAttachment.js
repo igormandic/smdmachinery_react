@@ -6,17 +6,29 @@ import '../css/Gallery.css';
 class Gallery extends React.Component {
   render() {
     const pathForImage = `/${this.props.nameOfCompany}/Prikljucci/${this.props.name}/`;
-    const images = [
-    
-      {
-        original: `${pathForImage}masina1.jpg`,
-        thumbnail: `${pathForImage}masina1.jpg`,
-      },
-      {
-        original: `${pathForImage}masina2.jpg`,
-        thumbnail: `${pathForImage}masina2.jpg`,
-      },
-    ];
+    let images = [];
+    console.log(this.props.name);
+    if (this.props.name === "2") {
+      console.log("OVDE SAMM");
+      images = [
+        {
+          original: `${pathForImage}masina1.jpg`,
+          thumbnail: `${pathForImage}masina1.jpg`,
+        }
+      ];
+    } else {
+      images = [
+        {
+          original: `${pathForImage}masina1.jpg`,
+          thumbnail: `${pathForImage}masina1.jpg`,
+        },
+        {
+          original: `${pathForImage}masina2.jpg`,
+          thumbnail: `${pathForImage}masina2.jpg`,
+        },
+      ];
+    }
+
     return ( 
       <div>
         <ImageGallery items={images} /> 

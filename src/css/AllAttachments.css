@@ -1,5 +1,11 @@
 .allAttachment {
     width: 84.1%;
     margin-left: 7.95%;
-    padding-top: 2%;
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 1270px) { 
+.allAttachment {
+    padding-top: 7%;
+}
 }

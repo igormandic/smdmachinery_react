@@ -15,12 +15,12 @@
 }
 
 .selectMenu a:hover{
-    background-color:  rgb(41, 119, 145);
+    background-color: #2f3031;
     color: white;
 }
 
 .selectMenu a:active{
-    background-color:  rgb(14, 155, 202);
+    background-color: #2f3031;
 }
 
 .tabovi {
