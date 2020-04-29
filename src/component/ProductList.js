@@ -1,19 +1,37 @@
 import React, { Component } from 'react';
 import '../css/ProductList.css';
 import { Link } from 'react-router-dom'
+import { __ } from '../utils/i18n';
 
 class ProductList extends Component {
 
     render() {
         let imagesArray = [];
         let products;
+        let title;
+        let text = [];
+        let subTitle = "";
         const nameOfCompany = window.localStorage.nameOfCompany;
         if (nameOfCompany === "WILLE") {
             products = ['265', '375', '465', '665', '865'];
+            title = "title Wille";
+            subTitle = "subTitle Wille";
+            text = ["text 1 Wille", "text 2 Wille", "text 3 Wille", "text 4 Wille", "text 5 Wille"];
         } else if (nameOfCompany === "Broddson") {
             products = ["Nordic", "Scandia", "Fighter"];
+            title = "title Broddson";
+            text = ["text 1 Broddson", "text 2 Broddson", "text 3 Broddson"];
         }
-        console.log(nameOfCompany)
+        let textCompany = [];
+        textCompany.push(<br></br>);
+        for (let i = 0; i<text.length; i++) {
+            textCompany.push(<p style={{textAlign:"justify", fontSize:"18px"}}>{__(text[i])}</p>);
+            if (i === 1 && subTitle !== "") {
+                textCompany.push(<br></br>);
+                textCompany.push(<h4 style={{fontWeight:"bold"}}>{__(subTitle)}</h4>);
+            }
+        }
+
         for (let i = 0; i<products.length; i++) {
             let pathToProduct = `/company/${nameOfCompany}/product/${products[i]}`;
             let pahtToImage = `/${nameOfCompany}/${products[i]}/masina3.png`;
@@ -33,14 +51,8 @@ class ProductList extends Component {
         return (
             <div className="company_middle">
                 <div className="company_text"> 
-                    <p> World Leader in Agile Urban Machines. <br/>
-                        Wille is the most popular machine on the market for the environmental management and maintenance of urban areas. It is designed to operate through all four seasons, especially winter, when maintenance operations are the most demanding and expensive. The articulated steering and location of the cabin in the front frame provide the operator with excellent working conditions. 
-                        Find the right Wille for your need. It is important to have a base machine, that fits to your needs perfectly. Wille family covers various areas of environment and property maintenance work.
-                        Wille is exceptionally strong considering its size. The line-up comprises five models ranging from 2 to 7 tonnes. Compared with wheeled loaders in the same weight category, Wille's engine delivers about 60 % higher output. This power is mostly required to drive the hydraulic work attachments, and when carrying heavy loads on the road. Depending on the model, the travel speed is 36-50 kmph. 
-                        In addition to weight and physical size the ability of the loader as well as the hydraulics play a crucial part when deciding the best machine for your use. Also Wille models upwards from 375 are equipped with powerful front loader as default, which widens the abilities of the machine. Especially during winter, when the maintenance work is most crucial and expensive, Wille's unparalleled efficiency shows.
-                        One of Wille's strengths is its wide range of available work attachments. These are easy to procure and effortless to change. Their compatibility with the base unit is ideal, which means that the machine can be operated efficiently and safely all year round.
-                        Wille's sales and after-sales operations are in reliable hands. Wille is a long-term investment with an exceptionally high second-hand value. Wille's high quality, capacity and productivity have helped it stay number one on the Nordic market for many years. 
-                    </p> 
+                    <h2 style={{textAlign:"center", fontWeight:"bold"}}>{__(title)}</h2>
+                    {textCompany} 
                 </div>
                 {imagesArray}
             </div>
