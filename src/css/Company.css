@@ -1,3 +1,8 @@
+.company {
+    background-image: url('/Background.png');
+    background-attachment: fixed;
+
+}
 .videoCompany {
     width: 81.8%;
     margin: 0 0 0 9.1%;

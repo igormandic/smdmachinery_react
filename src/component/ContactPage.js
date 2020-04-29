@@ -7,7 +7,7 @@ class ContactPage extends React.Component {
 
   render() {
     return (
-      <div className="ContactPage">
+      <div className="ContactPage" style={{backgroundImage: "url('/Background.png')", backgroundAttachment: "fixed"}}>
           <Header1 type={"home"} numOfElement={6} />
           <Contact />
           <Footer />

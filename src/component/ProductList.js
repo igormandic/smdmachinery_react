@@ -16,7 +16,7 @@ class ProductList extends Component {
         console.log(nameOfCompany)
         for (let i = 0; i<products.length; i++) {
             let pathToProduct = `/company/${nameOfCompany}/product/${products[i]}`;
-            let pahtToImage = `/${nameOfCompany}/${products[i]}/masina3.jpg`;
+            let pahtToImage = `/${nameOfCompany}/${products[i]}/masina3.png`;
             let pathToLogo = `/${nameOfCompany}/logo.png`;
             imagesArray.push(
                 <button key={i} className="btn_productList">

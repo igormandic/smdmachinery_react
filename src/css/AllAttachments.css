@@ -2,8 +2,12 @@
     width: 84.1%;
     margin-left: 7.95%;
     padding-top: 3%;
-}
 
+}
+.attachments {
+    background-image: url('/Background.png');
+    background-attachment: fixed;    
+}
 @media only screen and (max-width: 1270px) { 
 .allAttachment {
     padding-top: 7%;

@@ -31,7 +31,7 @@ class CompanyList extends Component {
                                 <button className="btn_companyList" > 
                                     <Link to="/company/Broddson">
                                         <img className="img_companyList" src="/Firme/broddson/Broddson.jpg" alt="company"/>
-                                    </Link>>
+                                    </Link>
                                 </button>
                             </div>
                     </div>

@@ -7,15 +7,19 @@
     text-align: center;
     background-color: white;
     letter-spacing: 0.03em;
+    background-image: url('/Background.png');
+    background-attachment: fixed;
 }
 .aboutUsTitle {
     padding-top: 30px;
     font-weight: 550;
 }
 
-#last{
-    margin-bottom: 30px;
+h4{
+    margin-bottom: 0px;
+    padding-bottom: 30px;
 }
+
 .aboutUsTitle #redLetter{
     color: red;
 }

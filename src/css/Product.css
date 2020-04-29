@@ -1,3 +1,8 @@
+.product {
+    background-image: url('/Background.png');
+    background-attachment: fixed;
+
+}
 .product .headImg {
     width: 81.8%;
     margin-left: 9.1%;

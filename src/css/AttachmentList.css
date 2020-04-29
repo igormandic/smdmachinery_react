@@ -2,18 +2,19 @@
     width: 100%;
     margin: 0 0 0 0;
     padding-top: 5%;
-    background-color: white;
     color: black;
+
 }
 
 .btn_attachment {
     width: 31.3333%;
     margin: 0 1% 2% 1%;
     border: 0;
-    background-color: white;
     font-size: 16px;
     text-align: center;
     font-weight: bold;
+    background: none;
+
 }
 
 .saznaj_vise_al {
@@ -21,7 +22,7 @@
     margin-top: 15px;
     width: 100%;
     height: 40px;
-    background-color: #3498db;
+    background-color: rgb(41, 39, 39);
     color: white;
     border: 0;
     padding-top: 1%;

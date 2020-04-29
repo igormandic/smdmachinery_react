@@ -12,7 +12,7 @@ class AllAttachments extends React.Component {
       attachments.push(i);
     }
     return (
-      <div >
+      <div className="attachments">
           <Header1 type="company" name="WILLE" />
           <div className="allAttachment">
             <AttachmentList attachments={attachments}/>
