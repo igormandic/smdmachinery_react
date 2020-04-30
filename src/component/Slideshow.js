@@ -1,8 +1,9 @@
 import React from 'react';
 import '../css/Slideshow.css'
 import {TweenMax, Power3} from 'gsap';
-import $ from 'jquery'
-import {windowHeight} from 'react-window-size'
+import $ from 'jquery';
+import {windowHeight} from 'react-window-size';
+import { __ } from '../utils/i18n';
 
 class Slideshow extends React.Component {
   componentDidMount(){
@@ -230,7 +231,7 @@ class Slideshow extends React.Component {
                     <p></p>
                   </div> 
                   <a href="/#" className="btn">
-                    <span className="btn-inner">Learn More</span>
+                    <span className="btn-inner">{__('learnMore')}</span>
                   </a>
                 </div>
               </div>
@@ -246,7 +247,7 @@ class Slideshow extends React.Component {
                     <p></p>
                   </div> 
                   <a href="/#" className="btn">
-                    <span className="btn-inner">Learn More</span>
+                    <span className="btn-inner">{__('learnMore')}</span>
                   </a>
                 </div>
               </div>
@@ -262,7 +263,7 @@ class Slideshow extends React.Component {
                     <p></p>
                   </div> 
                   <a href="/#" className="btn">
-                    <span className="btn-inner">Learn More</span>
+                    <span className="btn-inner">{__('learnMore')}</span>
                   </a>
                 </div>
               </div>
@@ -278,7 +279,7 @@ class Slideshow extends React.Component {
                     <p></p>
                   </div> 
                   <a href="/#" className="btn">
-                    <span className="btn-inner">Learn More</span>
+                    <span className="btn-inner">{__('learnMore')}</span>
                   </a>
                 </div>
               </div>
