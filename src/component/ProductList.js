@@ -8,19 +8,30 @@ class ProductList extends Component {
     render() {
         let imagesArray = [];
         let products;
-        let title= [];
-        let text= [];
+        let title;
+        let text = [];
+        let subTitle = "";
         const nameOfCompany = window.localStorage.nameOfCompany;
         if (nameOfCompany === "WILLE") {
             products = ['265', '375', '465', '665', '865'];
-            title =['Wille Title'];
-            text =['Wille Text']
+            title = "title Wille";
+            subTitle = "subTitle Wille";
+            text = ["text 1 Wille", "text 2 Wille", "text 3 Wille", "text 4 Wille", "text 5 Wille"];
         } else if (nameOfCompany === "Broddson") {
             products = ["Nordic", "Scandia", "Fighter"];
-            title=['Broddson Title'];
-            text=['Broddson Text']
+            title = "title Broddson";
+            text = ["text 1 Broddson", "text 2 Broddson", "text 3 Broddson"];
         }
-        console.log(nameOfCompany)
+        let textCompany = [];
+        textCompany.push(<br></br>);
+        for (let i = 0; i<text.length; i++) {
+            textCompany.push(<p style={{textAlign:"justify", fontSize:"18px"}}>{__(text[i])}</p>);
+            if (i === 1 && subTitle !== "") {
+                textCompany.push(<br></br>);
+                textCompany.push(<h4 style={{fontWeight:"bold"}}>{__(subTitle)}</h4>);
+            }
+        }
+
         for (let i = 0; i<products.length; i++) {
             let pathToProduct = `/company/${nameOfCompany}/product/${products[i]}`;
             let pahtToImage = `/${nameOfCompany}/${products[i]}/masina3.png`;
@@ -40,10 +51,8 @@ class ProductList extends Component {
         return (
             <div className="company_middle">
                 <div className="company_text"> 
-                    <p> {__(title)}
-                        <br/>
-                        {__(text)}
-                    </p> 
+                    <h2 style={{textAlign:"center", fontWeight:"bold"}}>{__(title)}</h2>
+                    {textCompany} 
                 </div>
                 {imagesArray}
             </div>
