@@ -1,6 +1,7 @@
 import React from "react";
 import '../css/Contact.css';
 import RightSidebar from './RightSidebar';
+import { __ } from '../utils/i18n';
 
 const Contact = () => {
   return (
@@ -17,7 +18,7 @@ const Contact = () => {
               title="mapa"
         />
        <h2 className="h1-responsive font-weight-bold text-center my-5">
-        Contact us
+        {__('ContactUs')}
       </h2>
       <div className="contactSection">
        <div className="span12">

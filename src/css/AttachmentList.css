@@ -3,7 +3,6 @@
     margin: 0 0 0 0;
     padding-top: 5%;
     color: black;
-
 }
 
 .btn_attachment {
@@ -57,4 +56,17 @@ a {
 .machine_logo_al {
     width: 50px;
     float: left;
+}
+
+@media (max-width: 720px) {
+    .btn_attachment {
+        width: 94%;
+        margin: 0 1% -10% 2%;
+        padding-top:15%;
+        border: 0;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        background: none;
+    }
 }

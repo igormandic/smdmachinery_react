@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/ProductList.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { __ } from '../utils/i18n';
 
 class ProductList extends Component {
@@ -43,7 +43,7 @@ class ProductList extends Component {
                         <img className="machine_logo_pl" src={pathToLogo} alt="machine_logo"/>
                         <img src={pahtToImage} alt="product" className="slika_pl"/>
                         <p className="nameOfProduct">{nameOfCompany} {products[i]}</p>
-                        <div key={i} className="saznaj_vise_pl" > Saznajte vise </div> 
+                        <div key={i} className="saznaj_vise_pl" > {__('learnMore')} </div> 
                     </div>
                     </Link>
                 </button>);

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/RightSidebar.css';
+import { __ } from '../utils/i18n';
 
 class RightSidebar extends React.Component {
     downloadPdf(e) {
@@ -10,7 +11,7 @@ class RightSidebar extends React.Component {
     render(){ 
         return (
             <div className="rightSidebar">
-                <button className="dugme" onClick={this.downloadPdf.bind(this)}>Posaljite poruku</button >
+                <button className="dugme" onClick={this.downloadPdf.bind(this)}>{__('Send message')}</button >
             </div>
         );
     }

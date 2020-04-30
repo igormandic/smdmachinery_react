@@ -13,7 +13,7 @@ class AboutUs extends React.Component {
         <Header1 type="home"/>
             <div className="aboutUs">
                 <img src="/logo.png" alt="SMDMachinery" id="logoAboutUs"/>
-                <h4 className="aboutUsTitle" ><span id="redLetter">S</span>avremene Mašine <span id="blueLetter">D</span>anašnjice</h4>
+                <h4 className="aboutUsTitle" ><span id="blueLetter">S</span>avremene Mašine <span id="redLetter">D</span>anašnjice</h4>
                     <p className="aboutUsParagraph">Naša osnovna delatnost je</p>
                     <p className="aboutUsParagraph">prodaja i servisiranje komunalne opreme,specifičnih mašina u oblasti vodoprivrede i opreme za vanredne situacije.</p>
                     <p className="aboutUsParagraph">SMD machinery je vlašćeni zastupnik renomiranih evropskih proizvođača:</p>

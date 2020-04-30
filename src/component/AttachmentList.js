@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import '../css/AttachmentList.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { __ } from '../utils/i18n';
 
 class AttachmentList extends Component {
 
     render() {
         let imagesArray = [];
-        const nameOfImages = ['Čistilica sa spremnikom', 'Drobilica za grane', 'Freza za sneg', 'Hidraulicna platforma sa korpom', 'Hidraulicni zadnji noz', 'Kasika za lisce', 'Kasika za sneg', 'Kosilica za travu', 'Multifunkcionalna kasika', 'Platforma', 'Posipac', 'Posipac soll-rizle', 'Posipac za mokro posipanje', 'Pranje pod visokim pritiskom', 'Raonik za led', 'Rezervoar za vodu', 'Rotaciona cetka', 'Sakupljaci lisca', 'Tarup', 'Tarup sa strelom', 'Utovarna Kasika', 'Vibro ploce', 'Visokoutovarna kasika'];
+        const nameOfImages = ['Attachment 1', 'Attachment 2','Attachment 3', 'Attachment 4','Attachment 5', 'Attachment 6','Attachment 7', 'Attachment 8','Attachment 9', 'Attachment 10','Attachment 11', 'Attachment 12','Attachment 13', 'Attachment 14','Attachment 15', 'Attachment 16','Attachment 17', 'Attachment 18','Attachment 19', 'Attachment 20','Attachment 21', 'Attachment 22','Attachment 23'];
         const nameOfCompany = window.localStorage.nameOfCompany;
         const attachments = this.props.attachments; 
         for (let i = 0; i<attachments.length; i++) {
@@ -17,8 +18,8 @@ class AttachmentList extends Component {
                 <Link style={{textDecoration: "none"}} key={i} to={pathToAttachment}>
                 <div>
                     <img src={pahtToImage} alt="product" className="slika_al"/>
-                    <p className="nameOfAttachment">{nameOfImages[attachments[i]-1]}</p>
-                    <div className="saznaj_vise_al" > Saznajte vise </div> 
+                    <p className="nameOfAttachment">{__(nameOfImages[attachments[i]-1])} </p>
+                    <div className="saznaj_vise_al" >{__('learnMore')}</div> 
                 </div>
                 </Link>
             </button>

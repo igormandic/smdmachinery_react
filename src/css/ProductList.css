@@ -55,3 +55,8 @@
     width: 20%;
     float: left;
 }
+@media (max-width: 720px) {
+    .btn_productList {
+        width: 94%;
+    }
+}
