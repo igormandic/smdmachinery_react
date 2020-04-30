@@ -17,6 +17,10 @@ const Contact = () => {
               tabIndex="0"
               title="mapa"
         />
+        <span className="location">Novi Beograd </span>
+        <span className="location">Kraljice Natalije 72 </span>
+        <span className="location"> smd@gmail.com </span>
+        <span className="location">065409869 </span>
        <h2 className="h1-responsive font-weight-bold text-center my-5">
         {__('ContactUs')}
       </h2>
@@ -24,19 +28,19 @@ const Contact = () => {
        <div className="span12">
             <div className="rowContact">
                 <div className="span4 form-group">
-                  <input type="text" name="name" className="form-control" id="name" placeholder="Vaše ime" data-rule="minlen:4" data-msg="Molimo vas unesite najmanje 4 karaktera"></input>
+                  <input type="text" name="name" className="form-control" id="name" placeholder={__('YourName')} data-rule="minlen:4" data-msg="Molimo vas unesite najmanje 4 karaktera"></input>
                   <div className="validation"></div>
                 </div>
                 <div className="span4 form-group">
-                  <input type="email" className="form-control" name="email" id="email" placeholder="Vaš Email" data-rule="email" data-msg="Molimo vas unesite ispravan email"></input>
+                  <input type="email" className="form-control" name="email" id="email" placeholder={__('YourMail')} data-rule="email" data-msg="Molimo vas unesite ispravan email"></input>
                   <div className="validation"></div>
                 </div>
                 <div className="span4 form-group">
-                  <input type="text" className="form-control" name="subject" id="subject" placeholder="Naslov" data-rule="minlen:4" data-msg="Molimo vas unesite najmanje 8 karaktera"></input>
+                  <input type="text" className="form-control" name="subject" id="subject" placeholder={__('MailTitle')} data-rule="minlen:4" data-msg="Molimo vas unesite najmanje 8 karaktera"></input>
                   <div className="validation"></div>
                 </div>
                 <div className="span12 margintop10 form-group">
-                  <textarea className="form-control" name="message" rows="12" data-rule="required" data-msg="Molimo vas napisite nesto" placeholder="Tekst"></textarea>
+                  <textarea className="form-control" name="message" rows="12" data-rule="required" data-msg={__('PorukaMail')} placeholder="Text"></textarea>
                   <div className="validation"></div>
                   <p className="text-center">
                   <RightSidebar />

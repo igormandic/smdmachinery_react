@@ -130,13 +130,13 @@ class SelectMenu extends Component {
           <Tab eventKey="generalInfo" title={__("General info")} >
             <GeneralInfo ind={true} images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
           </Tab>
-          <Tab eventKey="technical" title="Technical info">
+          <Tab eventKey="technical" title={__('Technical info')}>
             <TechnicalInfo pdf={pdf} technicalInfo={technicalInfo} name={this.props.name} nameOfCompany={this.props.nameOfCompany} />
           </Tab>
-          <Tab eventKey="attachment" title="Attachment">
+          <Tab eventKey="attachment" title={__('Attachments')}>
             <AttachmentTab attachments={attachments}/>
           </Tab>
-          <Tab eventKey="gallery" title="Gallery">
+          <Tab eventKey="gallery" title={__('Gallery')}>
             <Gallery name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>
           </Tab>
         </Tabs>

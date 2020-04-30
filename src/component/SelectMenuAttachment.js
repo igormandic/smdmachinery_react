@@ -273,10 +273,10 @@ class SelectMenuAttachment extends Component {
           <Tab eventKey='generalInfo' title={__('General info')} >
             <GeneralInfo ind={false} images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
           </Tab>
-          <Tab eventKey='technical' title='Technical info'>
+          <Tab eventKey='technical' title={__('Technical info')}>
             <TechnicalInfoAttachment technicalInfoAttachment={technicalInfoAttachment}/>
           </Tab>
-          <Tab eventKey='gallery' title='Gallery'>
+          <Tab eventKey='gallery' title={__('Gallery')}>
             <GalleryAttachment name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>
           </Tab>
         </Tabs>
