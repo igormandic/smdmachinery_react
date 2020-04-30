@@ -1,21 +1,14 @@
 import React, { Component } from 'react';
 import '../css/CompanyList.css';
 import { Link } from 'react-router-dom';
+import { __ } from '../utils/i18n';
 
 class CompanyList extends Component {
 
     render() {
         return (
             <div className="homepage_middle" id="companyList">
-                <div className="homepage_text"> <p> Neki tekst koji je namenjen da stoji za vile masine.
-                    I koji opisuje ukratko o cemu se tu radi.
-                    Navedeno za par masina...Neki tekst koji je namenjen da stoji za vile masine.
-                    I koji opisuje ukratko o cemu se tu radi.
-                    Navedeno za par masina...Neki tekst koji je namenjen da stoji za vile masine.
-                    I koji opisuje ukratko o cemu se tu radi.
-                    Navedeno za par masina...Neki tekst koji je namenjen da stoji za vile masine.
-                    I koji opisuje ukratko o cemu se tu radi.
-                    Navedeno za par masina... </p> 
+                <div className="homepage_text"> <p> {__('HomePage text')}</p> 
                 </div>
 
                 <div className="kompanija_homepage">

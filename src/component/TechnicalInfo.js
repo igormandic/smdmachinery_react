@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../css/TechnicalInfo.css'
+import '../css/TechnicalInfo.css';
+import { __ } from '../utils/i18n';
 
 class TechnicalInfo extends Component {
     downloadPdf(e) {
@@ -30,7 +31,7 @@ class TechnicalInfo extends Component {
             <div className="contentInner">
               <div id="nothing" className="nothing">
                   <div className="node__content">
-                      <h2 className="naslov">Specifications</h2>
+                      <h2 className="naslov">{__('Specification')}</h2>
                         <div className="columns">
                           <div className="left-column">
                             <div className="row" id="new" >

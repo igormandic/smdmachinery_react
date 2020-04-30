@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../css/TechnicalInfoAttachment.css'
+import '../css/TechnicalInfoAttachment.css';
+import { __ } from '../utils/i18n';
 
 class TechnicalInfoAttachment extends Component {
     render(){
@@ -23,7 +24,7 @@ class TechnicalInfoAttachment extends Component {
         <div className="attachmentTable">
           <table className="responsive-table stacktable large-only">
 						<thead><tr>
-							<th>Specification</th>
+							<th>{__('Specification')}</th>
 						</tr></thead>
 							{technicalInfo}
 					</table>
