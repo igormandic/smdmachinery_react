@@ -8,35 +8,38 @@
     width: 100%;
     margin: 0 0 3% 1%;
     height: 55px;
-    border: 1px solid #2f3031;
+    border: 1.5px solid rgb(41, 39, 39);
     background: none;
     font-size: 22px;
     font-weight: bolder;
     font-family: "montserrant";
-    color: white;
-    transition: 0.8s;
+    color: rgb(41, 39, 39);
+    transition: color 0.8s linear;
     cursor: pointer;
     overflow: hidden;
     position: relative;
+    z-index: 0;
 }
 
 .dugme:hover {
-    color: #2f3031;
+    color: white;
 }
 
 .dugme::before {
+    position: absolute;
     content: "";
     left: 0;
-    width: 100%;
-    height: 180%;
-    background: #2f3031;
-    bottom: 0;
-    border-radius: 50% 50% 0 0;
-    transition: 0.8s;
+    width: 101%;
+    height: 190%;
+    background: rgb(41, 39, 39);
+    top: 0;
+    border-radius: 0 0 50% 50%;
     z-index: -1;
-    position: absolute;
-} 
+    transition: 0.8s;
+    transform-origin: 0 0;
+    transform: scaleY(0);
+}
 
 .dugme:hover::before {
-    height: 0%;
+    transform: scaleY(1);
 }
