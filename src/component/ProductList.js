@@ -23,9 +23,9 @@ class ProductList extends Component {
             text = ["text 1 Broddson", "text 2 Broddson", "text 3 Broddson"];
         }
         let textCompany = [];
-        textCompany.push(<br></br>);
+        textCompany.push(<br key={5}></br>);
         for (let i = 0; i<text.length; i++) {
-            textCompany.push(<p style={{textAlign:"justify", fontSize:"18px"}}>{__(text[i])}</p>);
+            textCompany.push(<p key={i} style={{textAlign:"justify", fontSize:"18px"}}>{__(text[i])}</p>);
             if (i === 1 && subTitle !== "") {
                 textCompany.push(<br></br>);
                 textCompany.push(<h4 style={{fontWeight:"bold"}}>{__(subTitle)}</h4>);

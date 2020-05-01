@@ -9,7 +9,7 @@ import ReactPlayer from "react-player";
 
 
 class Company extends Component {
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
         if (this.props.match.params.name) { 
             this.setState({name:this.props.match.params.name});
             window.localStorage.setItem("nameOfCompany", this.props.match.params.name);

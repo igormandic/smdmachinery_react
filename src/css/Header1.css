@@ -10,7 +10,6 @@
 
  /* Style the header links */
  .header a {
-    float: left;
     padding: 12px;
     font-size: 18px;
     line-height: 25px;
@@ -36,6 +35,7 @@
 }
 
 .phone_mail {
+    width: 100%;
     display: flex;
 }
 
@@ -50,8 +50,9 @@
   }
 
 .smd_logo {
-    width: 100%;
-    height: 100%;
+    width: 82%;
+    height: 82%;
+    padding-top: 10%;
 }
 
 .gornji .phone_mail .phone_logo {
@@ -81,6 +82,7 @@
     .levi {
         grid-column: 2;
         grid-row: 1;
+        border-bottom: 0;
     }
 
     .gornji {
@@ -99,9 +101,10 @@
     }
 
     .smd_logo {
-        margin-left: 30%;
+        margin-left: 15%;
         height: auto;
-        width: 85px;
+        width: 100px;
+        margin-top: -35px;
     }
 }
 
@@ -112,8 +115,8 @@
     }
 
     .smd_logo {
-        margin-left: 25%;
-    }
+        margin-left: 9%;
+        margin-top: -14px;    }
 }
 
 @media (max-width: 400px) {
@@ -123,17 +126,19 @@
     }
 
     .smd_logo {
-        margin-left: 20%;
+        margin-left: 10%;
+        margin-top: -13px;
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 330px) {
     .header {
         background-color: #ccccca;
         grid-template-columns: 25% 60% 10%;
     }
 
     .smd_logo {
-        margin-left: 20%;
+        margin-left: 6%;
+        margin-top: -10px;
     }
 }

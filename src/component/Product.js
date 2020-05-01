@@ -6,7 +6,7 @@ import SelectMenuAttachment from './SelectMenuAttachment';
 import '../css/Product.css';
 
 class Product extends Component {
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     if (this.props.match.params.product) {
         this.setState({name:this.props.match.params.product});
     }
@@ -28,7 +28,7 @@ class Product extends Component {
     if (nameOfCompany === "WILLE") {
       typeOfSelectMenu.push(<SelectMenu key={name} name={name} nameOfCompany={nameOfCompany} className="selectMenu"/>)
     } else if (nameOfCompany === "Broddson") {
-      typeOfSelectMenu.push(<SelectMenuAttachment name={name} nameOfCompany={nameOfCompany} />);
+      typeOfSelectMenu.push(<SelectMenuAttachment key={name} name={name} nameOfCompany={nameOfCompany} />);
     }
     return (
         <div className="product">

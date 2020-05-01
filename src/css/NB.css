@@ -55,103 +55,56 @@
         display: flex;
     }
     
-
-    .NB_css1 .checkbtn {
-        float: left;
-        color: white;
-        cursor: pointer;
-        display: none;
-    }
-    
-    .NB_css1 #check{
-        display: none;
-    }
-    
     .img_bars{
         width: 50px;
     }
-    
+    .NB_response {
+        display: none;
+    }
     @media (max-width: 850px){    
-    
-        .NB_css1 .checkbtn {
-            display: block;
+        .NB_css1 {
+            display: none;
         }
-    
-        .NB_css1 ul li a:hover{
-            background: #2c3e50; 
-        }
-    
-        .NB_css1 ul{
-            position: fixed;
+        .NB_response {
+            border: none;
+            float: none;
+            position: absolute;
+            background: black;
             width: 100%;
-            height: 100%;
-            background: #2c3e50;
-            opacity: .9;
-            top: 56px;
-            left: -100%;
-            transition: all .5s;
-            color: white;
-            overflow-y: scroll;
+            z-index: 1000;
+            height: auto;
+            display: none;
+            opacity: 0.92;
+            margin-top: 5px;
         }
-
-        .NB_css1 ul li a{
+        .nsk {
+            float: none;
+        }
+        #check {
+            display: none;
+        }
+        .NB_response ul {
+            display: block;
+            margin-left: 5%;
+            margin-top: 20px;
+        }
+        .NB_response ul li ul {
+            margin: 0 0 10px 15%;
             text-align: left;
         }
     
-        .NB_css1 ul li ul {
+        .NB_response ul li ul li {
+            width: 300px;
+            padding-top: 23px;
+        }
+    
+        .NB_response ul li ul li a {
+            font-size: 15px;
+            border-left: 2px solid #ccccca;
+            padding-top: 5px;
+            border-radius: 20%;
+        }
+        .tri_crte {
             display: block;
-            width: 97%;
-            margin: 0;
-            height: 310px;
-            margin: 0 0 0 3%;
-        }
-
-        .NB_css1 ul li ul li {
-            display: flex;
-        }
-
-        .NB_css1 ul li ul li img{
-            display: flex;
-        }
-    
-        .NB_css1 ul li ul li a{
-            /* display: flex; */
-            font-size: 16px;
-            border-left: 2px solid white;
-            border-radius: 0;
-        }
-    
-        .NB_css1 ul li ul li{
-            display: block;
-        }
-    
-        .NB_css1 .li_posle_padajuceg {
-            margin-top: 410px;
-        }
-    
-        .NB_css1 ul li{
-            float: none;
-            margin-left: 2%;
-        }
-    
-        .NB_css1 nav ul li a{
-            font-size: 18px;
-        }
-    
-        .NB_css1 ul li ul img {
-            display: none;
-        }
-    
-        .logo_nb {
-            display: none;
-        }
-    
-        .NB_css1 #check:checked ~ ul{
-            left: 0;
-        }
-    
-        .NB_css1 #check:checked ~ ul li ul{
-            left: 7%;
-            top: 150px
         }
     }
