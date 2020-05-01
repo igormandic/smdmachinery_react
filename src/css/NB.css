@@ -43,8 +43,12 @@
         margin-left: -100%;
     }
 
+    .NB_css1 ul li ul li a{
+        height: 150px;
+    }
+
     .NB_css1 ul li ul li .machine_images{
-        width: 90px;
+        width: 150px;
     }
     
     .NB_css1 ul li:hover ul{
