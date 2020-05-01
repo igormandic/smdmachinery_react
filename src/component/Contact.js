@@ -42,9 +42,7 @@ const Contact = () => {
                 <div className="span12 margintop10 form-group">
                   <textarea className="form-control" name="message" rows="12" data-rule="required" data-msg={__('PorukaMail')} placeholder="Text"></textarea>
                   <div className="validation"></div>
-                  <p className="text-center">
                   <RightSidebar />
-                  </p>
                 </div>
               </div>
           </div>

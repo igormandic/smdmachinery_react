@@ -43,3 +43,9 @@
 .dugme:hover::before {
     transform: scaleY(1);
 }
+
+@media (max-width: 850px) {
+    #dugme {
+        margin-left: 8%;
+    }
+}

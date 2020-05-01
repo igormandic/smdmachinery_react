@@ -6,7 +6,6 @@ import ProductsSpecs from './ProductsSpecs';
 class AllProducts extends React.Component {
 
   render() {
-    console.log(this.props.location);
     return (
       <div className="allProducts">
           <Header1 type="company" name="WILLE" />

@@ -1,3 +1,7 @@
+.LanguagePhone {
+  display: none;
+}
+
 .dugme_jezici {
   float: right;
   background-color: #ccccca;
@@ -12,103 +16,41 @@
   border-radius: 50%;
 }
 
+.dugme_jezici1 {
+  float: right;
+  background-color: #ccccca;
+  position: absolute;
+  float: right;
+  right: 1%;
+  width: 45px;
+  border: 0;
+  float: right;
+  position: absolute;
+  border-radius: 50%;
+}
+.dugme_jezici2 {
+  float: right;
+  background-color: #ccccca;
+  position: absolute;
+  float: right;
+  right: 4%;
+  width: 45px;
+  border: 0;
+  float: right;
+  position: absolute;
+  border-radius: 50%;
+}
+
 .icon_jezici {
   width: 100%;
   height: auto;
 }
 
-/* @media only screen and (max-width: 1500px) {
-  .dugme_jezici {
-    margin-left: 850px;
-  }
-}
-
-@media only screen and (max-width: 1420px) {
-  .dugme_jezici {
-    margin-left: 800px;
-  }
-}
-
-@media only screen and (max-width: 1360px) {
-  .dugme_jezici {
-    margin-left: 750px;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .dugme_jezici {
-    margin-left: 700px;
-  }
-}
-
-@media only screen and (max-width: 1250px) {
-  .dugme_jezici {
-    margin-left: 650px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .dugme_jezici {
-    margin-left: 600px;
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  .dugme_jezici {
-    margin-left: 550px;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .dugme_jezici {
-    margin-left: 500px;
-  }
-}
-
-@media (max-width: 1050px) {
-  .dugme_jezici {
-    margin-left: 450px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .dugme_jezici {
-    margin-left: 400px;
-  }
-}
-
-@media (max-width: 950px) {
-  .dugme_jezici {
-    margin-left: 350px;
-  }
-}
-
-@media (max-width: 900px) {
-  .dugme_jezici {
-    margin-left: 300px;
-  }
-}
-
-@media (max-width: 850px) {
-  .dugme_jezici {
-    margin-left: 230px;
-  }
-}
-
 @media (max-width: 800px) {
-  .dugme_jezici {
-    margin-left: 200px;
+  .LanguagePhone {
+    display: block;
+  }
+  .LanguagePC {
+    display: none;
   }
 }
-
-@media (max-width: 750px) {
-  .dugme_jezici {
-    margin-left: 150px;
-  }
-}
-
-@media (max-width: 700px) {
-  .dugme_jezici {
-    margin-left: 100px;
-  }
-} */

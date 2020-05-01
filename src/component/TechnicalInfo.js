@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import '../css/TechnicalInfo.css';
 import { __ } from '../utils/i18n';
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 class TechnicalInfo extends Component {
     downloadPdf(e) {
@@ -94,7 +97,7 @@ class TechnicalInfo extends Component {
                           <div className="photoSpec1">
                            <img src={pathToMeasures} onError={(e)=>{e.target.src=pathToMeasures2}} className="photoMeasure" alt={alt}></img>
                           </div>
-                            <button id="dugme" className="dugme" onClick={this.downloadPdf.bind(this)}>Preuzmite brosuru</button >
+                            <button id="dugme" className="dugme" style={{border:"0"}}onClick={this.downloadPdf.bind(this)}> <FontAwesomeIcon icon={faDownload} color="black"/>  {__('download')}</button >
                         </div>
                       </div>
                     </div>

@@ -24,11 +24,15 @@ class ProductList extends Component {
         }
         let textCompany = [];
         textCompany.push(<br key={5}></br>);
+        let j = 200;
+        let k = 200;
         for (let i = 0; i<text.length; i++) {
             textCompany.push(<p key={i} style={{textAlign:"justify", fontSize:"18px"}}>{__(text[i])}</p>);
             if (i === 1 && subTitle !== "") {
-                textCompany.push(<br></br>);
-                textCompany.push(<h4 style={{fontWeight:"bold"}}>{__(subTitle)}</h4>);
+                textCompany.push(<br key={j + 1}></br>);
+                textCompany.push(<h4 key={k - 1} style={{fontWeight:"bold"}}>{__(subTitle)}</h4>);
+                j = j + 1;
+                k = k - 1;
             }
         }
 
@@ -56,7 +60,7 @@ class ProductList extends Component {
                 </div>
                 {imagesArray}
             </div>
-    );
+        );
     }
 }
 

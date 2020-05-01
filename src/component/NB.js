@@ -11,10 +11,8 @@ class NB extends Component {
   }
   UNSAFE_componentWillMount() {
         this.setState({path:window.location});
-        console.log("Prvi" + window.location.pathname)
   }
   componentDidUpdate(_nextProps, _nextState) {
-    console.log("Drugi" + window.location.pathname);
     if (window.location.pathname !== this.state.path) {
       let nb = document.getElementById('NB_response');
       nb.style.display = "none";

@@ -7,9 +7,7 @@ class Gallery extends React.Component {
   render() {
     const pathForImage = `/${this.props.nameOfCompany}/Prikljucci/${this.props.name}/`;
     let images = [];
-    console.log(this.props.name);
     if (this.props.name === "2") {
-      console.log("OVDE SAMM");
       images = [
         {
           original: `${pathForImage}masina1.jpg`,
