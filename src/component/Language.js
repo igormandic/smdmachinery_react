@@ -5,11 +5,10 @@ let jezik = "en";
 let putanja = "/england_logo.png";
 let putanja1 = "/england_logo.png";
 let putanja2 = "/serbian_logo.png";
-if(localStorage.getItem("localeNew") === "en"){
+if (localStorage.getItem("localeNew") === "en"){
     jezik = "sr";
     putanja = "/england_logo.png";
-}
-else {
+} else {
     jezik = "en";
     putanja = "/serbian_logo.png";
 }
