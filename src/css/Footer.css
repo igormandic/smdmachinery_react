@@ -46,12 +46,18 @@
   font-weight: 700;
   font-size: 20px;
   margin: 0 0 20px 0;
-  margin-left:70px;
+  margin-left:15px;
 }
+
+#first{  
+  margin-left:-55px;
+}
+
 .footer .links ul {
   list-style: none;
   line-height: 20px;
   margin-left:70px;
+  text-align: left;
 }
 .footer .links ul li a {
   text-decoration: none;

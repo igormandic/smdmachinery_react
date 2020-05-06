@@ -10,11 +10,11 @@ function Footer() {
     <div className="footer"> 
     <div className="center">
       <div className="links">
-        <h3>SMDMACHINERY</h3>
+        <h3>SMD MACHINERY</h3>
         <ul>
-          <li><Link to="/aboutUs">{__('About us')}</Link></li>
-          <li><Link to="/services">{__('Servis')}</Link></li>
-          <li><Link to="/company/WILLE/attachments">{__('Attachments')}</Link></li>
+          <li id="first"><Link to="/aboutUs">{__('About us')}</Link></li>
+          <li id="first"><Link to="/services">{__('Servis')}</Link></li>
+          <li id="first"><Link to="/company/WILLE/attachments">{__('Attachments')}</Link></li>
         </ul>
       </div>
       <div className="links">
@@ -37,7 +37,7 @@ function Footer() {
       </div>
       <div className="contact-social">  
         <div className="social">
-          <h4>SMDMACHINERY AT SOCIAL MEDIA</h4>
+          <h4>SMD MACHINERY AT SOCIAL MEDIA</h4>
           <ul>
             <li><a href="/#" title="Instagram" target="_blank"  className="socialLogo">
               <img src="/instagram.png" alt="instagram"/></a></li>

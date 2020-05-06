@@ -28,6 +28,13 @@
     width: 100%;
 }
 
+.NB_css ul ul li a{
+    text-align: left;
+}
+.NB_css ul ul li a #companyName{
+    margin-left:20px;
+}
+
 .NB_css ul li a:link{
     color: white;
 }

@@ -40,19 +40,19 @@ class NB_Homepage extends Component {
           <li><a href="#companyList">{__('Companies')}</a>
             <ul>
               <li><Link to="/company/WILLE"> 
-                <img className="machine_logo" src="/Firme/wille/logo.png" alt="machine_logo"/> Wille</Link></li>
+                <img className="machine_logo" src="/Firme/wille/logo.png" alt="machine_logo"/><span id="companyName">Wille</span> </Link></li>
               <li><Link to="/company/Broddson"> 
-                <img className="machine_logo" src="/Firme/broddson/logo.png" alt="machine_logo"/> Broddson</Link></li>
+                <img className="machine_logo" src="/Firme/broddson/logo.png" alt="machine_logo"/><span id="companyName">Broddson</span> </Link></li>
               <li><a href="https://www.boschung.com/">
-                <img className="machine_logo" src="/Firme/boschung/logo2.png" alt="machine_logo"/> Boschung </a></li>
+                <img className="machine_logo" src="/Firme/boschung/logo2.png" alt="machine_logo"/><span id="companyName">Boschung</span>  </a></li>
               <li><Link to="/company/WILLE">
-                <img className="machine_logo" src="/Firme/dorotea mekaniska/logo.png" alt="machine_logo"/> Dorotea mekaniska </Link></li>
+                <img className="machine_logo" src="/Firme/dorotea mekaniska/logo.png" alt="machine_logo"/><span id="companyName"> Dorotea mekaniska</span> </Link></li>
             </ul>
           </li>
           <div className="li_posle_padajuceg">
             <li><Link to="/aboutUs">{__('About us')}</Link></li>
-            <li><a href="/#" className="nsk">{__('Servis')}</a></li>
-            <li><a href="/contact" className="nsk">{__('Contact')}</a></li>
+            <li><Link to="/Services">{__('Servis')}</Link></li>
+            <li><Link to="/contact">{__('Contact')}</Link></li>
           </div>
         </ul>
       </nav>
