@@ -4,7 +4,7 @@
     grid-template-rows: 37px 60px;
     position: fixed;
     z-index: 3;
-    font-family: 'MontserratAlternates-Regular.otf';
+    font-family: 'Montserrat-Medium.otf';
 
 }
 
@@ -13,7 +13,6 @@
     padding: 12px;
     font-size: 18px;
     line-height: 25px;
-    border-radius: 4px;
 }
 
 .levi {
@@ -21,7 +20,7 @@
     grid-column: 1;
     grid-row: 1/3;
     height: 89%;
-    border-bottom: 3px solid rgb(41, 39, 39);
+    border-bottom: 3px solid #343a40;
 }
 
 .gornji {
@@ -47,7 +46,7 @@
 .donji a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
 
 .smd_logo {
     width: 82%;

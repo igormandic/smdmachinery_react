@@ -1,5 +1,5 @@
 :root{
-  --mainDark: #343a40;
+  --mainDark: ##343a40;
   --mainGrey: rgba(109,109,109);
   --mainLightGrey : rgba(172,172,172);
   --mainWhite: #fff;
@@ -9,5 +9,5 @@
 .App {
   background-image: url('/Background.png');
   background-attachment: fixed;
-  font-family: 'MontserratAlternates-Regular.otf';
+  font-family: 'Montserrat-Medium.otf';
 }

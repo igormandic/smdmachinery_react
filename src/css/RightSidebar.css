@@ -8,12 +8,12 @@
     width: 100%;
     margin: 0 0 3% 1%;
     height: 55px;
-    border: 1.5px solid rgb(41, 39, 39);
+    border: 1.5px solid #343a40;
     background: none;
     font-size: 22px;
     font-weight: bolder;
-    font-family: "montserrant";
-    color: rgb(41, 39, 39);
+    font-family: 'Montserrat-Medium.otf';
+    color: #343a40;
     transition: color 0.8s linear;
     cursor: pointer;
     overflow: hidden;
@@ -31,7 +31,7 @@
     left: 0;
     width: 101%;
     height: 190%;
-    background: rgb(41, 39, 39);
+    background: #343a40;
     top: 0;
     border-radius: 0 0 50% 50%;
     z-index: -1;

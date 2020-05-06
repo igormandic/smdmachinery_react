@@ -3,7 +3,7 @@
     margin: 0 0 0 9.1%;
     /* background-color: white; */
     color: black;
-    font-family: 'MontserratAlternates-Regular.otf';
+    font-family: 'Montserrat-Medium.otf';
 
 }
 
@@ -27,7 +27,7 @@
     margin-top: 15px;
     width: 100%;
     height: 50px;
-    background-color:  rgb(41, 39, 39);
+    background-color:  #343a40;
     color: white;
     border: 0;
     padding-top: 1%;
