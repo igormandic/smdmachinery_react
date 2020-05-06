@@ -20,9 +20,9 @@ class Header1 extends Component {
                 <div className="gornji">
                     <div className="phone_mail">
                         <img className="phone_logo" src="/phone_logo.png" alt="phone_logo"/>
-                        <p> 065409869 </p>
+                        <p> +381 11 3612 162 </p>
                         <img className="mail_logo" src="/mail_logo.png" alt="mail_logo"/> 
-                        <p> smd@gmail.com </p>
+                        <p> office@smdmachinery.rs </p>
                     </div>
                     <Language />
                 </div>

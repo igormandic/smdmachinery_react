@@ -10,11 +10,11 @@ function Footer() {
     <div className="footer"> 
     <div className="center">
       <div className="links">
-        <h3>SMDMACHINERY</h3>
+        <h3>SMD MACHINERY</h3>
         <ul>
-          <li><Link to="/aboutUs">{__('About us')}</Link></li>
-          <li><Link to="/services">{__('Servis')}</Link></li>
-          <li><Link to="/company/WILLE/attachments">{__('Attachments')}</Link></li>
+          <li id="first"><Link to="/aboutUs">{__('About us')}</Link></li>
+          <li id="first"><Link to="/services">{__('Servis')}</Link></li>
+          <li id="first"><Link to="/company/WILLE/attachments">{__('Attachments')}</Link></li>
         </ul>
       </div>
       <div className="links">

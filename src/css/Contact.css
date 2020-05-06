@@ -6,9 +6,30 @@
     padding-top: 5%;
 }
 
+.locationDiv{
+    margin-top:40px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 24px;
+}
+
 .location{
-    margin-left:12%;
     font-size: 16px;
+}
+
+.phone_logo {
+    width: 14px;
+    height: 45%;                                           
+}
+.location-logo{
+    width: 20px;
+    height: 70%; 
+}
+
+.mail_logo {
+    width: 20px;
+    height: 60%;
 }
 
 .card{

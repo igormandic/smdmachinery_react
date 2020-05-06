@@ -11,6 +11,7 @@ import AllProducts from './component/AllProducts';
 import UseAgreement from './component/UseAgreement';
 import CookiePolicy from './component/CookiePolicy';
 import AboutUs from './component/AboutUs';
+import Services from './component/Services';
 
 class App extends React.Component {
 
@@ -37,6 +38,7 @@ class App extends React.Component {
           <Route path="/useAgreement" exact component={UseAgreement} />
           <Route path="/cookiePolicy" exact component={CookiePolicy} />
           <Route path="/aboutUs" exact component={AboutUs} />
+          <Route path="/Services" exact component={Services} />
         </Switch>
       </BrowserRouter>
     );

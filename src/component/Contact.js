@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="contact" >
       <iframe 
               className="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2868.5733961904352!2d20.89962041550993!3d44.03020947911009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475726b4d66d62cf%3A0xd4592a2b4748839f!2z0JrRgNCw0ZnQuNGG0LUg0J3QsNGC0LDQu9C40ZjQtSA3Miwg0JrRgNCw0LPRg9GY0LXQstCw0YY!5e0!3m2!1ssr!2srs!4v1586692582023!5m2!1ssr!2srs"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.637902603797!2d20.459037815181272!3d44.808567579098614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa8da54c451%3A0xe5643e65a4de8733!2zS9GA0LDRmdC40YbQtSDQndCw0YLQsNC70LjRmNC1IDcyLCDQkdC10L7Qs9GA0LDQtCAxMTAwMA!5e0!3m2!1ssr!2srs!4v1588703295361!5m2!1ssr!2srs"
               width="100%" 
               height="600px" 
               frameBorder="0" 
@@ -17,10 +17,15 @@ const Contact = () => {
               tabIndex="0"
               title="mapa"
         />
-        <span className="location">Novi Beograd </span>
-        <span className="location">Kraljice Natalije 72 </span>
-        <span className="location"> smd@gmail.com </span>
-        <span className="location">065409869 </span>
+        <div className ="locationDiv">
+        <span className="location">SMD Machinery d.o.o </span>
+        <span className="location"><img className="location-logo" src="/location-logo.png" alt=""/>Kraljice Natalije 72 </span>
+        <span className="location"> 11000 Beograd, Srbija </span>
+        <span className="location"><img className="mail_logo" src="/mail_logo.png" alt="mail_logo"/>office@smdmachinery.rs </span>
+        <span className="location"> <img className="phone_logo" src="/phone_logo.png" alt="phone_logo"/>+381 11 3612 162 </span>
+        <span className="location"> PIB: 100395882 </span>
+        <span className="location"> MB: 07809697 </span>
+        </div>
        <h2 className="h1-responsive font-weight-bold text-center my-5">
         {__('ContactUs')}
       </h2>
