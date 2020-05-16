@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import {Tabs, Tab} from 'react-bootstrap';
-import GeneralInfo from './GeneralInfo'
+// import GeneralInfo from './GeneralInfo'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/SelectMenu.css';
 import TechnicalInfo from './TechnicalInfo';
 import AttachmentTab from './AttachmentTab';
 import Gallery from './Gallery';
 import { __ } from '../utils/i18n';
+import GeneralInfoWille from './GeneralInfoWille';
 
 class SelectMenu extends Component {
   render(){
@@ -79,7 +80,6 @@ class SelectMenu extends Component {
         images = ["/WILLE/465/information.jpg", "/WILLE/465/kohler_0.jpg", "/WILLE/465/machine-gallery.jpg"];
         attachments = [1, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 21, 23];
 
-
       } else if (this.props.name === "665") {
         title = ["title 1 665", "title 2 665", "title 3 665", "title 4 665", "title 5 665", "title 6 665", "title 7 665", "title 8 665", "title 9 665", "title 10 665", "title 11 665", "title 12 665", "title 13 665", "title 14 665", "title 15 665"];
         text = ["text 1 665", "text 2 665", "text 3 665", "text 4 665", "text 5 665", "text 6 665", "text 7 665", "text 8 665", "text 9 665", "text 10 665", "text 11 665", "text 12 665", "text 13 665", "text 14 665", "text 15 665"];
@@ -128,7 +128,7 @@ class SelectMenu extends Component {
       <div className="selectMenu">
         <Tabs defaultActiveKey="generalInfo" id="uncontrolled-tab-example" className="tabovi">
           <Tab eventKey="generalInfo" title={__("General info")} >
-            <GeneralInfo ind={true} images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
+            <GeneralInfoWille ind={true} images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
           </Tab>
           <Tab eventKey="technical" title={__('Technical info')}>
             <TechnicalInfo pdf={pdf} technicalInfo={technicalInfo} name={this.props.name} nameOfCompany={this.props.nameOfCompany} />

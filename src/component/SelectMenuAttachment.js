@@ -15,6 +15,7 @@ class SelectMenuAttachment extends Component {
     let list = [];
     let technicalInfoAttachment = [];
     let images = [];
+    let pdf = '';
 
     if (this.props.name === '1') {
       title = ['title 1 1'];
@@ -248,6 +249,7 @@ class SelectMenuAttachment extends Component {
         ['Tires', '225/75 x 17.5']
       ];
       images = ['/Broddson/Nordic/masina.jpg'];
+      pdf = '/Broddson/Nordic/brosura.pdf';
     } else if (this.props.name === 'Scandia')  {
       title = ['title 1 Scandia'];
       text = ['text 1 Scandia'];
@@ -260,12 +262,13 @@ class SelectMenuAttachment extends Component {
         ['Tires', '225/75R 17.5'],
         ['Speed', 'Max 40 km/h']
       ];
-      images = ['/Broddson/Scandia/masina.jpg'];	
+      images = ['/Broddson/Scandia/masina.jpg'];
+      pdf = '/Broddson/Scandia/brosura.pdf';	
     } else if (this.props.name === 'Fighter')  {
       title = ['title 1 Fighter'];
       text =  ['text 1 Fighter'];
-      
-      images = ['/Broddson/Fighter/masina1.png'];	
+      images = ['/Broddson/Fighter/masina1.png'];
+      pdf = '/Broddson/Fighter/brosura.pdf';	
     }
     return (
       <div className='selectMenuAttachment'>
@@ -274,7 +277,7 @@ class SelectMenuAttachment extends Component {
             <GeneralInfo ind={false} images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
           </Tab>
           <Tab eventKey='technical' title={__('Technical info')}>
-            <TechnicalInfoAttachment technicalInfoAttachment={technicalInfoAttachment}/>
+            <TechnicalInfoAttachment technicalInfoAttachment={technicalInfoAttachment} pdf={pdf}/>
           </Tab>
           <Tab eventKey='gallery' title={__('Gallery')}>
             <GalleryAttachment name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>
