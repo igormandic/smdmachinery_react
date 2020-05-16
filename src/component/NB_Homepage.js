@@ -37,7 +37,7 @@ class NB_Homepage extends Component {
       <nav>
         <ul>
           <li><a href="/">{__('Home page')}</a></li>
-          <li><a href="#companyList">{__('Companies')}</a>
+          <li><a href="/#companyList">{__('Companies')}</a>
             <ul>
               <li><Link to="/company/WILLE"> 
                 <img className="machine_logo" src="/Firme/wille/logo.png" alt="machine_logo"/><span id="companyName">Wille</span> </Link></li>

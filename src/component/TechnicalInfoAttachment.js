@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import '../css/TechnicalInfoAttachment.css';
 import { __ } from '../utils/i18n';
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class TechnicalInfoAttachment extends Component {
+	downloadPdf(e) {
+        e.preventDefault();
+        window.open(this.props.pdf, '_blank');
+    }
     render(){
 	  	const technicalInfoAttachment = this.props.technicalInfoAttachment;
 	  	let technicalInfo = [];
@@ -23,11 +29,12 @@ class TechnicalInfoAttachment extends Component {
       return (
         <div className="attachmentTable">
           <table className="responsive-table stacktable large-only">
-						<thead><tr>
-							<th>{__('Specification')}</th>
-						</tr></thead>
-							{technicalInfo}
-					</table>
+				<thead><tr>
+					<th>{__('Specification')}</th>
+				</tr></thead>
+				{technicalInfo}
+			</table>
+			{this.props.pdf !== "" ? <button id="dugme" className="dugme" style={{border:"0", width:"30%", marginTop:"0%", marginLeft:"35%"}}onClick={this.downloadPdf.bind(this)}> <FontAwesomeIcon icon={faDownload} color="black"/>  {__('download')}</button > : ""}
         </div>
       );
     }

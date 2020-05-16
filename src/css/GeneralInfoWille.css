@@ -1,0 +1,80 @@
+
+.generalInfo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+}
+
+.textGeneralInfo{
+    width: 63%;
+    margin-top: 5%;
+    float: left;
+    font-size: 16px;
+    color: darkslategray;
+    text-align: justify;
+}
+
+.listInfo{
+    margin-left: 7%;
+}
+
+.title{
+    margin-bottom: 4%;
+    color: black;
+}
+.right{
+    margin-top: 6%;
+    margin-left: 10%;
+    width: 30%;
+    display: block;
+}
+
+.photoGeneral1{
+    width: 70%;
+    height: auto;
+    padding-top: 10%;
+}
+
+.photoGeneral2{
+    width: 70%;
+    height: auto;
+    padding-top: 100%;
+}
+.photoGeneral3{
+    width: 90%;
+    height: auto;
+    padding-top: 100%;
+}
+
+@media only screen and (max-width: 1270px) { 
+    .text{
+        margin: 10px 20px;
+        width: 100%;
+        float: left;
+    }
+
+    .photoGeneral{
+        margin-top: 40px;
+        align-self: center;
+        width: 40%;
+        margin-left: 30%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) { 
+    .text{
+        margin: 5%;
+        width: 90%;
+        float: left;
+        font-size: 14px;
+    }
+
+    .photoGeneral{
+        margin-top: 5%;
+        align-self: center;
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+    }
+}
