@@ -4,6 +4,7 @@ import {TweenMax, Power3} from 'gsap';
 import $ from 'jquery';
 import {windowHeight} from 'react-window-size';
 import { __ } from '../utils/i18n';
+import { Link } from 'react-router-dom';
 
 class Slideshow extends React.Component {
   componentDidMount(){
@@ -230,9 +231,9 @@ class Slideshow extends React.Component {
                   <div className="text">
                     <p></p>
                   </div> 
-                  <a href="/#" className="btn">
+                  <Link to="/company/Wille" className="btn">
                     <span className="btn-inner">{__('learnMore')}</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="image-container"> 
@@ -246,9 +247,9 @@ class Slideshow extends React.Component {
                   <div className="text">
                     <p></p>
                   </div> 
-                  <a href="/#" className="btn">
+                  <Link to="/company/Wille" className="btn">
                     <span className="btn-inner">{__('learnMore')}</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="image-container">
@@ -262,9 +263,9 @@ class Slideshow extends React.Component {
                   <div className="text">
                     <p></p>
                   </div> 
-                  <a href="/#" className="btn">
+                  <Link to="/company/Wille" className="btn">
                     <span className="btn-inner">{__('learnMore')}</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="image-container">
@@ -278,9 +279,9 @@ class Slideshow extends React.Component {
                   <div className="text">
                     <p></p>
                   </div> 
-                  <a href="/#" className="btn">
+                  <Link to="/company/Wille" className="btn">
                     <span className="btn-inner">{__('learnMore')}</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="image-container"> 

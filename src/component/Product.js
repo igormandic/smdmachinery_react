@@ -25,7 +25,7 @@ class Product extends Component {
     const pathToHeadImage = `/${nameOfCompany}/${name}/head_image.jpg`;
     const alt = `${nameOfCompany} ${name}`;
     let typeOfSelectMenu = [];
-    if (nameOfCompany === "WILLE") {
+    if (nameOfCompany === "Wille") {
       typeOfSelectMenu.push(<SelectMenu key={name} name={name} nameOfCompany={nameOfCompany} className="selectMenu"/>)
     } else if (nameOfCompany === "Broddson") {
       typeOfSelectMenu.push(<SelectMenuAttachment key={name} name={name} nameOfCompany={nameOfCompany} />);

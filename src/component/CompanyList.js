@@ -15,8 +15,8 @@ class CompanyList extends Component {
                     <div className="row_cl1">
                             <div className="one_company">
                                 <button className="btn_companyList"> 
-                                    <Link to="/company/WILLE" >
-                                        <img className="img_companyList" src="/Firme/wille/Wille.jpg" alt="company"/>
+                                    <Link to="/company/Wille" >
+                                        <img className="img_companyList" src="/Firme/Wille/Wille.jpg" alt="company"/>
                                     </Link>
                                 </button>
                             </div>

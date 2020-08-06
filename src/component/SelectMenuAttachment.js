@@ -21,7 +21,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 1'];
       text = ['text 1 1'];
       list = ['list 1 1','list 1 2','list 1 3','list 1 4','list 1 5','list 1 6','list 1 7','list 1 8'];
-      images = ['/WILLE/Prikljucci/1/masina1.jpg'];
+      images = ['/Wille/Prikljucci/1/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (l)', 'Water tank volume (l)', 'Working width (mm)', 'Brush diameter (mm)', 'Weight (kg)', 'Wille'],
         ['Collecting sweeper 205', '200', '100', '1700, with extra cup brush 2050', '600', '525', '365'],
@@ -32,16 +32,16 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 2'];
       text = ['text 1 2'];
       list = ['list 2 1','list 2 2'];
-      images = ['/WILLE/Prikljucci/2/masina1.jpg'];
+      images = ['/Wille/Prikljucci/2/masina1.jpg'];
     } else if (this.props.name === '3') {
       title = ['title 1 3'];
       text = ['text 1 3'];
       list = ['list 3 1','list 3 2'];
-      images = ['/WILLE/Prikljucci/3/masina1.jpg']
+      images = ['/Wille/Prikljucci/3/masina1.jpg']
     } else if (this.props.name === '4') {
       title = ['title 1 4'];
       text = ['text 1 4'];
-      images = ['/WILLE/Prikljucci/4/masina3.jpg'];
+      images = ['/Wille/Prikljucci/4/masina3.jpg'];
       technicalInfoAttachment = [
         ['Working height (mm)', '8800'],
         ['Platform floor from the ground (mm)', '6800'],
@@ -56,7 +56,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 5'];
       text = ['text 1 5'];
       list = ['list 5 1','list 5 2','list 5 3','list 5 4'];
-      images = ['/WILLE/Prikljucci/5/masina3.jpg'];
+      images = ['/Wille/Prikljucci/5/masina3.jpg'];
       technicalInfoAttachment = [
         ['', 'Blade width (mm)', 'Blade angle +/-', 'Blade tilt +/-', 'Weight (kg)', 'Wille'],
         ['Hydraulic rear blade 2500', '2500', '25°', '10°', '450', '665, 865']
@@ -64,7 +64,7 @@ class SelectMenuAttachment extends Component {
     } else if (this.props.name === '6') {
       title = ['title 1 6'];
       text = ['text 1 6'];
-      images = ['/WILLE/Prikljucci/6/masina1.jpg'];
+      images = ['/Wille/Prikljucci/6/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Working width (mm)', 'Weight (kg)', 'Wille'],
         ['Leaf bucket 1200', '1200', '1950', '455', '465'],
@@ -74,7 +74,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 7'];
       text = ['text 1 7'];
       list = ['list 7 1','list 7 2'];
-      images = ['/WILLE/Prikljucci/7/masina1.jpg'];
+      images = ['/Wille/Prikljucci/7/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Working width (mm)', 'Weight (kg)', 'Wille'],
         ['Snow bucket 800', '800', '1550', '220', '365'],
@@ -86,12 +86,12 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 8'];
       text = ['text 1 8'];
       list = ['list 8 1'];
-      images = ['/WILLE/Prikljucci/8/masina1.jpg'];
+      images = ['/Wille/Prikljucci/8/masina1.jpg'];
     } else if (this.props.name === '9') {
       title = ['title 1 9'];
       text = ['text 1 9'];
       list = ['list 9 1','list 9 2','list 9 3'];
-      images = ['/WILLE/Prikljucci/9/masina1.jpg'];
+      images = ['/Wille/Prikljucci/9/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Min. Working width (mm)', 'Max. Working width (mm)', 'Weight (kg)', 'Wille'],
         ['Multi-functional Bucket 750', '750', '1720', '2685', '290', '365'],
@@ -103,7 +103,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 10'];
       text = ['text 1 10'];
       list = ['list 10 1','list 10 2','list 10 3'];
-      images = ['/WILLE/Prikljucci/10/masina3.jpg'];
+      images = ['/Wille/Prikljucci/10/masina3.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Lenght (mm)', 'Width (mm)', 'Board height (mm)', 'Weight (kg)', 'Wille'],
         ['Hydraulic Platform 300', '300', '1250', '1130', '220', '250', '465'],
@@ -115,7 +115,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 11'];
       text = ['text 1 11'];
       list = ['list 11 1','list 11 2','list 11 3','list 11 4','list 11 5','list 11 6','list 11 7'];
-      images = ['/WILLE/Prikljucci/11/masina1.jpg'];
+      images = ['/Wille/Prikljucci/11/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Weight (kg)', 'Wille'],
         ['Disc Spreader 450', '450', '285', '265, 365'],
@@ -126,7 +126,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 12'];
       text = ['text 1 12'];
       list = ['list 12 1','list 12 2','list 12 3'];
-      images = ['/WILLE/Prikljucci/12/masina1.jpg'];
+      images = ['/Wille/Prikljucci/12/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Working width (mm)', 'Weight (kg)', 'Wille'],
         ['Sand spreader 180', '180', '1100', '215', '265'],
@@ -141,7 +141,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 13'];
       text = ['text 1 13'];
       list = ['list 13 1','list 13 2','list 13 3','list 13 4','list 13 5','list 13 6','list 13 7'];
-      images = ['/WILLE/Prikljucci/13/masina1.jpg'];
+      images = ['/Wille/Prikljucci/13/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Working width (mm)', 'Spread amount (g/m2)', 'Spreading speed (km/h)', 'Wille'],
         ['De-icer 1500', '1500', '2500-5000', '455', 'max. 30', '655, 865']
@@ -150,7 +150,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 14'];
       text = ['text 1 14'];
       list = ['list 14 1','list 14 2','list 14 3','list 14 4'];
-      images = ['/WILLE/Prikljucci/14/masina3.jpg'];
+      images = ['/Wille/Prikljucci/14/masina3.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Max. Pressure (bar)', 'Max pump flow (l/min)', 'Weight (kg)', 'Wille'],
         ['High-pressure washer 550', '550', '130', '30', '230', '265, 365'],
@@ -161,7 +161,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 15'];
       text = ['text 1 15'];
       list = ['list 15 1','list 15 2','list 15 3'];
-      images = ['/WILLE/Prikljucci/15/masina1.jpg'];
+      images = ['/Wille/Prikljucci/15/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Width (mm)', 'Height (mm)', 'Blade (mm)', 'Hydraulic turn +/-', 'Weight (kg)', 'Wille'],
         ['Ice plow', '3000', '420', '2 x 100', '30°', '205', '265, 365, 465']
@@ -170,7 +170,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 16'];
       text = ['text 1 16'];
       list = ['list 16 1','list 16 2'];
-      images = ['/WILLE/Prikljucci/16/masina1.jpg'];
+      images = ['/Wille/Prikljucci/16/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Max. Pressure (bar)', 'Max. Flow (l/min)', 'Powered', 'Weight (kg)', 'Wille'],
         ['Sprinkling tank 550', '550', '3,1', '14', 'electricity (12V)', '220', '265, 365'],
@@ -181,7 +181,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 17'];
       text = ['text 1 17'];
       list = ['list 17 1','list 17 2','list 17 3','list 17 4','list 17 5','list 17 6','list 17 7'];
-      images = ['/WILLE/Prikljucci/17/masina1.jpg'];
+      images = ['/Wille/Prikljucci/17/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Min. Working width (mm)', 'Max. Working width (mm)', 'Weight (kg)', 'Wille'],
         ['Rotary brush 140', '1250', '1400', '320', '265'],
@@ -195,7 +195,7 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 18'];
       text = ['text 1 18'];
       list = ['list 18 1','list 18 2','list 18 3','list 18 4'];
-      images = ['/WILLE/Prikljucci/18/masina3.jpg'];
+      images = ['/Wille/Prikljucci/18/masina3.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (l)', 'Unloading height (mm)', 'Weight (kg)', 'Wille'],
         ['Leaf collector/blower 900', '900', '1850', '555', '265, 365'],
@@ -205,16 +205,16 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 19'];
       text = ['text 1 19'];
       list = ['list 19 1','list 19 2','list 19 3',];
-      images = ['/WILLE/Prikljucci/19/masina3.jpg']
+      images = ['/Wille/Prikljucci/19/masina3.jpg']
     } else if (this.props.name === '20') {
       title = ['title 1 20'];
       text = ['text 1 20'];
-      images = ['/WILLE/Prikljucci/20/masina1.jpg'];
+      images = ['/Wille/Prikljucci/20/masina1.jpg'];
     } else if (this.props.name === '21') {
       title = ['title 1 21'];
       text = ['text 1 21'];
       list = ['list 21 1','list 21 2'];
-      images = ['/WILLE/Prikljucci/21/masina2.jpg'];
+      images = ['/Wille/Prikljucci/21/masina2.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Working width (mm)', 'Weight (kg)', 'Wille'],
         ['Soil bucket 400', '400', '1400', '155', '365'],
@@ -226,12 +226,12 @@ class SelectMenuAttachment extends Component {
       title = ['title 1 22'];
       text = ['text 1 22'];
       list = ['list 22 1','list 22 2'];
-      images = ['/WILLE/Prikljucci/22/masina3.jpg'];
+      images = ['/Wille/Prikljucci/22/masina3.jpg'];
     } else if (this.props.name === '23') {
       title = ['title 1 23'];
       text = ['text 1 23'];
       list = ['list 23 1','list 23 2'];
-      images = ['/WILLE/Prikljucci/23/masina1.jpg'];
+      images = ['/Wille/Prikljucci/23/masina1.jpg'];
       technicalInfoAttachment = [
         ['', 'Volume (liters)', 'Working width (mm)', 'Emptying height (mm)', 'Weight (kg)', 'Wille'],
         ['HT-bucket 550', '550', '1580', '1000 (265) 3130 (365)', '300', '265, 365'],

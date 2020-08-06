@@ -49,11 +49,11 @@ class NB extends Component {
     let linkForAllAttachment = "";
     let ind = true;
     let currentPaht = window.location.pathname;
-    if (this.props.name === "WILLE") {
+    if (this.props.name === "Wille") {
       products = ["265", "375", "465", "665", "865"];
-      images = ["/WILLE/265/masina1.png","/WILLE/375/375_pose_thumb.png",
-                "/WILLE/465/465_pose_thumb.png","/WILLE/665/665iv_pose_thumb_v2.png",
-                "/WILLE/865/865iv_pose_thumb.png"]; 
+      images = ["/Wille/265/masina1.png","/Wille/375/375_pose_thumb.png",
+                "/Wille/465/465_pose_thumb.png","/Wille/665/665iv_pose_thumb_v2.png",
+                "/Wille/865/865iv_pose_thumb.png"]; 
       linkForAllProducts = `/company/${this.props.name}/product`;
     } else if (this.props.name === "Broddson") {
       products = ["Nordic", "Scandia", "Fighter"];
@@ -76,7 +76,7 @@ class NB extends Component {
         <nav>
           <ul >
             <li><Link to="/">{__('Home page')}</Link></li>
-            <li className="firme"><Link to={linkForAllProducts}>{__('Products')}</Link>
+            <li className="firme"><Link to={linkForAllProducts}>{__('Products') }</Link>
               <ul>
                 {pathToProducts}
               </ul>
