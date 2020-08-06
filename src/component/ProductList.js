@@ -12,7 +12,7 @@ class ProductList extends Component {
         let text = [];
         let subTitle = "";
         const nameOfCompany = window.localStorage.nameOfCompany;
-        if (nameOfCompany === "WILLE") {
+        if (nameOfCompany === "Wille") {
             products = ['265', '375', '465', '665', '865'];
             title = "title Wille";
             subTitle = "subTitle Wille";

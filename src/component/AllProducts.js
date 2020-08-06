@@ -8,7 +8,7 @@ class AllProducts extends React.Component {
   render() {
     return (
       <div className="allProducts">
-          <Header1 type="company" name="WILLE" />
+          <Header1 type="company" name="Wille" />
           <ProductsSpecs path={this.props.location.pathname}/>
           <Footer/>
       </div>

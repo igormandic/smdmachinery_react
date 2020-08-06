@@ -36,7 +36,7 @@ class SelectMenu extends Component {
           weight: "1900 kg",
           drivingSpeed: "0-36 kmph"
         };
-        images = ["/WILLE/265/masina2.jpg"];
+        images = ["/Wille/265/masina2.jpg"];
         attachments = [10, 11, 12, 14, 15, 16, 17, 18, 23];
       } else if (this.props.name === "375") {
         title = ["title 1 375", "title 2 375", "title 3 375", "title 4 375", "title 5 375", "title 6 375", "title 7 375", "title 8 375", "title 9 375"];
@@ -56,7 +56,7 @@ class SelectMenu extends Component {
           weight: "2920 kg",
           drivingSpeed: "0-38 kmph"
         };
-        images = ["/WILLE/375/AED_fuelsave_symbol_0.png", "/WILLE/375/AED_settings_photo.jpg", "/WILLE/375/375_loader_up.jpg"];
+        images = ["/Wille/375/AED_fuelsave_symbol_0.png", "/Wille/375/AED_settings_photo.jpg", "/Wille/375/375_loader_up.jpg"];
         attachments = [1, 4, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 21, 23];
 
       } else if (this.props.name === "465") {
@@ -77,7 +77,7 @@ class SelectMenu extends Component {
           weight: "3420 kg",
           drivingSpeed: "0-40 kmph"
         };
-        images = ["/WILLE/465/information.jpg", "/WILLE/465/kohler_0.jpg", "/WILLE/465/machine-gallery.jpg"];
+        images = ["/Wille/465/information.jpg", "/Wille/465/kohler_0.jpg", "/Wille/465/machine-gallery.jpg"];
         attachments = [1, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 21, 23];
 
       } else if (this.props.name === "665") {
@@ -98,7 +98,7 @@ class SelectMenu extends Component {
           weight: "5920 kg",
           drivingSpeed: "0-50 kmph"
         };
-        images = ["/WILLE/665/information.jpg", "/WILLE/665/kohler_scr_3404.jpg", "/WILLE/665/W665iv_studio_front.jpg"]
+        images = ["/Wille/665/information.jpg", "/Wille/665/kohler_scr_3404.jpg", "/Wille/665/W665iv_studio_front.jpg"]
         attachments = [1, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 21];
 
       } else if (this.props.name === "865") {
@@ -119,7 +119,7 @@ class SelectMenu extends Component {
           weight: "7050 kg",
           drivingSpeed: "0-50 kmph"
         };
-        images = ["/WILLE/865/information.jpg", "/WILLE/865/kohler_scr_3404.jpg", "/WILLE/865/masina.jpg"]
+        images = ["/Wille/865/information.jpg", "/Wille/865/kohler_scr_3404.jpg", "/Wille/865/masina.jpg"]
         attachments = [1, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 17, 21];
 
       }

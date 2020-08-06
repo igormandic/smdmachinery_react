@@ -39,13 +39,13 @@ class NB_Homepage extends Component {
           <li><a href="/">{__('Home page')}</a></li>
           <li><a href="/#companyList">{__('Companies')}</a>
             <ul>
-              <li><Link to="/company/WILLE"> 
-                <img className="machine_logo" src="/Firme/wille/logo.png" alt="machine_logo"/><span id="companyName">Wille</span> </Link></li>
+              <li><Link to="/company/Wille"> 
+                <img className="machine_logo" src="/Firme/Wille/logo.png" alt="machine_logo"/><span id="companyName">Wille</span> </Link></li>
               <li><Link to="/company/Broddson"> 
                 <img className="machine_logo" src="/Firme/broddson/logo.png" alt="machine_logo"/><span id="companyName">Broddson</span> </Link></li>
               <li><a href="https://www.boschung.com/">
                 <img className="machine_logo" src="/Firme/boschung/logo2.png" alt="machine_logo"/><span id="companyName">Boschung</span>  </a></li>
-              <li><Link to="/company/WILLE">
+              <li><Link to="/company/Wille">
                 <img className="machine_logo" src="/Firme/dorotea mekaniska/logo.png" alt="machine_logo"/><span id="companyName"> Dorotea mekaniska</span> </Link></li>
             </ul>
           </li>
@@ -69,10 +69,10 @@ class NB_Homepage extends Component {
             <li><Link to="/"> {__('Home page')} </Link></li>
             <li><a href="#companyList"> {__('Companies')} </a>
               <ul>
-                <li><Link to="/company/WILLE">Wille</Link></li>
+                <li><Link to="/company/Wille">Wille</Link></li>
                 <li><Link to="/company/Broddson">Broddson</Link></li>
                 <li><a href="https://www.boschung.com/">Boschung </a></li>
-                <li><Link to="/company/WILLE">Dorotea mekaniska </Link></li>
+                <li><Link to="/company/Wille">Dorotea mekaniska </Link></li>
               </ul>
             </li>
             <div className="li_posle_padajuceg">

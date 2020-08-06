@@ -31,7 +31,7 @@ class SelectMenuBroddson extends Component {
           weight: "1900 kg",
           drivingSpeed: "0-36 kmph"
         };
-        images = ["/WILLE/265/masina2.jpg"];
+        images = ["/Wille/265/masina2.jpg"];
 
       } else if (this.props.name === "375") {
         title = ["title 1 375", "title 2 375", "title 3 375", "title 4 375", "title 5 375", "title 6 375", "title 7 375", "title 8 375", "title 9 375"];
@@ -51,7 +51,7 @@ class SelectMenuBroddson extends Component {
           weight: "2920 kg",
           drivingSpeed: "0-38 kmph"
         };
-        images = ["/WILLE/375/AED_fuelsave_symbol_0.png", "/WILLE/375/AED_settings_photo.jpg", "/WILLE/375/375_loader_up.jpg"]
+        images = ["/Wille/375/AED_fuelsave_symbol_0.png", "/Wille/375/AED_settings_photo.jpg", "/Wille/375/375_loader_up.jpg"]
 
       } else if (this.props.name === "465") {
         title = ["title 1 465", "title 2 465", "title 3 465", "title 4 465", "title 5 465", "title 6 465", "title 7 465", "title 8 465", "title 9 465", "title 10 465", "title 11 465", "title 12 465"];
@@ -71,7 +71,7 @@ class SelectMenuBroddson extends Component {
           weight: "3420 kg",
           drivingSpeed: "0-40 kmph"
         };
-        images = ["/WILLE/465/information.jpg", "/WILLE/465/kohler_0.jpg", "/WILLE/465/machine-gallery.jpg"]
+        images = ["/Wille/465/information.jpg", "/Wille/465/kohler_0.jpg", "/Wille/465/machine-gallery.jpg"]
 
       } else if (this.props.name === "665") {
         title = ["title 1 665", "title 2 665", "title 3 665", "title 4 665", "title 5 665", "title 6 665", "title 7 665", "title 8 665", "title 9 665", "title 10 665", "title 11 665", "title 12 665", "title 13 665", "title 14 665", "title 15 665"];
@@ -91,7 +91,7 @@ class SelectMenuBroddson extends Component {
           weight: "5920 kg",
           drivingSpeed: "0-50 kmph"
         };
-        images = ["/WILLE/665/information.jpg", "/WILLE/665/kohler_scr_3404.jpg", "/WILLE/665/W665iv_studio_front.jpg"]
+        images = ["/Wille/665/information.jpg", "/Wille/665/kohler_scr_3404.jpg", "/Wille/665/W665iv_studio_front.jpg"]
 
       } else if (this.props.name === "865") {
         title = ["title 1 865", "title 2 865", "title 3 865", "title 4 865", "title 5 865", "title 6 865", "title 7 865", "title 8 865", "title 9 865", "title 10 865", "title 11 865", "title 12 865", "title 13 865", "title 14 865", "title 15 865"];
@@ -111,7 +111,7 @@ class SelectMenuBroddson extends Component {
           weight: "7050 kg",
           drivingSpeed: "0-50 kmph"
         };
-        images = ["/WILLE/865/information.jpg", "/WILLE/865/kohler_scr_3404.jpg", "/WILLE/865/masina.jpg"]
+        images = ["/Wille/865/information.jpg", "/Wille/865/kohler_scr_3404.jpg", "/Wille/865/masina.jpg"]
 
       }
 

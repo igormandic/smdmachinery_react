@@ -18,7 +18,7 @@ class Attachment extends Component {
       const alt = `${nameOfCompany} ${name}`;
       return (
           <div className="attachment">
-            <Header1 type="company" name="WILLE" />
+            <Header1 type="company" name="Wille" />
             <img className="headImg" src={pathToHeadImage} alt={alt}></img>
             <SelectMenuAttachment name={name} nameOfCompany={nameOfCompany} />
             <Footer />

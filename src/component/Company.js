@@ -20,8 +20,8 @@ class Company extends Component {
         const name = this.state.name;
         const pathsToImages = [`/${name}/slider1.jpg`, `/${name}/slider2.jpg`, `/${name}/slider3.jpg`, `/${name}/slider4.jpg`];
         let url = "";
-        if (name === "WILLE") {
-            url = "https://www.youtube.com/embed/pRubXTS_pv0?showinfo=0&enablejsapi=1&origin=http://localhost:3000/company/WILLE";
+        if (name === "Wille") {
+            url = "https://www.youtube.com/embed/pRubXTS_pv0?showinfo=0&enablejsapi=1&origin=http://localhost:3000/company/Wille";
         } else if (name === "Broddson") {
             url = "https://www.youtube.com/embed/GNKYHNI2mZY?showinfo=0&enablejsapi=1&origin=http://localhost:3000/company/Broddson";
         }

@@ -12,15 +12,15 @@ function Footer() {
       <div className="links">
         <h3>SMD MACHINERY</h3>
         <ul>
-          <li id="first"><Link to="/aboutUs">{__('About us')}</Link></li>
-          <li id="first"><Link to="/services">{__('Servis')}</Link></li>
-          <li id="first"><Link to="/company/WILLE/attachments">{__('Attachments')}</Link></li>
+          <li><Link to="/aboutUs">{__('About us')}</Link></li>
+          <li><Link to="/services">{__('Servis')}</Link></li>
+          <li><Link to="/company/Wille/attachments">{__('Attachments')}</Link></li>
         </ul>
       </div>
       <div className="links">
         <h3>{__('Companies')}</h3>
         <ul>
-          <li><Link to="/company/WILLE">Wille</Link></li>
+          <li><Link to="/company/Wille">Wille</Link></li>
           <li><Link to="/company/Broddson">Broddson</Link></li>
           <li><Link to="/aboutUs">Boschung</Link></li>
           <li><Link to="/aboutUs">Dorotea Mekaniska</Link></li>
@@ -29,10 +29,10 @@ function Footer() {
       <div className="links">
         <h3>{__('Contact')}</h3>
         <ul>
-          <li>Novi Beograd</li>
+          <li>Beograd</li>
           <li>Kraljice Natalije 72</li>
-          <li>smd@gmail.com</li>
-          <li>065409869 </li>
+          <li>office@smdmachinery.rs</li>
+          <li>+381 11 3612 162 </li>
         </ul>
       </div>
       <div className="contact-social">  

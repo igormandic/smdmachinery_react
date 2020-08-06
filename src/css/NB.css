@@ -20,8 +20,11 @@
     .NB_css1 ul li a{
         text-align: center;
         text-decoration: none;
-        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
+        text-transform: capitalize;
     }
 
     .NB_css1 ul li a:visited{
@@ -44,11 +47,12 @@
     }
 
     .NB_css1 ul li ul li a{
-        height: 150px;
+        height: 170px;
     }
 
     .NB_css1 ul li ul li .machine_images{
-        width: 150px;
+        width: 170px;
+        height: auto;
     }
     
     .NB_css1 ul li:hover ul{
