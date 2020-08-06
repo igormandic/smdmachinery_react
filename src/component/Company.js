@@ -7,7 +7,6 @@ import '../css/Company.css';
 import ReturnToTop from './ReturnToTop';
 import ReactPlayer from "react-player";
 
-
 class Company extends Component {
     UNSAFE_componentWillMount() {
         if (this.props.match.params.name) { 
@@ -16,6 +15,7 @@ class Company extends Component {
         }
         window.scrollTo(0, 0);
     }
+    
     render() {
         const name = this.state.name;
         const pathsToImages = [`/${name}/slider1.jpg`, `/${name}/slider2.jpg`, `/${name}/slider3.jpg`, `/${name}/slider4.jpg`];

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import '../css/CompanyList.css';
 import { Link } from 'react-router-dom';
-import { __ } from '../utils/i18n';
+// import { __ } from '../utils/i18n';
 
 class CompanyList extends Component {
 
     render() {
         return (
             <div className="homepage_middle" id="companyList">
-                <div className="homepage_text"> <p> {__('HomePage text')}</p> 
+                <div className="homepage_text"> 
+                    {/* <p> {__('HomePage text')}</p>  */}
                 </div>
 
                 <div className="kompanija_homepage">
@@ -27,6 +28,13 @@ class CompanyList extends Component {
                                     </Link>
                                 </button>
                             </div>
+                            {/* <div className="one_company">
+                                <button className="btn_companyList" > 
+                                    <Link to="/">
+                                        <img className="img_companyList" src="/Euromacchine.jpg" alt="company"/>
+                                    </Link>
+                                </button>
+                            </div> */}
                     </div>
                     <div className="row_cl2">
                             <div className="one_company">
