@@ -10,13 +10,13 @@
     background-image: url('/Background.png');
     background-attachment: fixed;
     font-size:18px;
-    font-family: 'Montserrat-Medium.otf';
+    font-family: 'Montserrat';
 
 }
 .aboutUsTitle {
     padding-top: 30px;
     font-weight: 900;
-    font-family: 'Montserrat-Black.otf';
+    font-family: 'Montserrat';
 }
 
 h4{

@@ -39,7 +39,7 @@ function Footer() {
         <div className="social">
           <h4>{__('SMDMACHINERY AT SOCIAL MEDIA')}</h4>
           <ul>
-            <li><a href="/#" title="Instagram" target="_blank"  className="socialLogo">
+            <li><a href="https://instagram.com/smd_machinery?igshid=3qdwl3cgbtk0" title="Instagram" target="_blank" rel="noopener noreferrer" className="socialLogo">
               <img src="/instagram.png" alt="instagram"/></a></li>
             <li><a href="https://www.youtube.com/channel/UCn_FJBYuAK8iGpUmFSEiA3g" title="Youtube" target="_blank" rel="noopener noreferrer" className="socialLogo">
               <img src="/youtube.png" alt="Youtube"/></a></li>

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import {Tabs, Tab} from 'react-bootstrap';
-// import GeneralInfo from './GeneralInfo'
+import GeneralInfo from './GeneralInfo'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/SelectMenu.css';
 import TechnicalInfo from './TechnicalInfo';
 import AttachmentTab from './AttachmentTab';
 import Gallery from './Gallery';
 import { __ } from '../utils/i18n';
-import GeneralInfoWille from './GeneralInfoWille';
+// import GeneralInfoWille from './GeneralInfoWille';
 
 class SelectMenu extends Component {
   render(){
@@ -128,7 +128,7 @@ class SelectMenu extends Component {
       <div className="selectMenu">
         <Tabs defaultActiveKey="generalInfo" id="uncontrolled-tab-example" className="tabovi">
           <Tab eventKey="generalInfo" title={__("General info")} >
-            <GeneralInfoWille ind={true} images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
+            <GeneralInfo ind={true} images={images} title={title} text={text} list={list} name={this.props.name} nameOfCompany={this.props.nameOfCompany}/>  
           </Tab>
           <Tab eventKey="technical" title={__('Technical info')}>
             <TechnicalInfo pdf={pdf} technicalInfo={technicalInfo} name={this.props.name} nameOfCompany={this.props.nameOfCompany} />
