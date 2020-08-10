@@ -8,7 +8,7 @@ class AboutUs extends React.Component {
 
   render() {
     return (
-      <div className="">
+      <div className="services_wrap">
         <Header1 type="home"/>
             <div className="services">
             <img src="/logo.png" alt="SMDMachinery" id="logoServices"/>
