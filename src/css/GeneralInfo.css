@@ -79,4 +79,14 @@
         margin-left: 20%;
         height: auto;
     }
+
+    .right{
+        display:none;
+    }
+
+    .textGeneralInfo{
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
 }
