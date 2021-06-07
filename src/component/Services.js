@@ -33,7 +33,7 @@ class AboutUs extends React.Component {
                 <div className="secondDiv">
                 <iframe 
                     className="map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.637902603797!2d20.459037815181272!3d44.808567579098614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa8da54c451%3A0xe5643e65a4de8733!2zS9GA0LDRmdC40YbQtSDQndCw0YLQsNC70LjRmNC1IDcyLCDQkdC10L7Qs9GA0LDQtCAxMTAwMA!5e0!3m2!1ssr!2srs!4v1588703295361!5m2!1ssr!2srs"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.559182495197!2d20.362520448520264!3d44.850088914924875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a667794eb9eb7%3A0xa14c37ed39c36305!2sServantesova%2016%2C%20Beograd!5e0!3m2!1sen!2srs!4v1589664577119!5m2!1sen!2srs"
                     width="60%" 
                     height="250px" 
                     frameBorder="0" 
