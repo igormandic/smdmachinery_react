@@ -10,7 +10,7 @@ class AboutUs extends React.Component {
     // let title = [];
     // let text = [];
     return (
-      <div className="">
+      <div className="aboutUs_wrap">
         <Header1 type="home"/>
             <div className="aboutUs">
                 <img src="/logo.png" alt="SMDMachinery" id="logoAboutUs"/>

@@ -1,9 +1,44 @@
 import React from "react";
 import '../css/Contact.css';
-import RightSidebar from './RightSidebar';
+import '../css/RightSidebar.css';
 import { __ } from '../utils/i18n';
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import axios from 'axios';
+const API_PATH = 'C:\Users\Lenovo\Desktop\smdmachinery_react\src\api\contact\index.php';
+  
 
-const Contact = () => {
+
+  class Contact extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+        mailSent: false,
+        error: null
+      }
+    }
+    handleFormSubmit = e => {
+      e.preventDefault();
+      axios({
+        method: 'post',
+        url: `${API_PATH}`,
+        headers: { 'content-type': 'application/json' },
+        data: this.state
+      })
+        .then(result => {
+          this.setState({
+            mailSent: result.data.sent
+          })
+        })
+        .catch(error => this.setState({ error: error.message }));
+    };
+
+  render(){
+    
   return (
     <div className="contact" >
       <iframe 
@@ -29,33 +64,44 @@ const Contact = () => {
        <h2 className="h1-responsive font-weight-bold text-center my-5">
         {__('ContactUs')}
       </h2>
+      <form action="#">
       <div className="contactSection">
        <div className="span12">
             <div className="rowContact">
                 <div className="span4 form-group">
-                  <input type="text" name="name" className="form-control" id="name" placeholder={__('YourName')} data-rule="minlen:4" data-msg="Molimo vas unesite najmanje 4 karaktera"></input>
+                  <input id="name" type="text" name="name" className="form-control" placeholder={__('YourName')} data-rule="minlen:4" data-msg="Molimo vas unesite najmanje 4 karaktera" value={this.state.fname} onChange={e => this.setState({ name: e.target.value })}></input>
                   <div className="validation"></div>
                 </div>
                 <div className="span4 form-group">
-                  <input type="email" className="form-control" name="email" id="email" placeholder={__('YourMail')} data-rule="email" data-msg="Molimo vas unesite ispravan email"></input>
+                  <input id="email" type="email" className="form-control" name="email"  placeholder={__('YourMail')} data-rule="email" data-msg="Molimo vas unesite ispravan email" value={this.state.email} onChange={e => this.setState({ email: e.target.value })}></input>
                   <div className="validation"></div>
                 </div>
                 <div className="span4 form-group">
-                  <input type="text" className="form-control" name="subject" id="subject" placeholder={__('MailTitle')} data-rule="minlen:4" data-msg="Molimo vas unesite najmanje 8 karaktera"></input>
+                  <input id="subject" type="text" className="form-control" name="subject" id="subject" placeholder={__('MailTitle')} data-rule="minlen:4" data-msg="Molimo vas unesite najmanje 8 karaktera" value={this.state.subject} onChange={e => this.setState({ subject: e.target.value })}></input>
                   <div className="validation"></div>
                 </div>
                 <div className="span12 margintop10 form-group">
-                  <textarea className="form-control" name="message" rows="12" data-rule="required" data-msg={__('PorukaMail')} placeholder="Text"></textarea>
+                  <textarea id="message" className="form-control" name="message" rows="12" data-rule="required" data-msg={__('PorukaMail')} placeholder="Text" onChange={e => this.setState({ message: e.target.value })} value={this.state.message}></textarea>
                   <div className="validation"></div>
-                  <RightSidebar />
+                    <div className="rightSidebar">
+                      <button className="dugme" type="submit" onClick={e => this.handleFormSubmit(e)} value="Submit"><FontAwesomeIcon icon={faEnvelope} color="black"/>  {__('Send message')}</button >
+                  </div>
                 </div>
               </div>
           </div>
           </div>
+            <div>
+              {this.state.mailSent &&
+              <div>Thank you for contcting us.</div>
+              }
+            </div>
+          </form>
       </div>
     
     
   );
 }
+}
+
 
 export default Contact;

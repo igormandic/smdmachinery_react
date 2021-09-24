@@ -39,8 +39,8 @@ class SelectMenu extends Component {
         images = ["/Wille/265/masina2.jpg"];
         attachments = [10, 11, 12, 14, 15, 16, 17, 18, 23];
       } else if (this.props.name === "375") {
-        title = ["title 1 375", "title 2 375", "title 3 375", "title 4 375", "title 5 375", "title 6 375", "title 7 375", "title 8 375", "title 9 375"];
-        text = ["text 1 375", "text 2 375", "text 3 375", "text 4 375", "text 5 375", "text 6 375", "text 7 375", "text 8 375", "text 9 375"];
+        title = ["title 1 375", "title 2 375", "title 3 375", "title 4 375", "title 5 375", "title 6 375", "title 7 375", "title 8 375"];
+        text = ["text 1 375", "text 2 375", "text 3 375", "text 4 375", "text 5 375", "text 6 375", "text 7 375", "text 8 375"];
         technicalInfo = { 
           engine: "Kohler KDI 1903 TCR",
           output: "42 kW/56 hp",
@@ -60,8 +60,8 @@ class SelectMenu extends Component {
         attachments = [1, 4, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 21, 23];
 
       } else if (this.props.name === "465") {
-        title = ["title 1 465", "title 2 465", "title 3 465", "title 4 465", "title 5 465", "title 6 465", "title 7 465", "title 8 465", "title 9 465", "title 10 465", "title 11 465", "title 12 465"];
-        text = ["text 1 465", "text 2 465", "text 3 465", "text 4 465", "text 5 465", "text 6 465", "text 7 465", "text 8 465", "text 9 465", "text 10 465", "text 11 465", "text 12 465"];
+        title = ["title 1 465", "title 2 465", "title 3 465", "title 4 465", "title 5 465", "title 6 465", "title 7 465", "title 8 465", "title 9 465", "title 10 465"];
+        text = ["text 1 465", "text 2 465", "text 3 465", "text 4 465", "text 5 465", "text 6 465", "text 7 465", "text 8 465", "text 9 465", "text 10 465"];
         technicalInfo = { 
           engine: "Kohler KDI 2504 TCR",
           output: "55.4 kW/74.3 hp",
@@ -81,8 +81,8 @@ class SelectMenu extends Component {
         attachments = [1, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 21, 23];
 
       } else if (this.props.name === "665") {
-        title = ["title 1 665", "title 2 665", "title 3 665", "title 4 665", "title 5 665", "title 6 665", "title 7 665", "title 8 665", "title 9 665", "title 10 665", "title 11 665", "title 12 665", "title 13 665", "title 14 665", "title 15 665"];
-        text = ["text 1 665", "text 2 665", "text 3 665", "text 4 665", "text 5 665", "text 6 665", "text 7 665", "text 8 665", "text 9 665", "text 10 665", "text 11 665", "text 12 665", "text 13 665", "text 14 665", "text 15 665"];
+        title = ["title 1 665", "title 2 665", "title 3 665", "title 4 665", "title 5 665", "title 6 665", "title 7 665", "title 8 665", "title 9 665", "title 10 665", "title 13 665", "title 14 665"];
+        text = ["text 1 665", "text 2 665", "text 3 665", "text 4 665", "text 5 665", "text 6 665", "text 7 665", "text 8 665", "text 9 665", "text 10 665", "text 13 665", "text 14 665"];
         technicalInfo = { 
           engine: "Kohler KDI 3404 TCR-SCR",
           output: "100 kW/136 hp",
@@ -102,8 +102,8 @@ class SelectMenu extends Component {
         attachments = [1, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 21];
 
       } else if (this.props.name === "865") {
-        title = ["title 1 865", "title 2 865", "title 3 865", "title 4 865", "title 5 865", "title 6 865", "title 7 865", "title 8 865", "title 9 865", "title 10 865", "title 11 865", "title 12 865", "title 13 865", "title 14 865", "title 15 865"];
-        text = ["text 1 865", "text 2 865", "text 3 865", "text 4 865", "text 5 865", "text 6 865", "text 7 865", "text 8 865", "text 9 865", "text 10 865", "text 11 865", "text 12 865", "text 13 865", "text 14 865", "text 15 865"];
+        title = ["title 1 865", "title 2 865", "title 3 865", "title 4 865", "title 5 865", "title 6 865", "title 7 865", "title 8 865", "title 9 865", "title 10 865", "title 13 865", "title 14 865"];
+        text = ["text 1 865", "text 2 865", "text 3 865", "text 4 865", "text 5 865", "text 6 865", "text 7 865", "text 8 865", "text 9 865", "text 10 865", "text 13 865", "text 14 865"];
         technicalInfo = { 
           engine: "Kohler KDI 3404 TCR-SCR",
           output: "100 kW/136 hp",
